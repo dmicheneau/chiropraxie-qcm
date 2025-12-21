@@ -1,0 +1,72 @@
+54 INFO: PyInstaller: 6.17.0, contrib hooks: 2025.10
+54 INFO: Python: 3.14.1
+69 INFO: Platform: macOS-26.1-arm64-arm-64bit-Mach-O
+69 INFO: Python environment: /Users/micheneaudavid/Git/github.com/dmicheneau/chiropraxie-qcm/.venv-build
+73 INFO: Removing temporary files and cleaning cache in /Users/micheneaudavid/Library/Application Support/pyinstaller
+77 INFO: Module search paths (PYTHONPATH):
+['/opt/homebrew/Cellar/python@3.14/3.14.1/Frameworks/Python.framework/Versions/3.14/lib/python314.zip',
+ '/opt/homebrew/Cellar/python@3.14/3.14.1/Frameworks/Python.framework/Versions/3.14/lib/python3.14',
+ '/opt/homebrew/Cellar/python@3.14/3.14.1/Frameworks/Python.framework/Versions/3.14/lib/python3.14/lib-dynload',
+ '/Users/micheneaudavid/Git/github.com/dmicheneau/chiropraxie-qcm/.venv-build/lib/python3.14/site-packages',
+ '/Users/micheneaudavid/Git/github.com/dmicheneau/chiropraxie-qcm']
+218 INFO: Appending 'datas' from .spec
+219 INFO: checking Analysis
+219 INFO: Building Analysis because Analysis-00.toc is non existent
+219 INFO: Looking for Python shared library...
+223 INFO: Using Python shared library: /opt/homebrew/Cellar/python@3.14/3.14.1/Frameworks/Python.framework/Versions/3.14/Python
+223 INFO: Running Analysis Analysis-00.toc
+223 INFO: Target bytecode optimization level: 0
+223 INFO: Initializing module dependency graph...
+223 INFO: Initializing module graph hook caches...
+230 INFO: Analyzing modules for base_library.zip ...
+1218 INFO: Processing standard module hook 'hook-encodings.py' from '/Users/micheneaudavid/Git/github.com/dmicheneau/chiropraxie-qcm/.venv-build/lib/python3.14/site-packages/PyInstaller/hooks'
+1910 INFO: Processing standard module hook 'hook-difflib.py' from '/Users/micheneaudavid/Git/github.com/dmicheneau/chiropraxie-qcm/.venv-build/lib/python3.14/site-packages/PyInstaller/hooks'
+1922 INFO: Processing standard module hook 'hook-heapq.py' from '/Users/micheneaudavid/Git/github.com/dmicheneau/chiropraxie-qcm/.venv-build/lib/python3.14/site-packages/PyInstaller/hooks'
+4140 INFO: Caching module dependency graph...
+4160 INFO: Analyzing /Users/micheneaudavid/Git/github.com/dmicheneau/chiropraxie-qcm/start_qcm.py
+4362 INFO: Processing standard module hook 'hook-sysconfig.py' from '/Users/micheneaudavid/Git/github.com/dmicheneau/chiropraxie-qcm/.venv-build/lib/python3.14/site-packages/PyInstaller/hooks'
+4377 INFO: Processing standard module hook 'hook-_osx_support.py' from '/Users/micheneaudavid/Git/github.com/dmicheneau/chiropraxie-qcm/.venv-build/lib/python3.14/site-packages/PyInstaller/hooks'
+4381 INFO: Processing standard module hook 'hook-_ctypes.py' from '/Users/micheneaudavid/Git/github.com/dmicheneau/chiropraxie-qcm/.venv-build/lib/python3.14/site-packages/PyInstaller/hooks'
+4423 INFO: Analyzing hidden import 'html.parser'
+4450 INFO: Processing module hooks (post-graph stage)...
+4489 INFO: Performing binary vs. data reclassification (45 entries)
+4492 INFO: Looking for ctypes DLLs
+4501 INFO: Analyzing run-time hooks ...
+4501 INFO: Including run-time hook 'pyi_rth_inspect.py' from '/Users/micheneaudavid/Git/github.com/dmicheneau/chiropraxie-qcm/.venv-build/lib/python3.14/site-packages/PyInstaller/hooks/rthooks'
+4507 INFO: Creating base_library.zip...
+4519 INFO: Looking for dynamic libraries
+4567 INFO: Warnings written to /Users/micheneaudavid/Git/github.com/dmicheneau/chiropraxie-qcm/build/qcm_chiropraxie/warn-qcm_chiropraxie.txt
+4575 INFO: Graph cross-reference written to /Users/micheneaudavid/Git/github.com/dmicheneau/chiropraxie-qcm/build/qcm_chiropraxie/xref-qcm_chiropraxie.html
+4609 INFO: checking PYZ
+4609 INFO: Building PYZ because PYZ-00.toc is non existent
+4609 INFO: Building PYZ (ZlibArchive) /Users/micheneaudavid/Git/github.com/dmicheneau/chiropraxie-qcm/build/qcm_chiropraxie/PYZ-00.pyz
+4767 INFO: Building PYZ (ZlibArchive) /Users/micheneaudavid/Git/github.com/dmicheneau/chiropraxie-qcm/build/qcm_chiropraxie/PYZ-00.pyz completed successfully.
+4770 INFO: EXE target arch: arm64
+4770 INFO: Code signing identity: None
+4771 INFO: checking PKG
+4771 INFO: Building PKG because PKG-00.toc is non existent
+4771 INFO: Building PKG (CArchive) QCM Chiropraxie.pkg
+4783 INFO: Building PKG (CArchive) QCM Chiropraxie.pkg completed successfully.
+4783 INFO: Bootloader /Users/micheneaudavid/Git/github.com/dmicheneau/chiropraxie-qcm/.venv-build/lib/python3.14/site-packages/PyInstaller/bootloader/Darwin-64bit/runw
+4783 INFO: checking EXE
+4783 INFO: Building EXE because EXE-00.toc is non existent
+4783 INFO: Building EXE from EXE-00.toc
+4783 INFO: Copying bootloader EXE to /Users/micheneaudavid/Git/github.com/dmicheneau/chiropraxie-qcm/build/qcm_chiropraxie/QCM Chiropraxie
+4783 INFO: Converting EXE to target arch (arm64)
+4801 INFO: Removing signature(s) from EXE
+4814 INFO: Modifying Mach-O image UUID(s) in EXE
+4817 INFO: Appending PKG archive to EXE
+4818 INFO: Fixing EXE headers for code signing
+4821 INFO: Re-signing the EXE
+4837 INFO: Building EXE from EXE-00.toc completed successfully.
+4839 INFO: checking COLLECT
+4839 INFO: Building COLLECT because COLLECT-00.toc is non existent
+4839 INFO: Removing dir /Users/micheneaudavid/Git/github.com/dmicheneau/chiropraxie-qcm/dist/QCM Chiropraxie
+4840 INFO: Building COLLECT COLLECT-00.toc
+6624 INFO: Building COLLECT COLLECT-00.toc completed successfully.
+6626 INFO: checking BUNDLE
+6626 INFO: Building BUNDLE because BUNDLE-00.toc is non existent
+6626 INFO: Building BUNDLE BUNDLE-00.toc
+8268 INFO: Signing the BUNDLE...
+8330 INFO: Building BUNDLE BUNDLE-00.toc completed successfully.
+8333 INFO: Build complete! The results are available in: /Users/micheneaudavid/Git/github.com/dmicheneau/chiropraxie-qcm/dist
