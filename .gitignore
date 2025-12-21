@@ -4,6 +4,7 @@ __pycache__/
 *.pyo
 *.egg-info/
 .venv/
+.venv-build/
 
 # Node
 node_modules/
@@ -13,3 +14,8 @@ web/bank/*.json
 
 # Local sources (exports, PDFs, saved HTML)
 sources/
+
+# Build artifacts (PyInstaller)
+build/
+dist/
+*.spec.bak

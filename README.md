@@ -73,9 +73,89 @@ Remarque: `build_from_existing_decks()` lit les `Deck_*.md` (format attendu: num
 - Ajouter un fichier `web/decks/Deck_Nom.md` au format existant (liste numérotée avec `- A.` / `- B.` / ...)
 - Optionnel : fournir `web/decks/Quizlet_Nom.tsv` pour fournir la clé des réponses si elle manque dans le markdown.
 
-Si vous voulez, je peux :
-- ajouter un script `bin/rebuild_bank.sh` pour automatiser la reconstruction, ou
-- committer et pousser ces changements directement.
+---
+
+## 🏗️ Build standalone (macOS .app)
+
+Pour créer une application macOS autonome qui ne nécessite pas Python installé :
+
+### Pré-requis build
+- Python 3.9+
+- pip (gestionnaire de paquets Python)
+
+### Build local
+
+```bash
+# Rendre le script exécutable (une seule fois)
+chmod +x bin/build_macos_app.sh
+
+# Lancer le build
+./bin/build_macos_app.sh
+```
+
+L'application sera générée dans `dist/QCM Chiropraxie.app`.
+
+Options :
+```bash
+# Build universel (Intel + Apple Silicon)
+./bin/build_macos_app.sh --universal
+```
+
+### Build automatique (GitHub Actions)
+
+Un workflow CI/CD est configuré pour builder automatiquement :
+- À chaque push sur `main`
+- À chaque création de tag `v*` (crée une release)
+
+Les artifacts sont disponibles dans l'onglet Actions du dépôt GitHub.
+
+### Créer une release
+
+```bash
+git tag v1.0.0
+git push origin v1.0.0
+```
+
+Le workflow crée automatiquement une release GitHub avec les fichiers `.zip` pour Intel et Apple Silicon.
+
+### Structure du build
+
+```
+dist/
+└── QCM Chiropraxie.app/    # Application macOS standalone
+    └── Contents/
+        ├── MacOS/          # Exécutable
+        ├── Resources/      # Données (app.html, web/, bank/)
+        └── Info.plist      # Métadonnées app
+```
 
 ---
-Merci — dites-moi si vous souhaitez que j'ajoute des badges, des exemples supplémentaires, ou que je crée un script de build automatisé.
+
+## 📁 Structure du projet
+
+```
+├── app.html                 # Interface web du quiz
+├── start_qcm.py             # Lanceur (serveur HTTP + navigateur)
+├── start_qcm.command        # Lanceur double-clic macOS
+├── qcm_chiropraxie.spec     # Configuration PyInstaller
+├── requirements.txt         # Dépendances Python (build)
+├── bin/
+│   └── build_macos_app.sh   # Script de build local
+├── bank/
+│   ├── build_bank.py        # Générateur de banque
+│   └── ...
+├── web/
+│   ├── bank/
+│   │   └── bank.json        # Banque de questions (généré)
+│   └── decks/
+│       └── Deck_*.md        # Questions sources
+└── .github/
+    └── workflows/
+        └── build-macos.yml  # CI/CD GitHub Actions
+```
+
+---
+
+## 📜 Licence
+
+Ce projet est sous licence [CC BY-NC-SA 4.0](LICENSE).
