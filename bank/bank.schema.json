@@ -1,0 +1,97 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.local/chiropraxie-qcm/bank.schema.json",
+  "title": "Chiropraxie QCM Bank",
+  "type": "object",
+  "required": ["version", "questions"],
+  "properties": {
+    "version": { "type": "string" },
+    "generatedAt": { "type": "string" },
+    "questions": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/question" }
+    }
+  },
+  "$defs": {
+    "questionType": {
+      "type": "string",
+      "enum": ["single_choice", "multiple_choice", "true_false"]
+    },
+    "mediaItem": {
+      "type": "object",
+      "required": ["kind", "src"],
+      "properties": {
+        "kind": { "type": "string", "enum": ["image"] },
+        "src": { "type": "string" },
+        "alt": { "type": "string" },
+        "caption": { "type": "string" }
+      },
+      "additionalProperties": false
+    },
+    "choice": {
+      "type": "object",
+      "required": ["key", "text"],
+      "properties": {
+        "key": { "type": "string", "pattern": "^[A-Z]$" },
+        "text": { "type": "string" },
+        "media": { "type": "array", "items": { "$ref": "#/$defs/mediaItem" } }
+      },
+      "additionalProperties": false
+    },
+    "answer": {
+      "type": "object",
+      "required": ["answers"],
+      "properties": {
+        "answers": {
+          "type": "array",
+          "items": { "type": "string" },
+          "minItems": 1
+        }
+      },
+      "additionalProperties": false
+    },
+    "source": {
+      "type": "object",
+      "properties": {
+        "kind": { "type": "string", "enum": ["pdf", "pdf_text", "deck_md", "quizlet_tsv", "url", "manual"] },
+        "ref": { "type": "string" },
+        "page": { "type": ["integer", "string"] },
+        "notes": { "type": "string" }
+      },
+      "additionalProperties": false
+    },
+    "question": {
+      "type": "object",
+      "required": ["id", "type", "prompt", "answer"],
+      "properties": {
+        "id": { "type": "string" },
+        "type": { "$ref": "#/$defs/questionType" },
+        "prompt": { "type": "string" },
+        "promptMd": { "type": "string" },
+        "media": { "type": "array", "items": { "$ref": "#/$defs/mediaItem" } },
+        "choices": { "type": "array", "items": { "$ref": "#/$defs/choice" } },
+        "answer": { "$ref": "#/$defs/answer" },
+        "explanation": { "type": "string" },
+        "explanationMd": { "type": "string" },
+        "tags": { "type": "array", "items": { "type": "string" } },
+        "difficulty": { "type": "string", "enum": ["easy", "medium", "hard"] },
+        "source": { "$ref": "#/$defs/source" }
+      },
+      "additionalProperties": false,
+      "allOf": [
+        {
+          "if": { "properties": { "type": { "const": "true_false" } } },
+          "then": {
+            "properties": {
+              "choices": {
+                "type": "array",
+                "minItems": 2,
+                "maxItems": 2
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
+}
