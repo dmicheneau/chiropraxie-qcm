@@ -1,0 +1,2462 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>QCM Chiropraxie — Version hors-ligne</title>
+  <style>
+    :root{--accent:#0b74de;--success:#1a9a4a;--danger:#d64545;--muted:#666}
+    body{font-family:system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;margin:18px;color:#222;background:#f7f9fc}
+    header{display:flex;gap:12px;align-items:center;margin-bottom:12px}
+    h1{font-size:20px;margin:0}
+    #question{margin-top:14px;font-weight:600}
+    .card{background:#fff;border-radius:8px;padding:14px;box-shadow:0 1px 4px rgba(20,30,50,0.06);max-width:980px}
+    .choice{display:block;padding:12px 14px;border-radius:8px;margin:10px 0;background:#fff;border:1px solid #e6e9ee;cursor:pointer;transition:all .14s ease}
+    .choice:hover{transform:translateY(-1px);box-shadow:0 4px 14px rgba(20,30,50,0.06)}
+    .choice input{margin-right:12px}
+    .choice.correct{background:#e9fff0;border:2px solid var(--success);box-shadow:0 4px 10px rgba(26,154,74,0.06)}
+    .choice.wrong{background:#fff0f0;border:2px solid var(--danger);box-shadow:0 4px 10px rgba(214,69,69,0.04)}
+    .controls{margin-top:12px;display:flex;gap:8px;align-items:center}
+    .controls button{background:var(--accent);color:#fff;border:none;padding:8px 12px;border-radius:6px;cursor:pointer}
+    .controls button.secondary{background:#6c757d}
+    button[disabled]{opacity:0.5;cursor:not-allowed}
+    #status{color:var(--muted);margin-top:6px}
+    .hidden{display:none}
+    .review-correct{color:var(--success);font-weight:600}
+    .review-wrong{color:var(--danger);font-weight:600}
+    pre.small{white-space:pre-wrap;font-size:12px}
+    @media(min-width:900px){ body{padding:32px} .card{margin:0 auto} }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>QCM Chiropraxie — Hors-ligne</h1>
+    <div style="margin-left:auto">Pas de serveur requis — ouvrir ce fichier dans un navigateur</div>
+  </header>
+
+  <label for="deckSelect">Choisir un deck :</label>
+  <select id="deckSelect"></select>
+  <button type="button" id="loadBtn">Charger le deck</button>
+  <div id="status" style="margin-top:8px"></div>
+
+  <div id="player" class="hidden">
+    <div id="progress"></div>
+    <div id="question"></div>
+    <div id="choices"></div>
+    <div class="controls">
+      <button type="button" id="prevBtn">← Précédent</button>
+      <button type="button" id="nextBtn" style="display:none">Suivant →</button>
+      <button type="button" id="submitBtn" disabled>Soumettre</button>
+      <button type="button" id="showAnswersBtn" disabled>Montrer corrigé</button>
+      <button type="button" id="resetBtn">Réinitialiser</button>
+    </div>
+    <div id="result" style="margin-top:12px"></div>
+    <div id="review" style="margin-top:12px"></div>
+  </div>
+
+  <!-- Embedded deck markdown and TSV answers (raw text) -->
+  <script id="deck-Histologie_TC" type="text/plain"><!--
+# Deck: Histologie_TC — 80 questions
+
+**Consigne** : 1 seule bonne réponse (A–D).
+
+1) Les protéoglycanes sont très hydrophiles principalement en raison de :
+- A. Leur richesse en charges négatives
+- B. Leur absence de glucides
+- C. La présence de collagène IV
+- D. Leur forte teneur en lipides
+
+2) Le tissu conjonctif dense irrégulier (non orienté) présente :
+- A. Des fibres orientées dans une seule direction
+- B. Une prédominance cellulaire (adipocytes)
+- C. Une matrice liquide
+- D. Des faisceaux de collagène dans toutes les directions
+
+3) Les cellules conjonctives importées sont principalement :
+- A. D’origine épithéliale
+- B. D’origine cartilagineuse
+- C. D’origine médullaire hématopoïétique
+- D. D’origine endodermique
+
+4) Le collagène de type II est localisé principalement :
+- A. Dans la lame basale
+- B. Uniquement dans l’épiderme
+- C. Dans le cartilage
+- D. Uniquement dans le sang
+
+5) Les laminines sont décrites comme spécifiques de :
+- A. La lame basale
+- B. La diaphyse humérale
+- C. Le plasma sanguin
+- D. Les ostéons
+
+6) Dans le cours, l’importance des protéoglycanes pour le cartilage est surtout liée à :
+- A. La minéralisation osseuse
+- B. La résistance aux forces de compression
+- C. La conduction nerveuse
+- D. La résistance exclusive à la traction
+
+7) Les mastocytes sont classiquement :
+- A. Dépourvus de granulations
+- B. Riches en hémoglobine
+- C. Riches en granulations basophiles contenant de l’histamine
+- D. Exclusivement intra-osseux
+
+8) Le collagène de type III correspond à :
+- A. La kératine
+- B. La fibronectine
+- C. L’élastine
+- D. La réticuline (fibres réticulées)
+
+9) Dans le cours, le collagène de type I représente environ :
+- A. Uniquement le collagène du cartilage
+- B. 90% du collagène de l’organisme
+- C. 5% du collagène de l’organisme
+- D. Uniquement le collagène de la lame basale
+
+10) Les collagènes confèrent surtout :
+- A. Une capacité de phagocytose
+- B. Une élasticité pure sans résistance
+- C. Une résistance mécanique à la traction
+- D. Une conductivité électrique
+
+11) L’hydrolyse de l’acide hyaluronique tend à :
+- A. Supprimer les fibres collagènes
+- B. Minéraliser la matrice
+- C. Augmenter la viscosité et diminuer la perméabilité
+- D. Diminuer la viscosité et augmenter la perméabilité tissulaire
+
+12) Les macrophages (histiocytes) sont décrits comme :
+- A. Des hématies anucléées
+- B. Des fibroblastes quiescents
+- C. Des adipocytes plurivacuolaires
+- D. Des monocytes sortis du sang et différenciés dans les tissus
+
+13) La fonction de défense des tissus conjonctifs est liée notamment à :
+- A. La présence d’ostéocytes
+- B. La présence de chondrocytes
+- C. La présence de kératinocytes
+- D. La présence de cellules immunitaires de passage
+
+14) Localisation typique des fibres réticulées (cours) :
+- A. Organes hématopoïétiques/lymphoïdes (ex. moelle osseuse)
+- B. Cornée uniquement
+- C. Épiderme uniquement
+- D. Dents uniquement
+
+15) Les myofibroblastes possèdent notamment :
+- A. Des filaments contractiles d’actine et de myosine
+- B. Des disques intercalaires
+- C. De la myéline
+- D. De l’hémoglobine
+
+16) Concernant l’adipocyte blanc (cours) :
+- A. Exclusivement présent chez le fœtus
+- B. Plurivacuolaire et riche en mitochondries
+- C. Toujours entouré d’une lame basale épaisse minéralisée
+- D. Univacuolaire et de grande taille (≈100 µm)
+
+17) Les fibres élastiques (cours) sont mises en évidence par une coloration à :
+- A. La PAS uniquement
+- B. L’orcéine
+- C. Le rouge Congo
+- D. L’hématoxyline-éosine uniquement
+
+18) Le tissu conjonctif lâche est caractérisé (cours) par :
+- A. Une absence de substance fondamentale
+- B. Une matrice minéralisée
+- C. Des faisceaux de collagène orientés dans une seule direction
+- D. Une substance fondamentale prédominante et des fibres non orientées
+
+19) Les fibres conjonctives se déclinent (cours) en trois variétés principales :
+- A. Osseuses, cartilagineuses, nerveuses
+- B. Minéralisées, non minéralisées, kératinisées
+- C. Épithéliales, musculaires, sanguines
+- D. Collagènes, réticulées, élastiques
+
+20) Les fibres réticulées (réticulines) :
+- A. Sont constituées d’élastine
+- B. Sont exclusivement présentes dans la peau
+- C. S’assemblent en réseaux anastomosés
+- D. Ne sont jamais associées aux organes lymphoïdes
+
+21) L’enzyme citée qui hydrolyse l’acide hyaluronique est :
+- A. Élastase
+- B. Collagénase
+- C. Amylase
+- D. Hyaluronidase
+
+22) Le tissu conjonctif muqueux est surtout important :
+- A. Uniquement dans la lame basale
+- B. Chez l’embryon (cordon ombilical)
+- C. Chez l’adulte au niveau des tendons
+- D. Uniquement dans la moelle osseuse
+
+23) Localisation citée du tissu conjonctif lâche (cours) :
+- A. Uniquement dans les ligaments jaunes
+- B. Uniquement dans la dure-mère
+- C. Uniquement dans le stroma cornéen
+- D. Entre les cellules musculaires striées (endomysium)
+
+24) Sur le plan embryologique, les tissus conjonctifs dérivent principalement :
+- A. De l’endoderme
+- B. Du neuroectoderme
+- C. D’un tissu épithélial spécialisé
+- D. Du mésoblaste via le mésenchyme
+
+25) La matrice extracellulaire (MEC) est constituée de :
+- A. Cellules résidentes + cellules importées
+- B. Vaisseaux + nerfs uniquement
+- C. Fibroblastes + mastocytes uniquement
+- D. Fibres + substance fondamentale
+
+26) Le TC fibreux à prédominance de fibres élastiques est cité dans :
+- A. Les ligaments jaunes et la paroi des grosses artères élastiques
+- B. La lame basale uniquement
+- C. Le cartilage hyalin uniquement
+- D. Le sang uniquement
+
+27) La substance fondamentale d’un tissu conjonctif est classiquement décrite comme :
+- A. Toujours rigide et minéralisée
+- B. Exclusivement constituée de collagène
+- C. Absente de la MEC
+- D. Semi-fluide, située entre cellules et fibres
+
+28) Une fonction métabolique des tissus conjonctifs est liée surtout à :
+- A. L’absence de substance fondamentale
+- B. La présence exclusive de fibres élastiques
+- C. Leur richesse en vaisseaux sanguins
+- D. La minéralisation de la matrice
+
+29) Les hématies sont décrites comme :
+- A. Des cellules sécrétrices d’histamine
+- B. Des cellules plurinucléées
+- C. Des fragments cellulaires
+- D. Des cellules anucléées
+
+30) Une propriété décrite des fibres élastiques (cours) :
+- A. Elles ne se renouvellent pas
+- B. Elles se renouvellent en quelques jours
+- C. Elles sont minéralisées
+- D. Elles sont exclusivement intracellulaires
+
+31) Concernant l’adipocyte brun (cours) :
+- A. Fonction principale: production d’Ig
+- B. Plurivacuolaire, nombreuses mitochondries, thermogenèse
+- C. Uniquement chez l’adulte
+- D. Univacuolaire, sans mitochondries
+
+32) Exemple de localisation d’un TC dense irrégulier (cours) :
+- A. Dure-mère
+- B. Cartilage hyalin
+- C. Plasma sanguin
+- D. Cordon ombilical
+
+33) Les intégrines (rappel du cours) sont :
+- A. Des récepteurs membranaires dimériques (sous-unités α et β)
+- B. Des fibres de collagène
+- C. Des hormones de satiété
+- D. Des enzymes lysosomiales
+
+34) Dans le cours, la proportion des éléments figurés du sang est d’environ :
+- A. 90%
+- B. 45%
+- C. 100%
+- D. 5%
+
+35) Exemple correct (cours) de glycoprotéine reliant cellules et collagène :
+- A. Chondroïtine sulfate
+- B. Réticuline
+- C. Élastine
+- D. Fibronectine
+
+36) Le fibroblaste se distingue du fibrocyte (cours) par :
+- A. L’absence de noyau
+- B. Une fonction de transport d’oxygène
+- C. Une localisation exclusive dans le sang
+- D. Une activité métabolique plus élevée
+
+37) Les glycosaminoglycanes (GAG) sont :
+- A. Des lipides membranaires
+- B. Des protéines globulaires
+- C. De longues chaînes glucidiques non ramifiées
+- D. Des acides nucléiques
+
+38) Un disaccharide de base des GAG comporte typiquement :
+- A. Un acide aminé et un ribose
+- B. Une base azotée et un désoxyribose
+- C. Un acide uronique et une hexosamine
+- D. Un phosphate et un cholestérol
+
+39) Les glycoprotéines de la MEC (cours) participent surtout à :
+- A. La minéralisation du tissu osseux
+- B. La conduction des potentiels d’action
+- C. L’ancrage des cellules sur la MEC
+- D. La formation des hématies
+
+40) Les agrégats de protéoglycanes se fixent sur une molécule de :
+- A. Fibrilline
+- B. Élastine
+- C. Collagène IV
+- D. Acide hyaluronique (liaisons non covalentes)
+
+41) Le tissu conjonctif réticulé est caractérisé par :
+- A. Un maillage de fibres réticulées (collagène type III) et peu/pas de SF
+- B. Une matrice minéralisée
+- C. Une prédominance d’élastine
+- D. Une matrice liquide
+
+42) Dans le cours, la fibrilline est associée à :
+- A. Les fibres élastiques
+- B. Les fibres collagènes type II uniquement
+- C. Les protéoglycanes sulfatés
+- D. Les fibres réticulées
+
+43) Les fibroblastes synthétisent :
+- A. Uniquement l’histamine
+- B. Toutes les macromolécules constitutives de la MEC
+- C. Uniquement les anticorps
+- D. Uniquement l’hémoglobine
+
+44) Les plaquettes (thrombocytes) sont :
+- A. Des cellules épithéliales
+- B. Des fibres de collagène
+- C. Des fragments cellulaires
+- D. Des GAG sulfatés
+
+45) Les fibres élastiques sont constituées :
+- A. D’un cœur d’élastine et d’une périphérie de fibrilline
+- B. D’actine et de myosine
+- C. De GAG sulfatés uniquement
+- D. D’un cœur de collagène I et d’une périphérie de collagène II
+
+46) Parmi les GAG, lequel est spécifiquement décrit comme non sulfaté et présent dans tous les TC ?
+- A. Acide hyaluronique
+- B. Chondroïtine sulfate
+- C. Dermatane sulfate
+- D. Héparane sulfate
+
+47) Le tissu sanguin est décrit comme un tissu conjonctif spécialisé caractérisé par :
+- A. Une matrice minéralisée
+- B. Une matrice liquide (plasma)
+- C. Une absence totale de cellules
+- D. Une matrice cartilagineuse
+
+48) Les cellules conjonctives résidentes incluent :
+- A. Hématies, plaquettes, lymphocytes
+- B. Neurones et astrocytes
+- C. Fibroblastes, myofibroblastes, adipocytes
+- D. Chondrocytes uniquement
+
+49) Le collagène de type IV (cours) :
+- A. Constitue le tendon et le ligament
+- B. Est un GAG sulfaté
+- C. Est spécifique des lames basales et ne forme pas de fibres
+- D. Est le collagène principal du cartilage
+
+50) Un protéoglycane est (cours) :
+- A. Une hématie an nucléée
+- B. Une fibre de collagène
+- C. Des chaînes de GAG fixées à une protéine porteuse par liaisons covalentes
+- D. Une intégrine membranaire
+
+51) Dans un tissu conjonctif, les 3 grandes catégories d’éléments sont :
+- A. Synapses, neurones, microglie
+- B. Fibres musculaires, myéline, ostéons
+- C. Fibres conjonctives, substance fondamentale, cellules conjonctives
+- D. Cellules épithéliales, hématies, cartilage
+
+52) Concernant l’acide hyaluronique (cours) :
+- A. Il est spécifique de la lame basale
+- B. Il est un type de collagène
+- C. Il ne se fixe pas à des protéines et ne constitue pas de protéoglycanes
+- D. Il est toujours sulfaté
+
+53) Les plasmocytes sont :
+- A. Des cellules épithéliales
+- B. Des cellules musculaires lisses
+- C. Des lymphocytes B maturés sécrétant des Ig
+- D. Des cellules endothéliales
+
+54) Dans le cours, un rôle des myofibroblastes est :
+- A. Transport des gaz respiratoires
+- B. Participation à la réparation/guérison et à l’inflammation
+- C. Conduction synaptique
+- D. Production d’anticorps
+
+55) [V3] Lequel des énoncés décrit correctement : Qualité et sécurité des soins ?
+- A. les deux terminales de l’artère brachiale au pli du coude
+- B. la réticuline (fibres réticulées)
+- C. un objectif central mis en avant par l’IFEC
+- D. le collagène majoritaire (~90%), ubiquitaire
+
+56) [V6] Quel élément correspond le mieux à : l’élément de la MEC localisé entre cellules et fibres, de consistance semi-fluide ?
+- A. Élastine
+- B. Substance fondamentale
+- C. Collagène IV
+- D. Hémoglobine
+
+57) [V7] Parmi les propositions suivantes, laquelle correspond le mieux à : localisation citée du TC lâche entre fibres musculaires striées ?
+- A. Substance fondamentale
+- B. Collagène type I
+- C. Orcéine
+- D. Endomysium
+
+58) [V10] Parmi les propositions suivantes, laquelle correspond le mieux à : formée des 3 divisions postérieures ?
+- A. Racine postérieure
+- B. Myofibroblaste
+- C. Corde postérieure
+- D. TC dense irrégulier
+
+59) [V11] Lequel des énoncés décrit correctement : Ligaments jaunes ?
+- A. le collagène du cartilage
+- B. où l’ordre antéro-postérieur est veine sous-clavière → artère → divisions
+- C. exemple de TC à prédominance de fibres élastiques
+- D. exemples de TC dense régulier bitendu
+
+60) [V12] Quel élément correspond le mieux à : un GAG non sulfaté, ubiquitaire, ne formant pas de protéoglycanes ?
+- A. Chondroïtine sulfate
+- B. Acide hyaluronique
+- C. Dermatane sulfate
+- D. Héparane sulfate
+
+61) [V13] Lequel des énoncés décrit correctement : Collagène type IV ?
+- A. l’artère faisant suite à la sous-clavière au pli du coude
+- B. le collagène des lames basales (mailles, ne forme pas de fibres)
+- C. branche terminale issue de la corde latérale
+- D. la capacité à identifier ce qui nécessite une intervention médicale
+
+62) [V14] Lequel des énoncés décrit correctement : Hématie ?
+- A. branche terminale issue de la corde postérieure
+- B. cellule sanguine anucléée
+- C. une glycoprotéine d’adhérence liant cellules et collagène
+- D. le collagène des lames basales (mailles, ne forme pas de fibres)
+
+63) [V15] Parmi les propositions suivantes, laquelle correspond le mieux à : de longues chaînes glucidiques non ramifiées ?
+- A. SOAP
+- B. Reconnaître ses limites
+- C. Orcéine
+- D. GAG
+
+64) [V17] Lequel des énoncés décrit correctement : Stroma cornéen / aponévrose ?
+- A. exemples de TC dense régulier bitendu
+- B. un objectif central mis en avant par l’IFEC
+- C. le collagène des lames basales (mailles, ne forme pas de fibres)
+- D. l’artère à partir de laquelle commence l’irrigation du membre supérieur
+
+65) [V18] Parmi les propositions suivantes, laquelle correspond le mieux à : la composition du disaccharide de base des GAG ?
+- A. Orcéine
+- B. Myofibroblaste
+- C. Fibrocyte
+- D. Acide uronique + hexosamine
+
+66) [V19] Parmi les propositions suivantes, laquelle correspond le mieux à : localisation citée du TC lâche entre fibres musculaires striées ?
+- A. Collagène type II
+- B. Canal de Guyon
+- C. Endomysium
+- D. Fibronectine
+
+67) [V20] Quel élément correspond le mieux à : exemple de localisation de TC dense irrégulier ?
+- A. Cordon ombilical
+- B. Moelle osseuse
+- C. Plasma
+- D. Dure-mère
+
+68) [V21] Quel élément correspond le mieux à : charpente (maillage) en collagène III des organes hématopoïétiques/lymphoïdes ?
+- A. Cartilage
+- B. Tissu réticulé
+- C. TC muqueux
+- D. TC dense régulier
+
+69) [V22] Quel élément correspond le mieux à : cellule sanguine anucléée ?
+- A. Plasmocyte
+- B. Leucocyte
+- C. Mastocyte
+- D. Hématie
+
+70) [V24] Parmi les propositions suivantes, laquelle correspond le mieux à : un GAG non sulfaté, ubiquitaire, ne formant pas de protéoglycanes ?
+- A. Stroma cornéen / aponévrose
+- B. Raisonnement clinique
+- C. Fibronectine
+- D. Acide hyaluronique
+
+71) [V25] Lequel des énoncés décrit correctement : Collagène type II ?
+- A. l’artère à partir de laquelle commence l’irrigation du membre supérieur
+- B. tissu conjonctif surtout embryonnaire (cordon ombilical)
+- C. le collagène du cartilage
+- D. lymphocyte B maturé sécrétant des Ig
+
+72) [V26] Parmi les propositions suivantes, laquelle correspond le mieux à : la définition de la matrice extracellulaire ?
+- A. MEC = fibres + substance fondamentale
+- B. Acide uronique + hexosamine
+- C. Racine postérieure
+- D. TC lâche
+
+73) [V27] Quel élément correspond le mieux à : le collagène majoritaire (~90%), ubiquitaire ?
+- A. Type III
+- B. Type IV
+- C. Collagène type I
+- D. Type II
+
+74) [V30] Parmi les propositions suivantes, laquelle correspond le mieux à : collagène en faisceaux orientés dans toutes les directions ?
+- A. Divisions postérieures
+- B. Collagène type I
+- C. TC dense irrégulier
+- D. Acide uronique + hexosamine
+
+75) [V31] Parmi les propositions suivantes, laquelle correspond le mieux à : tissu conjonctif surtout embryonnaire (cordon ombilical) ?
+- A. TC muqueux
+- B. Défilé des scalènes
+- C. Stroma cornéen / aponévrose
+- D. Endomysium
+
+76) [V32] Lequel des énoncés décrit correctement : Hyaluronidase ?
+- A. branche terminale issue de la corde médiale
+- B. l’enzyme qui hydrolyse l’acide hyaluronique
+- C. localisation citée du TC lâche entre fibres musculaires striées
+- D. information sur bénéfices/risques/alternatives avant un soin
+
+77) [V34] Lequel des énoncés décrit correctement : Fibroblaste ?
+- A. le collagène des lames basales (mailles, ne forme pas de fibres)
+- B. l’artère à partir de laquelle commence l’irrigation du membre supérieur
+- C. la cellule résidente qui synthétise les macromolécules de la MEC
+- D. charpente (maillage) en collagène III des organes hématopoïétiques/lymphoïdes
+
+78) [V35] Quel élément correspond le mieux à : cellule sanguine anucléée ?
+- A. Hématie
+- B. Mastocyte
+- C. Plasmocyte
+- D. Leucocyte
+
+79) [V41] Parmi les propositions suivantes, laquelle correspond le mieux à : la cellule résidente qui synthétise les macromolécules de la MEC ?
+- A. Sous-clavière
+- B. Racine antérieure
+- C. Divisions postérieures
+- D. Fibroblaste
+
+80) [V42] Lequel des énoncés décrit correctement : Intégrines (α/β) ?
+- A. l’origine embryologique des tissus conjonctifs
+- B. des récepteurs membranaires dimériques impliqués dans l’ancrage à la MEC
+- C. la racine sensitive (avec ganglion spinal)
+- D. où passent le nerf ulnaire et l’artère ulnaire
+
+-->
+  </script>
+
+  <script id="tsv_Plexus_Nerfs" type="text/plain"><!--
+Q1: Le nerf axillaire chemine avec l’artère circonflexe humérale postérieure dans :	Réponse: D — L’espace quadrangulaire
+Q2: Le plexus brachial est formé des APD de :	Réponse: B — C5 à T1
+Q4: Les divisions postérieures innervent préférentiellement :	Réponse: C — Les loges postérieures (extenseurs)
+Q7: Le tronc supérieur du plexus brachial est formé par :	Réponse: D — C5 et C6
+Q13: La branche profonde du nerf radial :	Réponse: D — Plonge dans le supinateur et innerve la loge postérieure
+Q16: Dans le cours, une atteinte du médian au canal carpien peut donner :	Réponse: D — Fonte du thénar avec “main de singe”
+Q21: Au niveau des racines, le plexus brachial passe entre :	Réponse: C — Scalène antérieur (avant) et scalène moyen (arrière)
+Q27: Au coude, le nerf ulnaire passe :	Réponse: C — En arrière de l’épicondyle médial (gouttière rétro-épitrochléo-olécranienne)
+Q35: Le nerf interosseux antérieur (branche du médian) innerve notamment :	Réponse: B — Flexor pollicis longus, 1/2 latérale du flexor digitorum profundus, carré pronateur
+Q40: Dans le cours, le pouls radial peut être palpé :	Réponse: C — Dans la tabatière anatomique
+Q45: Le nerf médian passe entre :	Réponse: B — Les deux chefs du pronator teres
+Q47: La corde postérieure est formée :	Réponse: C — Des 3 divisions postérieures
+Q54: Le nerf radial provient :	Réponse: C — De la corde postérieure
+Q56: Le nerf musculo-cutané provient :	Réponse: A — De la corde latérale
+Q57: L’artère axillaire se termine en donnant l’artère brachiale :	Réponse: A — Au bord inférieur du muscle grand rond
+Q61: Le nerf musculo-cutané se termine en donnant :	Réponse: B — Le nerf cutané antébrachial latéral
+Q63: Le nerf radial plonge avec l’artère brachiale profonde dans :	Réponse: D — L’espace huméro-tricipital
+Q66: L’artère sous-clavière devient l’artère axillaire :	Réponse: B — Au niveau du défilé costo-claviculaire
+Q68: Dans le défilé costo-claviculaire, d’avant en arrière on retrouve :	Réponse: D — Veine sous-clavière, artère sous-clavière, divisions du plexus
+Q79: Le nerf ulnaire provient :	Réponse: B — De la corde médiale
+Q81: Le nerf supra-scapulaire (cours) passe dans l’incisure scapulaire :	Réponse: A — Sous le ligament transverse de la scapula
+Q84: Le canal de Guyon contient :	Réponse: C — Le nerf ulnaire et l’artère ulnaire
+Q85: Dans le cours, l’artère sous-clavière passe :	Réponse: B — Entre les scalènes antérieur et moyen
+Q90: La branche postérieure du nerf spinal (dans le cours) est aussi appelée :	Réponse: D — PPD (posterior primary division)
+Q92: Après le petit pectoral, un rapport antérieur de l’artère axillaire (cours) est :	Réponse: A — Le nerf médian
+Q96: [V2] Lequel des énoncés décrit correctement : Axillaire ?	Réponse: C — l’artère faisant suite à la sous-clavière au défilé costo-claviculaire
+Q98: [V4] Quel élément correspond le mieux à : branche terminale issue de la corde postérieure ?	Réponse: D — Nerf radial
+Q99: [V5] Parmi les propositions suivantes, laquelle correspond le mieux à : branche terminale issue de la corde médiale ?	Réponse: D — Nerf ulnaire
+Q102: [V8] Lequel des énoncés décrit correctement : Nerf radial ?	Réponse: C — branche terminale issue de la corde postérieure
+Q103: [V9] Lequel des énoncés décrit correctement : Mastocyte ?	Réponse: C — cellule proche des capillaires riche en histamine (allergie)
+Q117: [V23] Parmi les propositions suivantes, laquelle correspond le mieux à : branche terminale issue de la corde postérieure ?	Réponse: C — Nerf radial
+Q122: [V28] Quel élément correspond le mieux à : le plexus innervant ceinture scapulaire + membre supérieur ?	Réponse: C — Plexus brachial (C5–T1)
+Q127: [V33] Parmi les propositions suivantes, laquelle correspond le mieux à : formée des 3 divisions postérieures ?	Réponse: C — Corde postérieure
+Q130: [V36] Quel élément correspond le mieux à : la racine sensitive (avec ganglion spinal) ?	Réponse: A — Racine postérieure
+Q131: [V37] Lequel des énoncés décrit correctement : Défilé costo-claviculaire ?	Réponse: D — où l’ordre antéro-postérieur est veine sous-clavière → artère → divisions
+Q132: [V38] Quel élément correspond le mieux à : où l’ordre antéro-postérieur est veine sous-clavière → artère → divisions ?	Réponse: A — Défilé costo-claviculaire
+Q133: [V39] Parmi les propositions suivantes, laquelle correspond le mieux à : exemples de TC dense régulier unitendu ?	Réponse: C — Tendon/Ligament
+Q134: [V40] Quel élément correspond le mieux à : où passent le nerf ulnaire et l’artère ulnaire ?	Réponse: A — Canal de Guyon
+Q137: [V43] Quel élément correspond le mieux à : où l’ordre antéro-postérieur est veine sous-clavière → artère → divisions ?	Réponse: D — Défilé costo-claviculaire
+Q139: [V45] Parmi les propositions suivantes, laquelle correspond le mieux à : le plexus innervant ceinture scapulaire + membre supérieur ?	Réponse: D — Plexus brachial (C5–T1)
+Q140: [V46] Lequel des énoncés décrit correctement : Racine postérieure ?	Réponse: A — la racine sensitive (avec ganglion spinal)
+Q141: [V47] Parmi les propositions suivantes, laquelle correspond le mieux à : la capacité à identifier ce qui nécessite une intervention médicale ?	Réponse: A — Reconnaître ses limites
+Q147: [V53] Lequel des énoncés décrit correctement : Raisonnement clinique ?	Réponse: C — formuler des hypothèses et les tester avec anamnèse + examen
+Q148: [V54] Parmi les propositions suivantes, laquelle correspond le mieux à : où le nerf radial accompagne l’a. brachiale profonde ?	Réponse: D — Espace huméro-tricipital
+Q149: [V55] Lequel des énoncés décrit correctement : Tronc supérieur ?	Réponse: D — formé par C5 et C6
+Q150: [V56] Quel élément correspond le mieux à : branche terminale issue de la corde postérieure ?	Réponse: A — Nerf radial
+Q152: [V58] Parmi les propositions suivantes, laquelle correspond le mieux à : branche terminale issue de la corde postérieure ?	Réponse: A — Nerf radial
+Q153: [V59] Quel élément correspond le mieux à : où le nerf radial accompagne l’a. brachiale profonde ?	Réponse: C — Espace huméro-tricipital
+Q159: [V65] Lequel des énoncés décrit correctement : Racine antérieure ?	Réponse: B — la racine motrice du nerf spinal
+Q161: [V67] Parmi les propositions suivantes, laquelle correspond le mieux à : localisation citée du TC lâche entre fibres musculaires striées ?	Réponse: D — Endomysium
+Q164: [V70] Parmi les propositions suivantes, laquelle correspond le mieux à : cellule proche des capillaires riche en histamine (allergie) ?	Réponse: B — Mastocyte
+Q167: [V73] Lequel des énoncés décrit correctement : Plasma ?	Réponse: C — matrice liquide du sang (~55%)
+Q169: [V75] Quel élément correspond le mieux à : branche terminale issue de la corde postérieure ?	Réponse: C — Nerf radial
+Q170: [V76] Lequel des énoncés décrit correctement : Tronc supérieur ?	Réponse: A — formé par C5 et C6
+Q177: [V83] Parmi les propositions suivantes, laquelle correspond le mieux à : un objectif central mis en avant par l’IFEC ?	Réponse: B — Qualité et sécurité des soins
+Q178: [V84] Parmi les propositions suivantes, laquelle correspond le mieux à : espace entre scalène antérieur (avant) et moyen (arrière) ?	Réponse: D — Défilé des scalènes
+Q182: [V88] Parmi les propositions suivantes, laquelle correspond le mieux à : branche terminale issue de la corde postérieure ?	Réponse: B — Nerf radial
+Q189: [V95] Lequel des énoncés décrit correctement : Canal carpien ?	Réponse: C — zone classique de compression du nerf médian
+Q190: [V96] Parmi les propositions suivantes, laquelle correspond le mieux à : exemples de TC dense régulier bitendu ?	Réponse: C — Stroma cornéen / aponévrose
+Q195: [V101] Lequel des énoncés décrit correctement : Nerf radial ?	Réponse: A — branche terminale issue de la corde postérieure
+Q196: [V102] Parmi les propositions suivantes, laquelle correspond le mieux à : l’enzyme qui hydrolyse l’acide hyaluronique ?	Réponse: A — Hyaluronidase
+Q197: [V103] Lequel des énoncés décrit correctement : Dure-mère ?	Réponse: B — exemple de localisation de TC dense irrégulier
+Q200: [V106] Parmi les propositions suivantes, laquelle correspond le mieux à : innervent préférentiellement les loges postérieures (extenseurs) ?	Réponse: B — Divisions postérieures
+Q203: [V109] Lequel des énoncés décrit correctement : Canal de Guyon ?	Réponse: A — où passent le nerf ulnaire et l’artère ulnaire
+Q204: [V110] Quel élément correspond le mieux à : espace entre scalène antérieur (avant) et moyen (arrière) ?	Réponse: A — Défilé des scalènes
+Q208: [V114] Lequel des énoncés décrit correctement : Canal carpien ?	Réponse: D — zone classique de compression du nerf médian
+Q210: [V116] Parmi les propositions suivantes, laquelle correspond le mieux à : où passe le nerf axillaire avec l’a. circonflexe humérale postérieure ?	Réponse: C — Espace quadrangulaire
+Q213: [V119] Parmi les propositions suivantes, laquelle correspond le mieux à : la composition du disaccharide de base des GAG ?	Réponse: C — Acide uronique + hexosamine
+Q218: [V124] Parmi les propositions suivantes, laquelle correspond le mieux à : exemple de TC à prédominance de fibres élastiques ?	Réponse: C — Ligaments jaunes
+Q223: [V129] Parmi les propositions suivantes, laquelle correspond le mieux à : branche terminale issue de la corde médiale ?	Réponse: B — Nerf ulnaire
+Q224: [V130] Parmi les propositions suivantes, laquelle correspond le mieux à : branche terminale issue de la corde médiale ?	Réponse: B — Nerf ulnaire
+Q226: [V132] Lequel des énoncés décrit correctement : Nerf radial ?	Réponse: C — branche terminale issue de la corde postérieure
+Q228: [V134] Parmi les propositions suivantes, laquelle correspond le mieux à : espace entre scalène antérieur (avant) et moyen (arrière) ?	Réponse: B — Défilé des scalènes
+Q231: [V137] Lequel des énoncés décrit correctement : Reconnaître ses limites ?	Réponse: C — la capacité à identifier ce qui nécessite une intervention médicale
+Q235: [V141] Quel élément correspond le mieux à : où l’ordre antéro-postérieur est veine sous-clavière → artère → divisions ?	Réponse: B — Défilé costo-claviculaire
+Q238: [V144] Parmi les propositions suivantes, laquelle correspond le mieux à : innervent préférentiellement les loges postérieures (extenseurs) ?	Réponse: C — Divisions postérieures
+Q239: [V145] Lequel des énoncés décrit correctement : Corde postérieure ?	Réponse: A — formée des 3 divisions postérieures
+Q243: [V149] Lequel des énoncés décrit correctement : Espace quadrangulaire ?	Réponse: B — où passe le nerf axillaire avec l’a. circonflexe humérale postérieure
+Q246: [V152] Lequel des énoncés décrit correctement : Intégrines (α/β) ?	Réponse: A — des récepteurs membranaires dimériques impliqués dans l’ancrage à la MEC
+Q249: [V155] Parmi les propositions suivantes, laquelle correspond le mieux à : la composition du disaccharide de base des GAG ?	Réponse: B — Acide uronique + hexosamine
+-->
+  </script>
+
+  <script id="tsv-Histologie_TC" type="text/plain"><!--
+Q31: Le TC dense régulier unitendu est typiquement retrouvé dans :	Réponse: A — Tendons et ligaments
+Q53: L’irrigation du membre supérieur débute à partir de :	Réponse: A — L’artère sous-clavière
+Q59: L’artère brachiale se termine au pli du coude en donnant :	Réponse: C — L’artère radiale et l’artère ulnaire
+Q110: [V16] Lequel des énoncés décrit correctement : Espace huméro-tricipital ?	Réponse: A — où le nerf radial accompagne l’a. brachiale profonde
+Q123: [V29] Quel élément correspond le mieux à : l’artère à partir de laquelle commence l’irrigation du membre supérieur ?	Réponse: D — Sous-clavière
+Q151: [V57] Parmi les propositions suivantes, laquelle correspond le mieux à : les deux terminales de l’artère brachiale au pli du coude ?	Réponse: D — Radiale + ulnaire
+Q158: [V64] Quel élément correspond le mieux à : les deux terminales de l’artère brachiale au pli du coude ?	Réponse: C — Radiale + ulnaire
+Q176: [V82] Quel élément correspond le mieux à : l’artère issue de l’axillaire au bord inférieur du grand rond ?	Réponse: C — Brachiale
+Q188: [V94] Quel élément correspond le mieux à : l’artère faisant suite à la sous-clavière au défilé costo-claviculaire ?	Réponse: D — Axillaire
+Q194: [V100] Lequel des énoncés décrit correctement : Dure-mère ?	Réponse: C — exemple de localisation de TC dense irrégulier
+Q211: [V117] Parmi les propositions suivantes, laquelle correspond le mieux à : site de palpation du pouls radial cité ?	Réponse: C — Tabatière anatomique
+Q221: [V127] Lequel des énoncés décrit correctement : Endomysium ?	Réponse: B — localisation citée du TC lâche entre fibres musculaires striées
+Q227: [V133] Parmi les propositions suivantes, laquelle correspond le mieux à : site de palpation du pouls radial cité ?	Réponse: D — Tabatière anatomique
+Q242: [V148] Parmi les propositions suivantes, laquelle correspond le mieux à : les deux terminales de l’artère brachiale au pli du coude ?	Réponse: C — Radiale + ulnaire
+Q244: [V150] Parmi les propositions suivantes, laquelle correspond le mieux à : les deux terminales de l’artère brachiale au pli du coude ?	Réponse: D — Radiale + ulnaire
+Q262: [V168] Parmi les propositions suivantes, laquelle correspond le mieux à : site de palpation du pouls radial cité ?	Réponse: C — Tabatière anatomique
+Q301: [V207] Parmi les propositions suivantes, laquelle correspond le mieux à : où le nerf radial accompagne l’a. brachiale profonde ?	Réponse: C — Espace huméro-tricipital
+Q305: [V211] Quel élément correspond le mieux à : les deux terminales de l’artère brachiale au pli du coude ?	Réponse: C — Radiale + ulnaire
+Q340: [V246] Lequel des énoncés décrit correctement : Sous-clavière ?	Réponse: B — l’artère à partir de laquelle commence l’irrigation du membre supérieur
+Q346: [V252] Quel élément correspond le mieux à : l’artère à partir de laquelle commence l’irrigation du membre supérieur ?	Réponse: A — Sous-clavière
+Q358: [V264] Lequel des énoncés décrit correctement : TC dense irrégulier ?	Réponse: B — collagène en faisceaux orientés dans toutes les directions
+
+Q18: De manière générale, de la moelle émergent :	Réponse: D — Une racine antérieure motrice et une racine postérieure sensitive
+Q19: Le TC dense régulier bitendu est cité dans le cours comme :	Réponse: B — Stroma cornéen / aponévroses
+Q94: Une mucopolysaccharidose est décrite comme :	Réponse: D — Une maladie de surcharge lysosomiale par déficit enzymatique
+Q154: [V60] Quel élément correspond le mieux à : la cause de l’hydrophilie des protéoglycanes ?	Réponse: A — Charges négatives
+Q181: [V87] Quel élément correspond le mieux à : la cause de l’hydrophilie des protéoglycanes ?	Réponse: C — Charges négatives
+Q252: [V158] Lequel des énoncés décrit correctement : Nerf ulnaire ?	Réponse: D — branche terminale issue de la corde médiale
+Q253: [V159] Lequel des énoncés décrit correctement : Espace quadrangulaire ?	Réponse: A — où passe le nerf axillaire avec l’a. circonflexe humérale postérieure
+Q254: [V160] Parmi les propositions suivantes, laquelle correspond le mieux à : des récepteurs membranaires dimériques impliqués dans l’ancrage à la MEC ?	Réponse: D — Intégrines (α/β)
+Q255: [V161] Lequel des énoncés décrit correctement : PICO ?	Réponse: A — Patient/Problème – Intervention – Comparateur – Outcome
+Q259: [V165] Quel élément correspond le mieux à : site de palpation du pouls radial cité ?	Réponse: D — Tabatière anatomique
+Q261: [V167] Parmi les propositions suivantes, laquelle correspond le mieux à : formée des 3 divisions postérieures ?	Réponse: D — Corde postérieure
+Q263: [V169] Parmi les propositions suivantes, laquelle correspond le mieux à : l’artère à partir de laquelle commence l’irrigation du membre supérieur ?	Réponse: A — Sous-clavière
+Q264: [V170] Parmi les propositions suivantes, laquelle correspond le mieux à : l’artère issue de l’axillaire au bord inférieur du grand rond ?	Réponse: C — Brachiale
+Q266: [V172] Lequel des énoncés décrit correctement : Espace huméro-tricipital ?	Réponse: B — où le nerf radial accompagne l’a. brachiale profonde
+Q273: [V179] Parmi les propositions suivantes, laquelle correspond le mieux à : où le nerf radial accompagne l’a. brachiale profonde ?	Réponse: D — Espace huméro-tricipital
+Q275: [V181] Lequel des énoncés décrit correctement : Espace quadrangulaire ?	Réponse: D — où passe le nerf axillaire avec l’a. circonflexe humérale postérieure
+Q276: [V182] Lequel des énoncés décrit correctement : Laminine ?	Réponse: A — une glycoprotéine spécifique de la lame basale
+Q278: [V184] Parmi les propositions suivantes, laquelle correspond le mieux à : l’artère faisant suite à la sous-clavière au défilé costo-claviculaire ?	Réponse: C — Axillaire
+Q279: [V185] Quel élément correspond le mieux à : où passent le nerf ulnaire et l’artère ulnaire ?	Réponse: C — Canal de Guyon
+Q281: [V187] Quel élément correspond le mieux à : où l’ordre antéro-postérieur est veine sous-clavière → artère → divisions ?	Réponse: D — Défilé costo-claviculaire
+Q287: [V193] Lequel des énoncés décrit correctement : Canal carpien ?	Réponse: C — zone classique de compression du nerf médian
+Q291: [V197] Parmi les propositions suivantes, laquelle correspond le mieux à : la racine motrice du nerf spinal ?	Réponse: C — Racine antérieure
+Q295: [V201] Lequel des énoncés décrit correctement : Axillaire ?	Réponse: C — l’artère faisant suite à la sous-clavière au défilé costo-claviculaire
+Q303: [V209] Parmi les propositions suivantes, laquelle correspond le mieux à : la cause de l’hydrophilie des protéoglycanes ?	Réponse: A — Charges négatives
+Q306: [V212] Quel élément correspond le mieux à : où l’ordre antéro-postérieur est veine sous-clavière → artère → divisions ?	Réponse: A — Défilé costo-claviculaire
+Q311: [V217] Parmi les propositions suivantes, laquelle correspond le mieux à : l’élément de la MEC localisé entre cellules et fibres, de consistance semi-fluide ?	Réponse: C — Substance fondamentale
+Q312: [V218] Parmi les propositions suivantes, laquelle correspond le mieux à : exemples de TC dense régulier bitendu ?	Réponse: D — Stroma cornéen / aponévrose
+Q313: [V219] Quel élément correspond le mieux à : la racine motrice du nerf spinal ?	Réponse: B — Racine antérieure
+Q314: [V220] Parmi les propositions suivantes, laquelle correspond le mieux à : le plexus innervant ceinture scapulaire + membre supérieur ?	Réponse: C — Plexus brachial (C5–T1)
+Q315: [V221] Lequel des énoncés décrit correctement : Dure-mère ?	Réponse: C — exemple de localisation de TC dense irrégulier
+Q316: [V222] Parmi les propositions suivantes, laquelle correspond le mieux à : branche terminale issue de la corde médiale ?	Réponse: C — Nerf ulnaire
+Q318: [V224] Lequel des énoncés décrit correctement : Brachiale ?	Réponse: B — l’artère issue de l’axillaire au bord inférieur du grand rond
+Q320: [V226] Parmi les propositions suivantes, laquelle correspond le mieux à : espace entre scalène antérieur (avant) et moyen (arrière) ?	Réponse: D — Défilé des scalènes
+Q328: [V234] Quel élément correspond le mieux à : où le nerf radial accompagne l’a. brachiale profonde ?	Réponse: C — Espace huméro-tricipital
+Q333: [V239] Lequel des énoncés décrit correctement : TC dense irrégulier ?	Réponse: B — collagène en faisceaux orientés dans toutes les directions
+Q335: [V241] Lequel des énoncés décrit correctement : Nerf ulnaire ?	Réponse: D — branche terminale issue de la corde médiale
+Q338: [V244] Lequel des énoncés décrit correctement : Plexus brachial (C5–T1) ?	Réponse: B — le plexus innervant ceinture scapulaire + membre supérieur
+Q350: [V256] Lequel des énoncés décrit correctement : Brachiale ?	Réponse: A — l’artère issue de l’axillaire au bord inférieur du grand rond
+Q351: [V257] Lequel des énoncés décrit correctement : Intégrines (α/β) ?	Réponse: C — des récepteurs membranaires dimériques impliqués dans l’ancrage à la MEC
+Q352: [V258] Lequel des énoncés décrit correctement : Radiale + ulnaire ?	Réponse: B — les deux terminales de l’artère brachiale au pli du coude
+Q353: [V259] Quel élément correspond le mieux à : où passe le nerf axillaire avec l’a. circonflexe humérale postérieure ?	Réponse: B — Espace quadrangulaire
+Q355: [V261] Lequel des énoncés décrit correctement : Divisions postérieures ?	Réponse: A — innervent préférentiellement les loges postérieures (extenseurs)
+Q362: [V268] Quel élément correspond le mieux à : espace entre scalène antérieur (avant) et moyen (arrière) ?	Réponse: D — Défilé des scalènes
+Q365: [V271] Lequel des énoncés décrit correctement : Collagène type II ?	Réponse: C — le collagène du cartilage
+Q367: [V273] Quel élément correspond le mieux à : formé par C5 et C6 ?	Réponse: A — Tronc supérieur
+Q368: [V274] Parmi les propositions suivantes, laquelle correspond le mieux à : information sur bénéfices/risques/alternatives avant un soin ?	Réponse: D — Consentement éclairé
+Q369: [V275] Lequel des énoncés décrit correctement : Intégrines (α/β) ?	Réponse: C — des récepteurs membranaires dimériques impliqués dans l’ancrage à la MEC
+Q372: [V278] Lequel des énoncés décrit correctement : Radiale + ulnaire ?	Réponse: A — les deux terminales de l’artère brachiale au pli du coude
+Q375: [V281] Quel élément correspond le mieux à : le plexus innervant ceinture scapulaire + membre supérieur ?	Réponse: D — Plexus brachial (C5–T1)
+Q376: [V282] Quel élément correspond le mieux à : la racine motrice du nerf spinal ?	Réponse: D — Racine antérieure
+Q378: [V284] Parmi les propositions suivantes, laquelle correspond le mieux à : la capacité à identifier ce qui nécessite une intervention médicale ?	Réponse: D — Reconnaître ses limites
+Q379: [V285] Lequel des énoncés décrit correctement : Plexus brachial (C5–T1) ?	Réponse: A — le plexus innervant ceinture scapulaire + membre supérieur
+Q380: [V286] Parmi les propositions suivantes, laquelle correspond le mieux à : un objectif central mis en avant par l’IFEC ?	Réponse: B — Qualité et sécurité des soins
+Q381: [V287] Quel élément correspond le mieux à : où l’ordre antéro-postérieur est veine sous-clavière → artère → divisions ?	Réponse: C — Défilé costo-claviculaire
+Q383: [V289] Quel élément correspond le mieux à : branche terminale issue de la corde latérale ?	Réponse: A — Nerf musculo-cutané
+Q384: [V290] Parmi les propositions suivantes, laquelle correspond le mieux à : cellule proche des capillaires riche en histamine (allergie) ?	Réponse: A — Mastocyte
+Q386: [V292] Lequel des énoncés décrit correctement : Plexus brachial (C5–T1) ?	Réponse: D — le plexus innervant ceinture scapulaire + membre supérieur
+Q389: [V295] Parmi les propositions suivantes, laquelle correspond le mieux à : branche terminale issue de la corde postérieure ?	Réponse: A — Nerf radial
+Q390: [V296] Quel élément correspond le mieux à : où passe le nerf axillaire avec l’a. circonflexe humérale postérieure ?	Réponse: C — Espace quadrangulaire
+
+-->
+Q36: Localisation citée du tissu conjonctif lâche (cours) :	Réponse: D — Entre les cellules musculaires striées (endomysium)
+Q37: Sur le plan embryologique, les tissus conjonctifs dérivent principalement :	Réponse: D — Du mésoblaste via le mésenchyme
+Q38: La matrice extracellulaire (MEC) est constituée de :	Réponse: D — Fibres + substance fondamentale
+Q39: Le TC fibreux à prédominance de fibres élastiques est cité dans :	Réponse: A — Les ligaments jaunes et la paroi des grosses artères élastiques
+Q42: La substance fondamentale d’un tissu conjonctif est classiquement décrite comme :	Réponse: D — Semi-fluide, située entre cellules et fibres
+Q43: Une fonction métabolique des tissus conjonctifs est liée surtout à :	Réponse: C — Leur richesse en vaisseaux sanguins
+Q44: Les hématies sont décrites comme :	Réponse: D — Des cellules anucléées
+Q46: Une propriété décrite des fibres élastiques (cours) :	Réponse: A — Elles ne se renouvellent pas
+Q49: Concernant l’adipocyte brun (cours) :	Réponse: B — Plurivacuolaire, nombreuses mitochondries, thermogenèse
+Q50: Exemple de localisation d’un TC dense irrégulier (cours) :	Réponse: A — Dure-mère
+Q51: Les intégrines (rappel du cours) sont :	Réponse: A — Des récepteurs membranaires dimériques (sous-unités α et β)
+Q52: Dans le cours, la proportion des éléments figurés du sang est d’environ :	Réponse: B — 45%
+Q55: Exemple correct (cours) de glycoprotéine reliant cellules et collagène :	Réponse: D — Fibronectine
+Q58: Le fibroblaste se distingue du fibrocyte (cours) par :	Réponse: D — Une activité métabolique plus élevée
+Q60: Les glycosaminoglycanes (GAG) sont :	Réponse: C — De longues chaînes glucidiques non ramifiées
+Q62: Un disaccharide de base des GAG comporte typiquement :	Réponse: C — Un acide uronique et une hexosamine
+Q64: Les glycoprotéines de la MEC (cours) participent surtout à :	Réponse: C — L’ancrage des cellules sur la MEC
+Q65: Les agrégats de protéoglycanes se fixent sur une molécule de :	Réponse: D — Acide hyaluronique (liaisons non covalentes)
+Q70: Le tissu conjonctif réticulé est caractérisé par :	Réponse: A — Un maillage de fibres réticulées (collagène type III) et peu/pas de SF
+Q71: Dans le cours, la fibrilline est associée à :	Réponse: A — Les fibres élastiques
+Q72: Les fibroblastes synthétisent :	Réponse: B — Toutes les macromolécules constitutives de la MEC
+Q73: Les plaquettes (thrombocytes) sont :	Réponse: C — Des fragments cellulaires
+Q74: Les fibres élastiques sont constituées :	Réponse: A — D’un cœur d’élastine et d’une périphérie de fibrilline
+Q75: Parmi les GAG, lequel est spécifiquement décrit comme non sulfaté et présent dans tous les TC ?	Réponse: A — Acide hyaluronique
+Q76: Le tissu sanguin est décrit comme un tissu conjonctif spécialisé caractérisé par :	Réponse: B — Une matrice liquide (plasma)
+Q78: Les cellules conjonctives résidentes incluent :	Réponse: C — Fibroblastes, myofibroblastes, adipocytes
+Q80: Le collagène de type IV (cours) :	Réponse: C — Est spécifique des lames basales et ne forme pas de fibres
+Q83: Un protéoglycane est (cours) :	Réponse: C — Des chaînes de GAG fixées à une protéine porteuse par liaisons covalentes
+Q87: Dans un tissu conjonctif, les 3 grandes catégories d’éléments sont :	Réponse: C — Fibres conjonctives, substance fondamentale, cellules conjonctives
+Q88: Concernant l’acide hyaluronique (cours) :	Réponse: C — Il ne se fixe pas à des protéines et ne constitue pas de protéoglycanes
+Q89: Les plasmocytes sont :	Réponse: C — Des lymphocytes B maturés sécrétant des Ig
+Q91: Dans le cours, un rôle des myofibroblastes est :	Réponse: B — Participation à la réparation/guérison et à l’inflammation
+Q97: [V3] Lequel des énoncés décrit correctement : Qualité et sécurité des soins ?	Réponse: C — un objectif central mis en avant par l’IFEC
+Q100: [V6] Quel élément correspond le mieux à : l’élément de la MEC localisé entre cellules et fibres, de consistance semi-fluide ?	Réponse: B — Substance fondamentale
+Q101: [V7] Parmi les propositions suivantes, laquelle correspond le mieux à : localisation citée du TC lâche entre fibres musculaires striées ?	Réponse: D — Endomysium
+Q104: [V10] Parmi les propositions suivantes, laquelle correspond le mieux à : formée des 3 divisions postérieures ?	Réponse: C — Corde postérieure
+Q105: [V11] Lequel des énoncés décrit correctement : Ligaments jaunes ?	Réponse: C — exemple de TC à prédominance de fibres élastiques
+Q106: [V12] Quel élément correspond le mieux à : un GAG non sulfaté, ubiquitaire, ne formant pas de protéoglycanes ?	Réponse: B — Acide hyaluronique
+Q107: [V13] Lequel des énoncés décrit correctement : Collagène type IV ?	Réponse: B — le collagène des lames basales (mailles, ne forme pas de fibres)
+Q108: [V14] Lequel des énoncés décrit correctement : Hématie ?	Réponse: B — cellule sanguine anucléée
+Q109: [V15] Parmi les propositions suivantes, laquelle correspond le mieux à : de longues chaînes glucidiques non ramifiées ?	Réponse: D — GAG
+Q111: [V17] Lequel des énoncés décrit correctement : Stroma cornéen / aponévrose ?	Réponse: A — exemples de TC dense régulier bitendu
+Q112: [V18] Parmi les propositions suivantes, laquelle correspond le mieux à : la composition du disaccharide de base des GAG ?	Réponse: D — Acide uronique + hexosamine
+Q113: [V19] Parmi les propositions suivantes, laquelle correspond le mieux à : localisation citée du TC lâche entre fibres musculaires striées ?	Réponse: C — Endomysium
+Q114: [V20] Quel élément correspond le mieux à : exemple de localisation de TC dense irrégulier ?	Réponse: D — Dure-mère
+Q115: [V21] Quel élément correspond le mieux à : charpente (maillage) en collagène III des organes hématopoïétiques/lymphoïdes ?	Réponse: B — Tissu réticulé
+Q116: [V22] Quel élément correspond le mieux à : cellule sanguine anucléée ?	Réponse: D — Hématie
+Q118: [V24] Parmi les propositions suivantes, laquelle correspond le mieux à : un GAG non sulfaté, ubiquitaire, ne formant pas de protéoglycanes ?	Réponse: D — Acide hyaluronique
+Q119: [V25] Lequel des énoncés décrit correctement : Collagène type II ?	Réponse: C — le collagène du cartilage
+Q120: [V26] Parmi les propositions suivantes, laquelle correspond le mieux à : la définition de la matrice extracellulaire ?	Réponse: A — MEC = fibres + substance fondamentale
+Q121: [V27] Quel élément correspond le mieux à : le collagène majoritaire (~90%), ubiquitaire ?	Réponse: C — Collagène type I
+Q124: [V30] Parmi les propositions suivantes, laquelle correspond le mieux à : collagène en faisceaux orientés dans toutes les directions ?	Réponse: C — TC dense irrégulier
+Q125: [V31] Parmi les propositions suivantes, laquelle correspond le mieux à : tissu conjonctif surtout embryonnaire (cordon ombilical) ?	Réponse: A — TC muqueux
+Q126: [V32] Lequel des énoncés décrit correctement : Hyaluronidase ?	Réponse: B — l’enzyme qui hydrolyse l’acide hyaluronique
+Q128: [V34] Lequel des énoncés décrit correctement : Fibroblaste ?	Réponse: C — la cellule résidente qui synthétise les macromolécules de la MEC
+Q129: [V35] Quel élément correspond le mieux à : cellule sanguine anucléée ?	Réponse: A — Hématie
+Q135: [V41] Parmi les propositions suivantes, laquelle correspond le mieux à : la cellule résidente qui synthétise les macromolécules de la MEC ?	Réponse: D — Fibroblaste
+Q136: [V42] Lequel des énoncés décrit correctement : Intégrines (α/β) ?	Réponse: B — des récepteurs membranaires dimériques impliqués dans l’ancrage à la MEC
+
+-->
+  </script>
+
+  <script id="deck_Angiologie" type="text/plain"><!--
+# Deck: Angiologie — 80 questions
+
+**Consigne** : 1 seule bonne réponse (A–D).
+
+1) Le TC dense régulier unitendu est typiquement retrouvé dans :
+- A. Tendons et ligaments
+- B. Moelle osseuse
+- C. Parois des grosses artères élastiques uniquement
+- D. Derme papillaire
+
+2) L’irrigation du membre supérieur débute à partir de :
+- A. L’artère sous-clavière
+- B. L’artère radiale
+- C. L’artère brachiale
+- D. L’arcade palmaire profonde
+
+3) L’artère brachiale se termine au pli du coude en donnant :
+- A. L’arcade dorsale et l’arcade palmaire superficielle
+- B. L’artère thoraco-acromiale et l’artère subscapulaire
+- C. L’artère radiale et l’artère ulnaire
+- D. L’artère axillaire et l’artère sous-clavière
+
+4) [V16] Lequel des énoncés décrit correctement : Espace huméro-tricipital ?
+- A. où le nerf radial accompagne l’a. brachiale profonde
+- B. où passent le nerf ulnaire et l’artère ulnaire
+- C. site de palpation du pouls radial cité
+- D. formée des 3 divisions postérieures
+
+5) [V29] Quel élément correspond le mieux à : l’artère à partir de laquelle commence l’irrigation du membre supérieur ?
+- A. Carotide commune
+- B. Arcade palmaire profonde
+- C. Artère radiale
+- D. Sous-clavière
+
+6) [V57] Parmi les propositions suivantes, laquelle correspond le mieux à : les deux terminales de l’artère brachiale au pli du coude ?
+- A. Substance fondamentale
+- B. Ligaments jaunes
+- C. Acide hyaluronique
+- D. Radiale + ulnaire
+
+7) [V64] Quel élément correspond le mieux à : les deux terminales de l’artère brachiale au pli du coude ?
+- A. Thoraco-acromiale + circonflexe
+- B. Sous-clavière + carotide
+- C. Radiale + ulnaire
+- D. Axillaire + subscapulaire
+
+8) [V82] Quel élément correspond le mieux à : l’artère issue de l’axillaire au bord inférieur du grand rond ?
+- A. Sous-clavière
+- B. Arcade dorsale
+- C. Brachiale
+- D. Artère dorsale de la scapula
+
+9) [V94] Quel élément correspond le mieux à : l’artère faisant suite à la sous-clavière au défilé costo-claviculaire ?
+- A. Carotide
+- B. Ulnaire
+- C. Radiale
+- D. Axillaire
+
+10) [V100] Lequel des énoncés décrit correctement : Dure-mère ?
+- A. site de palpation du pouls radial cité
+- B. collagène en faisceaux orientés dans toutes les directions
+- C. exemple de localisation de TC dense irrégulier
+- D. charpente (maillage) en collagène III des organes hématopoïétiques/lymphoïdes
+
+11) [V117] Parmi les propositions suivantes, laquelle correspond le mieux à : site de palpation du pouls radial cité ?
+- A. SOAP
+- B. TC lâche
+- C. Tabatière anatomique
+- D. Acide hyaluronique
+
+12) [V127] Lequel des énoncés décrit correctement : Endomysium ?
+- A. lymphocyte B maturé sécrétant des Ig
+- B. localisation citée du TC lâche entre fibres musculaires striées
+- C. l’artère faisant suite à la sous-clavière au défilé costo-claviculaire
+- D. où l’ordre antéro-postérieur est veine sous-clavière → artère → divisions
+
+13) [V133] Parmi les propositions suivantes, laquelle correspond le mieux à : site de palpation du pouls radial cité ?
+- A. Sous-clavière
+- B. Corde postérieure
+- C. Brachiale
+- D. Tabatière anatomique
+
+14) [V148] Parmi les propositions suivantes, laquelle correspond le mieux à : les deux terminales de l’artère brachiale au pli du coude ?
+- A. Sous-clavière
+- B. Qualité et sécurité des soins
+- C. Radiale + ulnaire
+- D. Intégrines (α/β)
+
+15) [V150] Parmi les propositions suivantes, laquelle correspond le mieux à : les deux terminales de l’artère brachiale au pli du coude ?
+- A. Tissu réticulé
+- B. Orcéine
+- C. Substance fondamentale
+- D. Radiale + ulnaire
+
+16) [V168] Parmi les propositions suivantes, laquelle correspond le mieux à : site de palpation du pouls radial cité ?
+- A. Radiale + ulnaire
+- B. Substance fondamentale
+- C. Tabatière anatomique
+- D. Raisonnement clinique
+
+17) [V207] Parmi les propositions suivantes, laquelle correspond le mieux à : où le nerf radial accompagne l’a. brachiale profonde ?
+- A. Tabatière anatomique
+- B. Nerf radial
+- C. Espace huméro-tricipital
+- D. Radiale + ulnaire
+
+18) [V211] Quel élément correspond le mieux à : les deux terminales de l’artère brachiale au pli du coude ?
+- A. Sous-clavière + carotide
+- B. Axillaire + subscapulaire
+- C. Radiale + ulnaire
+- D. Thoraco-acromiale + circonflexe
+
+19) [V246] Lequel des énoncés décrit correctement : Sous-clavière ?
+- A. branche terminale issue de la corde latérale
+- B. l’artère à partir de laquelle commence l’irrigation du membre supérieur
+- C. la cellule résidente qui synthétise les macromolécules de la MEC
+- D. la définition de la matrice extracellulaire
+
+20) [V252] Quel élément correspond le mieux à : l’artère à partir de laquelle commence l’irrigation du membre supérieur ?
+- A. Sous-clavière
+- B. Artère radiale
+- C. Arcade palmaire profonde
+- D. Carotide commune
+
+21) [V264] Lequel des énoncés décrit correctement : TC dense irrégulier ?
+- A. innervent préférentiellement les loges postérieures (extenseurs)
+- B. collagène en faisceaux orientés dans toutes les directions
+- C. où l’ordre antéro-postérieur est veine sous-clavière → artère → divisions
+- D. l’artère faisant suite à la sous-clavière au défilé costo-claviculaire
+
+22) De manière générale, de la moelle émergent :
+- A. Deux racines motrices
+- B. Deux racines sensitives
+- C. Une seule racine mixte
+- D. Une racine antérieure motrice et une racine postérieure sensitive
+
+23) Le TC dense régulier bitendu est cité dans le cours comme :
+- A. Endomysium
+- B. Stroma cornéen / aponévroses
+- C. Ganglion lymphatique
+- D. Cordon ombilical
+
+24) Une mucopolysaccharidose est décrite comme :
+- A. Une infection bactérienne aiguë
+- B. Une fracture de fatigue
+- C. Un cancer épithélial spécifique
+- D. Une maladie de surcharge lysosomiale par déficit enzymatique
+
+25) [V60] Quel élément correspond le mieux à : la cause de l’hydrophilie des protéoglycanes ?
+- A. Charges négatives
+- B. Présence de myosine
+- C. Charges positives
+- D. Absence de glucides
+
+26) [V87] Quel élément correspond le mieux à : la cause de l’hydrophilie des protéoglycanes ?
+- A. Présence de myosine
+- B. Absence de glucides
+- C. Charges négatives
+- D. Charges positives
+
+27) [V158] Lequel des énoncés décrit correctement : Nerf ulnaire ?
+- A. le collagène des lames basales (mailles, ne forme pas de fibres)
+- B. la définition de la matrice extracellulaire
+- C. la cause de l’hydrophilie des protéoglycanes
+- D. branche terminale issue de la corde médiale
+
+28) [V159] Lequel des énoncés décrit correctement : Espace quadrangulaire ?
+- A. où passe le nerf axillaire avec l’a. circonflexe humérale postérieure
+- B. la forme quiescente du fibroblaste
+- C. le collagène du cartilage
+- D. formée des 3 divisions postérieures
+
+29) [V160] Parmi les propositions suivantes, laquelle correspond le mieux à : des récepteurs membranaires dimériques impliqués dans l’ancrage à la MEC ?
+- A. Acide hyaluronique
+- B. Ligaments jaunes
+- C. Radiale + ulnaire
+- D. Intégrines (α/β)
+
+30) [V161] Lequel des énoncés décrit correctement : PICO ?
+- A. Patient/Problème – Intervention – Comparateur – Outcome
+- B. où passe le nerf axillaire avec l’a. circonflexe humérale postérieure
+- C. un objectif central mis en avant par l’IFEC
+- D. une glycoprotéine spécifique de la lame basale
+
+31) [V165] Quel élément correspond le mieux à : site de palpation du pouls radial cité ?
+- A. Canal de Guyon
+- B. Espace quadrangulaire
+- C. Gouttière ulnaire
+- D. Tabatière anatomique
+
+32) [V167] Parmi les propositions suivantes, laquelle correspond le mieux à : formée des 3 divisions postérieures ?
+- A. Nerf radial
+- B. Acide hyaluronique
+- C. Plaquette
+- D. Corde postérieure
+
+33) [V169] Parmi les propositions suivantes, laquelle correspond le mieux à : l’artère à partir de laquelle commence l’irrigation du membre supérieur ?
+- A. Sous-clavière
+- B. Nerf musculo-cutané
+- C. Corde postérieure
+- D. Dure-mère
+
+34) [V170] Parmi les propositions suivantes, laquelle correspond le mieux à : l’artère issue de l’axillaire au bord inférieur du grand rond ?
+- A. TC dense irrégulier
+- B. Myofibroblaste
+- C. Brachiale
+- D. Ligaments jaunes
+
+35) [V172] Lequel des énoncés décrit correctement : Espace huméro-tricipital ?
+- A. la racine sensitive (avec ganglion spinal)
+- B. où le nerf radial accompagne l’a. brachiale profonde
+- C. fragment cellulaire impliqué dans l’hémostase
+- D. l’enzyme qui hydrolyse l’acide hyaluronique
+
+36) [V179] Parmi les propositions suivantes, laquelle correspond le mieux à : où le nerf radial accompagne l’a. brachiale profonde ?
+- A. Fibroblaste
+- B. Corde postérieure
+- C. Tabatière anatomique
+- D. Espace huméro-tricipital
+
+37) [V181] Lequel des énoncés décrit correctement : Espace quadrangulaire ?
+- A. les deux terminales de l’artère brachiale au pli du coude
+- B. charpente (maillage) en collagène III des organes hématopoïétiques/lymphoïdes
+- C. matrice liquide du sang (~55%)
+- D. où passe le nerf axillaire avec l’a. circonflexe humérale postérieure
+
+38) [V182] Lequel des énoncés décrit correctement : Laminine ?
+- A. une glycoprotéine spécifique de la lame basale
+- B. branche terminale issue de la corde latérale
+- C. un objectif central mis en avant par l’IFEC
+- D. où le nerf radial accompagne l’a. brachiale profonde
+
+39) [V184] Parmi les propositions suivantes, laquelle correspond le mieux à : l’artère faisant suite à la sous-clavière au défilé costo-claviculaire ?
+- A. Raisonnement clinique
+- B. Nerf musculo-cutané
+- C. Axillaire
+- D. Défilé costo-claviculaire
+
+40) [V185] Quel élément correspond le mieux à : où passent le nerf ulnaire et l’artère ulnaire ?
+- A. Sillon du nerf radial
+- B. Défilé costo-claviculaire
+- C. Canal de Guyon
+- D. Canal carpien
+
+41) [V187] Quel élément correspond le mieux à : où l’ordre antéro-postérieur est veine sous-clavière → artère → divisions ?
+- A. Défilé des scalènes
+- B. Espace huméro-tricipital
+- C. Défilé du petit pectoral
+- D. Défilé costo-claviculaire
+
+42) [V193] Lequel des énoncés décrit correctement : Canal carpien ?
+- A. le collagène majoritaire (~90%), ubiquitaire
+- B. site de palpation du pouls radial cité
+- C. zone classique de compression du nerf médian
+- D. le collagène du cartilage
+
+43) [V197] Parmi les propositions suivantes, laquelle correspond le mieux à : la racine motrice du nerf spinal ?
+- A. Canal carpien
+- B. Substance fondamentale
+- C. Racine antérieure
+- D. Reconnaître ses limites
+
+44) [V201] Lequel des énoncés décrit correctement : Axillaire ?
+- A. espace entre scalène antérieur (avant) et moyen (arrière)
+- B. où le nerf radial accompagne l’a. brachiale profonde
+- C. l’artère faisant suite à la sous-clavière au défilé costo-claviculaire
+- D. le plexus innervant ceinture scapulaire + membre supérieur
+
+45) [V209] Parmi les propositions suivantes, laquelle correspond le mieux à : la cause de l’hydrophilie des protéoglycanes ?
+- A. Charges négatives
+- B. Divisions postérieures
+- C. Collagène type III
+- D. Canal de Guyon
+
+46) [V212] Quel élément correspond le mieux à : où l’ordre antéro-postérieur est veine sous-clavière → artère → divisions ?
+- A. Défilé costo-claviculaire
+- B. Espace huméro-tricipital
+- C. Défilé des scalènes
+- D. Défilé du petit pectoral
+
+47) [V217] Parmi les propositions suivantes, laquelle correspond le mieux à : l’élément de la MEC localisé entre cellules et fibres, de consistance semi-fluide ?
+- A. Nerf musculo-cutané
+- B. Axillaire
+- C. Substance fondamentale
+- D. Tendon/Ligament
+
+48) [V218] Parmi les propositions suivantes, laquelle correspond le mieux à : exemples de TC dense régulier bitendu ?
+- A. Raisonnement clinique
+- B. Défilé costo-claviculaire
+- C. Canal de Guyon
+- D. Stroma cornéen / aponévrose
+
+49) [V219] Quel élément correspond le mieux à : la racine motrice du nerf spinal ?
+- A. Ganglion spinal
+- B. Racine antérieure
+- C. Corde postérieure
+- D. Racine postérieure
+
+50) [V220] Parmi les propositions suivantes, laquelle correspond le mieux à : le plexus innervant ceinture scapulaire + membre supérieur ?
+- A. Défilé costo-claviculaire
+- B. Tabatière anatomique
+- C. Plexus brachial (C5–T1)
+- D. Axillaire
+
+... (suite des 80 questions) ...
+
+-->
+  </script>
+
+  <script id="tsv_Angiologie" type="text/plain"><!--
+Q31: Le TC dense régulier unitendu est typiquement retrouvé dans :	Réponse: A — Tendons et ligaments
+Q53: L’irrigation du membre supérieur débute à partir de :	Réponse: A — L’artère sous-clavière
+Q59: L’artère brachiale se termine au pli du coude en donnant :	Réponse: C — L’artère radiale et l’artère ulnaire
+Q110: [V16] Lequel des énoncés décrit correctement : Espace huméro-tricipital ?	Réponse: A — où le nerf radial accompagne l’a. brachiale profonde
+Q123: [V29] Quel élément correspond le mieux à : l’artère à partir de laquelle commence l’irrigation du membre supérieur ?	Réponse: D — Sous-clavière
+Q151: [V57] Parmi les propositions suivantes, laquelle correspond le mieux à : les deux terminales de l’artère brachiale au pli du coude ?	Réponse: D — Radiale + ulnaire
+Q158: [V64] Quel élément correspond le mieux à : les deux terminales de l’artère brachiale au pli du coude ?	Réponse: C — Radiale + ulnaire
+Q176: [V82] Quel élément correspond le mieux à : l’artère issue de l’axillaire au bord inférieur du grand rond ?	Réponse: C — Brachiale
+Q188: [V94] Quel élément correspond le mieux à : l’artère faisant suite à la sous-clavière au défilé costo-claviculaire ?	Réponse: D — Axillaire
+Q194: [V100] Lequel des énoncés décrit correctement : Dure-mère ?	Réponse: C — exemple de localisation de TC dense irrégulier
+Q211: [V117] Parmi les propositions suivantes, laquelle correspond le mieux à : site de palpation du pouls radial cité ?	Réponse: C — Tabatière anatomique
+Q221: [V127] Lequel des énoncés décrit correctement : Endomysium ?	Réponse: B — localisation citée du TC lâche entre fibres musculaires striées
+Q227: [V133] Parmi les propositions suivantes, laquelle correspond le mieux à : site de palpation du pouls radial cité ?	Réponse: D — Tabatière anatomique
+Q242: [V148] Parmi les propositions suivantes, laquelle correspond le mieux à : les deux terminales de l’artère brachiale au pli du coude ?	Réponse: C — Radiale + ulnaire
+Q244: [V150] Parmi les propositions suivantes, laquelle correspond le mieux à : les deux terminales de l’artère brachiale au pli du coude ?	Réponse: D — Radiale + ulnaire
+Q262: [V168] Parmi les propositions suivantes, laquelle correspond le mieux à : site de palpation du pouls radial cité ?	Réponse: C — Tabatière anatomique
+Q301: [V207] Parmi les propositions suivantes, laquelle correspond le mieux à : où le nerf radial accompagne l’a. brachiale profonde ?	Réponse: C — Espace huméro-tricipital
+Q305: [V211] Quel élément correspond le mieux à : les deux terminales de l’artère brachiale au pli du coude ?	Réponse: C — Radiale + ulnaire
+Q340: [V246] Lequel des énoncés décrit correctement : Sous-clavière ?	Réponse: B — l’artère à partir de laquelle commence l’irrigation du membre supérieur
+Q346: [V252] Quel élément correspond le mieux à : l’artère à partir de laquelle commence l’irrigation du membre supérieur ?	Réponse: A — Sous-clavière
+Q358: [V264] Lequel des énoncés décrit correctement : TC dense irrégulier ?	Réponse: B — collagène en faisceaux orientés dans toutes les directions
+
+-->
+  </script>
+
+  <script id="deck_Myologie" type="text/plain"><!--
+# Deck: Myologie — 80 questions
+
+**Consigne** : 1 seule bonne réponse (A–D).
+
+1) [V115] Quel élément correspond le mieux à : exemples de TC dense régulier unitendu ?
+- A. Moelle osseuse
+- B. Derme papillaire
+- C. Tendon/Ligament
+- D. Lame basale
+
+2) [V247] Quel élément correspond le mieux à : exemples de TC dense régulier unitendu ?
+- A. Lame basale
+- B. Moelle osseuse
+- C. Tendon/Ligament
+- D. Derme papillaire
+
+3) [V300] Quel élément correspond le mieux à : où passent le nerf ulnaire et l’artère ulnaire ?
+- A. Canal carpien
+- B. Sillon du nerf radial
+- C. Canal de Guyon
+- D. Défilé costo-claviculaire
+
+4) [V303] Lequel des énoncés décrit correctement : Canal carpien ?
+- A. de longues chaînes glucidiques non ramifiées
+- B. branche terminale issue de la corde médiale
+- C. la forme quiescente du fibroblaste
+- D. zone classique de compression du nerf médian
+
+5) [V304] Parmi les propositions suivantes, laquelle correspond le mieux à : branche terminale issue de la corde latérale ?
+- A. PICO
+- B. Acide uronique + hexosamine
+- C. Nerf musculo-cutané
+- D. Plasma
+
+6) [V44] Lequel des énoncés décrit correctement : Stroma cornéen / aponévrose ?
+- A. exemples de TC dense régulier bitendu
+- B. des récepteurs membranaires dimériques impliqués dans l’ancrage à la MEC
+- C. de longues chaînes glucidiques non ramifiées
+- D. la coloration de mise en évidence des fibres élastiques
+
+7) [V48] Parmi les propositions suivantes, laquelle correspond le mieux à : la coloration de mise en évidence des fibres élastiques ?
+- A. Laminine
+- B. Acide hyaluronique
+- C. Collagène type IV
+- D. Orcéine
+
+8) [V49] Parmi les propositions suivantes, laquelle correspond le mieux à : exemples de TC dense régulier bitendu ?
+- A. Hématie
+- B. Corde postérieure
+- C. Stroma cornéen / aponévrose
+- D. Fibrocyte
+
+9) [V50] Parmi les propositions suivantes, laquelle correspond le mieux à : la composition du disaccharide de base des GAG ?
+- A. Collagène type IV
+- B. Fibroblaste
+- C. Brachiale
+- D. Acide uronique + hexosamine
+
+10) [V51] Lequel des énoncés décrit correctement : Consentement éclairé ?
+- A. information sur bénéfices/risques/alternatives avant un soin
+- B. une glycoprotéine d’adhérence liant cellules et collagène
+- C. les deux terminales de l’artère brachiale au pli du coude
+- D. la composition du disaccharide de base des GAG
+
+11) [V52] Parmi les propositions suivantes, laquelle correspond le mieux à : exemple de TC à prédominance de fibres élastiques ?
+- A. Myofibroblaste
+- B. TC dense irrégulier
+- C. Ligaments jaunes
+- D. Espace quadrangulaire
+
+12) [V61] Lequel des énoncés décrit correctement : Racine postérieure ?
+- A. la réticuline (fibres réticulées)
+- B. un GAG non sulfaté, ubiquitaire, ne formant pas de protéoglycanes
+- C. la racine sensitive (avec ganglion spinal)
+- D. un objectif central mis en avant par l’IFEC
+
+13) [V62] Parmi les propositions suivantes, laquelle correspond le mieux à : fragment cellulaire impliqué dans l’hémostase ?
+- A. Plaquette
+- B. Dure-mère
+- C. Fibroblaste
+- D. Qualité et sécurité des soins
+
+14) [V63] Quel élément correspond le mieux à : localisation citée du TC lâche entre fibres musculaires striées ?
+- A. Stroma cornéen
+- B. Endomysium
+- C. Ligaments jaunes
+- D. Dure-mère
+
+15) [V66] Lequel des énoncés décrit correctement : Plexus brachial (C5–T1) ?
+- A. la capacité à identifier ce qui nécessite une intervention médicale
+- B. la réticuline (fibres réticulées)
+- C. le plexus innervant ceinture scapulaire + membre supérieur
+- D. l’artère faisant suite à la sous-clavière au défilé costo-claviculaire
+
+16) [V69] Parmi les propositions suivantes, laquelle correspond le mieux à : exemple de localisation de TC dense irrégulier ?
+- A. Acide uronique + hexosamine
+- B. Fibronectine
+- C. Hématie
+- D. Dure-mère
+
+17) [V71] Parmi les propositions suivantes, laquelle correspond le mieux à : la réticuline (fibres réticulées) ?
+- A. Hyaluronidase
+- B. Collagène type III
+- C. Stroma cornéen / aponévrose
+- D. Acide hyaluronique
+
+18) [V72] Quel élément correspond le mieux à : cellule proche des capillaires riche en histamine (allergie) ?
+- A. Chondroblaste
+- B. Plaquette
+- C. Mastocyte
+- D. Fibrocyte
+
+19) [V74] Parmi les propositions suivantes, laquelle correspond le mieux à : formée des 3 divisions postérieures ?
+- A. Hématie
+- B. Collagène type IV
+- C. SOAP
+- D. Corde postérieure
+
+20) [V77] Quel élément correspond le mieux à : l’enzyme qui hydrolyse l’acide hyaluronique ?
+- A. Hyaluronidase
+- B. Élastase
+- C. Amylase
+- D. Collagénase
+
+21) [V78] Parmi les propositions suivantes, laquelle correspond le mieux à : la définition de la matrice extracellulaire ?
+- A. MEC = fibres + substance fondamentale
+- B. Dure-mère
+- C. Mésoblaste (via mésenchyme)
+- D. Fibrocyte
+
+22) [V79] Parmi les propositions suivantes, laquelle correspond le mieux à : la réticuline (fibres réticulées) ?
+- A. Collagène type I
+- B. Nerf musculo-cutané
+- C. Collagène type III
+- D. Fibroblaste
+
+23) [V80] Parmi les propositions suivantes, laquelle correspond le mieux à : l’élément de la MEC localisé entre cellules et fibres, de consistance semi-fluide ?
+- A. Canal carpien
+- B. Endomysium
+- C. Fibronectine
+- D. Substance fondamentale
+
+24) [V81] Parmi les propositions suivantes, laquelle correspond le mieux à : des maladies de surcharge lysosomiale par déficit enzymatique (accumulation de GAG) ?
+- A. Racine antérieure
+- B. Mucopolysaccharidoses
+- C. PICO
+- D. Endomysium
+
+25) [V85] Quel élément correspond le mieux à : charpente (maillage) en collagène III des organes hématopoïétiques/lymphoïdes ?
+- A. TC dense régulier
+- B. Tissu réticulé
+- C. Cartilage
+- D. TC muqueux
+
+26) [V86] Parmi les propositions suivantes, laquelle correspond le mieux à : information sur bénéfices/risques/alternatives avant un soin ?
+- A. Consentement éclairé
+- B. Dure-mère
+- C. Nerf ulnaire
+- D. Myofibroblaste
+
+27) [V89] Quel élément correspond le mieux à : la cellule résidente qui synthétise les macromolécules de la MEC ?
+- A. Fibroblaste
+- B. Hématie
+- C. Neurone
+- D. Plasmocyte
+
+28) [V90] Parmi les propositions suivantes, laquelle correspond le mieux à : l’enzyme qui hydrolyse l’acide hyaluronique ?
+- A. Endomysium
+- B. Racine postérieure
+- C. Consentement éclairé
+- D. Hyaluronidase
+
+29) [V91] Lequel des énoncés décrit correctement : Qualité et sécurité des soins ?
+- A. un objectif central mis en avant par l’IFEC
+- B. le collagène du cartilage
+- C. branche terminale issue de la corde postérieure
+- D. un GAG non sulfaté, ubiquitaire, ne formant pas de protéoglycanes
+
+30) [V92] Parmi les propositions suivantes, laquelle correspond le mieux à : la composition du disaccharide de base des GAG ?
+- A. Tabatière anatomique
+- B. Collagène type III
+- C. Acide uronique + hexosamine
+- D. Divisions postérieures
+
+31) [V93] Parmi les propositions suivantes, laquelle correspond le mieux à : des maladies de surcharge lysosomiale par déficit enzymatique (accumulation de GAG) ?
+- A. Radiale + ulnaire
+- B. Mucopolysaccharidoses
+- C. Fibroblaste
+- D. Collagène type I
+
+32) [V97] Parmi les propositions suivantes, laquelle correspond le mieux à : exemples de TC dense régulier unitendu ?
+- A. Plaquette
+- B. Hyaluronidase
+- C. Canal de Guyon
+- D. Tendon/Ligament
+
+33) [V98] Quel élément correspond le mieux à : la composition du disaccharide de base des GAG ?
+- A. Acide uronique + hexosamine
+- B. Ribose + base
+- C. Cholestérol + triglycéride
+- D. Acide aminé + phosphate
+
+34) [V99] Parmi les propositions suivantes, laquelle correspond le mieux à : exemple de TC à prédominance de fibres élastiques ?
+- A. Tendon/Ligament
+- B. Corde postérieure
+- C. Hyaluronidase
+- D. Ligaments jaunes
+
+35) [V104] Quel élément correspond le mieux à : tissu conjonctif surtout embryonnaire (cordon ombilical) ?
+- A. TC muqueux
+- B. TC dense régulier
+- C. TC réticulé
+- D. Tissu osseux
+
+36) [V107] Quel élément correspond le mieux à : l’origine embryologique des tissus conjonctifs ?
+- A. Épiderme
+- B. Endoderme
+- C. Neuroectoderme
+- D. Mésoblaste (via mésenchyme)
+
+37) [V108] Parmi les propositions suivantes, laquelle correspond le mieux à : un GAG non sulfaté, ubiquitaire, ne formant pas de protéoglycanes ?
+- A. Acide hyaluronique
+- B. Racine antérieure
+- C. TC dense irrégulier
+- D. Collagène type III
+
+38) [V111] Lequel des énoncés décrit correctement : Dure-mère ?
+- A. exemple de localisation de TC dense irrégulier
+- B. le collagène du cartilage
+- C. l’artère à partir de laquelle commence l’irrigation du membre supérieur
+- D. matrice liquide du sang (~55%)
+
+39) [V112] Parmi les propositions suivantes, laquelle correspond le mieux à : matrice liquide du sang (~55%) ?
+- A. Substance fondamentale
+- B. Plasma
+- C. Collagène type III
+- D. Myofibroblaste
+
+40) [V113] Quel élément correspond le mieux à : le collagène du cartilage ?
+- A. Type I
+- B. Élastine
+- C. Type III
+- D. Collagène type II
+
+41) [V118] Quel élément correspond le mieux à : matrice liquide du sang (~55%) ?
+- A. Matrice minéralisée
+- B. Plasma
+- C. Matrice fibreuse
+- D. Matrice cartilagineuse
+
+42) [V120] Lequel des énoncés décrit correctement : Fibronectine ?
+- A. formée des 3 divisions postérieures
+- B. le collagène du cartilage
+- C. le collagène majoritaire (~90%), ubiquitaire
+- D. une glycoprotéine d’adhérence liant cellules et collagène
+
+43) [V121] Parmi les propositions suivantes, laquelle correspond le mieux à : exemple de TC à prédominance de fibres élastiques ?
+- A. Stroma cornéen / aponévrose
+- B. Ligaments jaunes
+- C. Divisions postérieures
+- D. Sous-clavière
+
+44) [V122] Lequel des énoncés décrit correctement : Tissu réticulé ?
+- A. charpente (maillage) en collagène III des organes hématopoïétiques/lymphoïdes
+- B. branche terminale issue de la corde médiale
+- C. cellule avec actine/myosine impliquée dans réparation et inflammation
+- D. l’artère issue de l’axillaire au bord inférieur du grand rond
+
+45) [V123] Lequel des énoncés décrit correctement : Myofibroblaste ?
+- A. l’élément de la MEC localisé entre cellules et fibres, de consistance semi-fluide
+- B. cellule avec actine/myosine impliquée dans réparation et inflammation
+- C. exemple de TC à prédominance de fibres élastiques
+- D. de longues chaînes glucidiques non ramifiées
+
+46) [V125] Quel élément correspond le mieux à : fragment cellulaire impliqué dans l’hémostase ?
+- A. Neurone
+- B. Fibronectine
+- C. Plaquette
+- D. Collagène I
+
+47) [V126] Parmi les propositions suivantes, laquelle correspond le mieux à : fragment cellulaire impliqué dans l’hémostase ?
+- A. Substance fondamentale
+- B. Collagène type IV
+- C. Plaquette
+- D. Intégrines (α/β)
+
+48) [V128] Parmi les propositions suivantes, laquelle correspond le mieux à : la racine sensitive (avec ganglion spinal) ?
+- A. Fibrocyte
+- B. Orcéine
+- C. Endomysium
+- D. Racine postérieure
+
+49) [V131] Lequel des énoncés décrit correctement : Sous-clavière ?
+- A. des maladies de surcharge lysosomiale par déficit enzymatique (accumulation de GAG)
+- B. le collagène majoritaire (~90%), ubiquitaire
+- C. l’artère à partir de laquelle commence l’irrigation du membre supérieur
+- D. la réticuline (fibres réticulées)
+
+50) [V135] Lequel des énoncés décrit correctement : Myofibroblaste ?
+- A. cellule avec actine/myosine impliquée dans réparation et inflammation
+- B. le collagène majoritaire (~90%), ubiquitaire
+- C. information sur bénéfices/risques/alternatives avant un soin
+- D. un objectif central mis en avant par l’IFEC
+
+51) [V136] Parmi les propositions suivantes, laquelle correspond le mieux à : fragment cellulaire impliqué dans l’hémostase ?
+- A. Dure-mère
+- B. Plaquette
+- C. Tabatière anatomique
+- D. Laminine
+
+52) [V138] Parmi les propositions suivantes, laquelle correspond le mieux à : Patient/Problème – Intervention – Comparateur – Outcome ?
+- A. PICO
+- B. Fibronectine
+- C. Tabatière anatomique
+- D. Tendon/Ligament
+
+53) [V139] Lequel des énoncés décrit correctement : GAG ?
+- A. de longues chaînes glucidiques non ramifiées
+- B. la coloration de mise en évidence des fibres élastiques
+- C. localisation citée du TC lâche entre fibres musculaires striées
+- D. matrice liquide du sang (~55%)
+
+54) [V142] Quel élément correspond le mieux à : le collagène du cartilage ?
+- A. Collagène type II
+- B. Type III
+- C. Élastine
+- D. Type I
+
+55) [V143] Quel élément correspond le mieux à : de longues chaînes glucidiques non ramifiées ?
+- A. Lipides
+- B. Protéines globulaires
+- C. Acides nucléiques
+- D. GAG
+
+56) [V146] Lequel des énoncés décrit correctement : Endomysium ?
+- A. branche terminale issue de la corde médiale
+- B. localisation citée du TC lâche entre fibres musculaires striées
+- C. collagène en faisceaux orientés dans toutes les directions
+- D. l’élément de la MEC localisé entre cellules et fibres, de consistance semi-fluide
+
+57) [V147] Parmi les propositions suivantes, laquelle correspond le mieux à : le collagène des lames basales (mailles, ne forme pas de fibres) ?
+- A. Défilé des scalènes
+- B. Hyaluronidase
+- C. Nerf ulnaire
+- D. Collagène type IV
+
+58) [V151] Quel élément correspond le mieux à : la cellule résidente qui synthétise les macromolécules de la MEC ?
+- A. Fibroblaste
+- B. Hématie
+- C. Neurone
+- D. Plasmocyte
+
+59) [V153] Lequel des énoncés décrit correctement : Racine antérieure ?
+- A. la racine motrice du nerf spinal
+- B. l’enzyme qui hydrolyse l’acide hyaluronique
+- C. cellule proche des capillaires riche en histamine (allergie)
+- D. un GAG non sulfaté, ubiquitaire, ne formant pas de protéoglycanes
+
+60) [V154] Parmi les propositions suivantes, laquelle correspond le mieux à : une glycoprotéine spécifique de la lame basale ?
+- A. Ligaments jaunes
+- B. Laminine
+- C. TC lâche
+- D. Substance fondamentale
+
+61) [V156] Quel élément correspond le mieux à : la composition du disaccharide de base des GAG ?
+- A. Cholestérol + triglycéride
+- B. Acide aminé + phosphate
+- C. Ribose + base
+- D. Acide uronique + hexosamine
+
+62) [V157] Lequel des énoncés décrit correctement : Défilé des scalènes ?
+- A. tissu très distribué, rôle de remplissage, fibres sans orientation
+- B. espace entre scalène antérieur (avant) et moyen (arrière)
+- C. l’artère à partir de laquelle commence l’irrigation du membre supérieur
+- D. exemples de TC dense régulier bitendu
+
+63) [V162] Lequel des énoncés décrit correctement : Collagène type IV ?
+- A. la définition de la matrice extracellulaire
+- B. le collagène des lames basales (mailles, ne forme pas de fibres)
+- C. localisation citée du TC lâche entre fibres musculaires striées
+- D. le plexus innervant ceinture scapulaire + membre supérieur
+
+64) [V163] Parmi les propositions suivantes, laquelle correspond le mieux à : collagène en faisceaux orientés dans toutes les directions ?
+- A. Canal carpien
+- B. Hématie
+- C. Racine antérieure
+- D. TC dense irrégulier
+
+65) [V164] Lequel des énoncés décrit correctement : Stroma cornéen / aponévrose ?
+- A. la racine motrice du nerf spinal
+- B. tissu conjonctif surtout embryonnaire (cordon ombilical)
+- C. où l’ordre antéro-postérieur est veine sous-clavière → artère → divisions
+- D. exemples de TC dense régulier bitendu
+
+66) [V166] Parmi les propositions suivantes, laquelle correspond le mieux à : tissu conjonctif surtout embryonnaire (cordon ombilical) ?
+- A. TC muqueux
+- B. Reconnaître ses limites
+- C. Fibrocyte
+- D. Consentement éclairé
+
+67) [V171] Lequel des énoncés décrit correctement : Tissu réticulé ?
+- A. le collagène du cartilage
+- B. charpente (maillage) en collagène III des organes hématopoïétiques/lymphoïdes
+- C. lymphocyte B maturé sécrétant des Ig
+- D. formée des 3 divisions postérieures
+
+68) [V173] Quel élément correspond le mieux à : le collagène des lames basales (mailles, ne forme pas de fibres) ?
+- A. Type II
+- B. Type I
+- C. Type III
+- D. Collagène type IV
+
+69) [V174] Quel élément correspond le mieux à : le collagène des lames basales (mailles, ne forme pas de fibres) ?
+- A. Type III
+- B. Type II
+- C. Collagène type IV
+- D. Type I
+
+70) [V175] Lequel des énoncés décrit correctement : Plaquette ?
+- A. cellule sanguine anucléée
+- B. Patient/Problème – Intervention – Comparateur – Outcome
+- C. fragment cellulaire impliqué dans l’hémostase
+- D. cellule avec actine/myosine impliquée dans réparation et inflammation
+
+71) [V176] Quel élément correspond le mieux à : le collagène des lames basales (mailles, ne forme pas de fibres) ?
+- A. Type I
+- B. Type II
+- C. Type III
+- D. Collagène type IV
+
+72) [V177] Parmi les propositions suivantes, laquelle correspond le mieux à : la forme quiescente du fibroblaste ?
+- A. Reconnaître ses limites
+- B. Hyaluronidase
+- C. Mésoblaste (via mésenchyme)
+- D. Fibrocyte
+
+73) [V178] Lequel des énoncés décrit correctement : Substance fondamentale ?
+- A. la composition du disaccharide de base des GAG
+- B. le plexus innervant ceinture scapulaire + membre supérieur
+- C. formé par C5 et C6
+- D. l’élément de la MEC localisé entre cellules et fibres, de consistance semi-fluide
+
+74) [V180] Lequel des énoncés décrit correctement : Racine postérieure ?
+- A. la racine sensitive (avec ganglion spinal)
+- B. une glycoprotéine d’adhérence liant cellules et collagène
+- C. le collagène majoritaire (~90%), ubiquitaire
+- D. l’artère à partir de laquelle commence l’irrigation du membre supérieur
+
+75) [V183] Quel élément correspond le mieux à : charpente (maillage) en collagène III des organes hématopoïétiques/lymphoïdes ?
+- A. Cartilage
+- B. Tissu réticulé
+- C. TC muqueux
+- D. TC dense régulier
+
+76) [V186] Parmi les propositions suivantes, laquelle correspond le mieux à : l’élément de la MEC localisé entre cellules et fibres, de consistance semi-fluide ?
+- A. Espace quadrangulaire
+- B. Mucopolysaccharidoses
+- C. Collagène type II
+- D. Substance fondamentale
+
+77) [V188] Quel élément correspond le mieux à : matrice liquide du sang (~55%) ?
+- A. Matrice fibreuse
+- B. Plasma
+- C. Matrice minéralisée
+- D. Matrice cartilagineuse
+
+78) [V189] Parmi les propositions suivantes, laquelle correspond le mieux à : exemple de TC à prédominance de fibres élastiques ?
+- A. TC muqueux
+- B. Racine postérieure
+- C. Ligaments jaunes
+- D. Plasmocyte
+
+79) [V190] Lequel des énoncés décrit correctement : Racine postérieure ?
+- A. la réticuline (fibres réticulées)
+- B. l’artère faisant suite à la sous-clavière au défilé costo-claviculaire
+- C. la racine sensitive (avec ganglion spinal)
+- D. cellule avec actine/myosine impliquée dans réparation et inflammation
+
+80) [V191] Parmi les propositions suivantes, laquelle correspond le mieux à : tissu conjonctif surtout embryonnaire (cordon ombilical) ?
+- A. TC muqueux
+- B. Fibroblaste
+- C. Brachiale
+- D. Canal carpien
+
+-->
+  </script>
+
+  <script id="tsv_Myologie" type="text/plain"><!--
+Q1: 1) [V115] Quel élément correspond le mieux à : exemples de TC dense régulier unitendu ?	Réponse: C — Tendon/Ligament
+Q2: 2) [V247] Quel élément correspond le mieux à : exemples de TC dense régulier unitendu ?	Réponse: C — Tendon/Ligament
+Q3: 3) [V300] Quel élément correspond le mieux à : où passent le nerf ulnaire et l’artère ulnaire ?	Réponse: C — Canal de Guyon
+Q4: 4) [V303] Lequel des énoncés décrit correctement : Canal carpien ?	Réponse: D — zone classique de compression du nerf médian
+Q5: 5) [V304] Parmi les propositions suivantes, laquelle correspond le mieux à : branche terminale issue de la corde latérale ?	Réponse: C — Nerf musculo-cutané
+Q6: 6) [V44] Lequel des énoncés décrit correctement : Stroma cornéen / aponévrose ?	Réponse: A — exemples de TC dense régulier bitendu
+Q7: 7) [V48] Parmi les propositions suivantes, laquelle correspond le mieux à : la coloration de mise en évidence des fibres élastiques ?	Réponse: D — Orcéine
+Q8: 8) [V49] Parmi les propositions suivantes, laquelle correspond le mieux à : exemples de TC dense régulier bitendu ?	Réponse: C — Stroma cornéen / aponévrose
+Q9: 9) [V50] Parmi les propositions suivantes, laquelle correspond le mieux à : la composition du disaccharide de base des GAG ?	Réponse: D — Acide uronique + hexosamine
+Q10: 10) [V51] Lequel des énoncés décrit correctement : Consentement éclairé ?	Réponse: A — information sur bénéfices/risques/alternatives avant un soin
+Q11: 11) [V52] Parmi les propositions suivantes, laquelle correspond le mieux à : exemple de TC à prédominance de fibres élastiques ?	Réponse: C — Ligaments jaunes
+Q12: 12) [V61] Lequel des énoncés décrit correctement : Racine postérieure ?	Réponse: C — la racine sensitive (avec ganglion spinal)
+Q13: 13) [V62] Parmi les propositions suivantes, laquelle correspond le mieux à : fragment cellulaire impliqué dans l’hémostase ?	Réponse: A — Plaquette
+Q14: 14) [V63] Quel élément correspond le mieux à : localisation citée du TC lâche entre fibres musculaires striées ?	Réponse: B — Endomysium
+Q15: 15) [V66] Lequel des énoncés décrit correctement : Plexus brachial (C5–T1) ?	Réponse: C — le plexus innervant ceinture scapulaire + membre supérieur
+Q16: 16) [V69] Parmi les propositions suivantes, laquelle correspond le mieux à : exemple de localisation de TC dense irrégulier ?	Réponse: D — Dure-mère
+Q17: 17) [V71] Parmi les propositions suivantes, laquelle correspond le mieux à : la réticuline (fibres réticulées) ?	Réponse: B — Collagène type III
+Q18: 18) [V72] Quel élément correspond le mieux à : cellule proche des capillaires riche en histamine (allergie) ?	Réponse: C — Mastocyte
+Q19: 19) [V74] Parmi les propositions suivantes, laquelle correspond le mieux à : formée des 3 divisions postérieures ?	Réponse: D — Corde postérieure
+Q20: 20) [V77] Quel élément correspond le mieux à : l’enzyme qui hydrolyse l’acide hyaluronique ?	Réponse: A — Hyaluronidase
+Q21: 21) [V78] Parmi les propositions suivantes, laquelle correspond le mieux à : la définition de la matrice extracellulaire ?	Réponse: A — MEC = fibres + substance fondamentale
+Q22: 22) [V79] Parmi les propositions suivantes, laquelle correspond le mieux à : la réticuline (fibres réticulées) ?	Réponse: C — Collagène type III
+Q23: 23) [V80] Parmi les propositions suivantes, laquelle correspond le mieux à : l’élément de la MEC localisé entre cellules et fibres, de consistance semi-fluide ?	Réponse: D — Substance fondamentale
+Q24: 24) [V81] Parmi les propositions suivantes, laquelle correspond le mieux à : des maladies de surcharge lysosomiale par déficit enzymatique (accumulation de GAG) ?	Réponse: B — Mucopolysaccharidoses
+Q25: 25) [V85] Quel élément correspond le mieux à : charpente (maillage) en collagène III des organes hématopoïétiques/lymphoïdes ?	Réponse: B — Tissu réticulé
+Q26: 26) [V86] Parmi les propositions suivantes, laquelle correspond le mieux à : information sur bénéfices/risques/alternatives avant un soin ?	Réponse: A — Consentement éclairé
+Q27: 27) [V89] Quel élément correspond le mieux à : la cellule résidente qui synthétise les macromolécules de la MEC ?	Réponse: A — Fibroblaste
+Q28: 28) [V90] Parmi les propositions suivantes, laquelle correspond le mieux à : l’enzyme qui hydrolyse l’acide hyaluronique ?	Réponse: D — Hyaluronidase
+Q29: 29) [V91] Lequel des énoncés décrit correctement : Qualité et sécurité des soins ?	Réponse: A — un objectif central mis en avant par l’IFEC
+Q30: 30) [V92] Parmi les propositions suivantes, laquelle correspond le mieux à : la composition du disaccharide de base des GAG ?	Réponse: C — Acide uronique + hexosamine
+Q31: 31) [V93] Parmi les propositions suivantes, laquelle correspond le mieux à : des maladies de surcharge lysosomiale par déficit enzymatique (accumulation de GAG) ?	Réponse: B — Mucopolysaccharidoses
+Q32: 32) [V97] Parmi les propositions suivantes, laquelle correspond le mieux à : exemples de TC dense régulier unitendu ?	Réponse: D — Tendon/Ligament
+Q33: 33) [V98] Quel élément correspond le mieux à : la composition du disaccharide de base des GAG ?	Réponse: A — Acide uronique + hexosamine
+Q34: 34) [V99] Parmi les propositions suivantes, laquelle correspond le mieux à : exemple de TC à prédominance de fibres élastiques ?	Réponse: D — Ligaments jaunes
+Q35: 35) [V104] Quel élément correspond le mieux à : tissu conjonctif surtout embryonnaire (cordon ombilical) ?	Réponse: A — TC muqueux
+Q36: 36) [V107] Quel élément correspond le mieux à : l’origine embryologique des tissus conjonctifs ?	Réponse: D — Mésoblaste (via mésenchyme)
+Q37: 37) [V108] Parmi les propositions suivantes, laquelle correspond le mieux à : un GAG non sulfaté, ubiquitaire, ne formant pas de protéoglycanes ?	Réponse: A — Acide hyaluronique
+Q38: 38) [V111] Lequel des énoncés décrit correctement : Dure-mère ?	Réponse: A — exemple de localisation de TC dense irrégulier
+Q39: 39) [V112] Parmi les propositions suivantes, laquelle correspond le mieux à : matrice liquide du sang (~55%) ?	Réponse: B — Plasma
+Q40: 40) [V113] Quel élément correspond le mieux à : le collagène du cartilage ?	Réponse: D — Collagène type II
+Q41: 41) [V118] Quel élément correspond le mieux à : matrice liquide du sang (~55%) ?	Réponse: B — Plasma
+Q42: 42) [V120] Lequel des énoncés décrit correctement : Fibronectine ?	Réponse: D — une glycoprotéine d’adhérence liant cellules et collagène
+Q43: 43) [V121] Parmi les propositions suivantes, laquelle correspond le mieux à : exemple de TC à prédominance de fibres élastiques ?	Réponse: B — Ligaments jaunes
+Q44: 44) [V122] Lequel des énoncés décrit correctement : Tissu réticulé ?	Réponse: A — charpente (maillage) en collagène III des organes hématopoïétiques/lymphoïdes
+Q45: 45) [V123] Lequel des énoncés décrit correctement : Myofibroblaste ?	Réponse: B — cellule avec actine/myosine impliquée dans réparation et inflammation
+Q46: 46) [V125] Quel élément correspond le mieux à : fragment cellulaire impliqué dans l’hémostase ?	Réponse: C — Plaquette
+Q47: 47) [V126] Parmi les propositions suivantes, laquelle correspond le mieux à : fragment cellulaire impliqué dans l’hémostase ?	Réponse: C — Plaquette
+Q48: 48) [V128] Parmi les propositions suivantes, laquelle correspond le mieux à : la racine sensitive (avec ganglion spinal) ?	Réponse: D — Racine postérieure
+Q49: 49) [V131] Lequel des énoncés décrit correctement : Sous-clavière ?	Réponse: C — l’artère à partir de laquelle commence l’irrigation du membre supérieur
+Q50: 50) [V135] Lequel des énoncés décrit correctement : Myofibroblaste ?	Réponse: A — cellule avec actine/myosine impliquée dans réparation et inflammation
+Q51: 51) [V136] Parmi les propositions suivantes, laquelle correspond le mieux à : fragment cellulaire impliqué dans l’hémostase ?	Réponse: B — Plaquette
+Q52: 52) [V138] Parmi les propositions suivantes, laquelle correspond le mieux à : Patient/Problème – Intervention – Comparateur – Outcome ?	Réponse: A — PICO
+Q53: 53) [V139] Lequel des énoncés décrit correctement : GAG ?	Réponse: A — de longues chaînes glucidiques non ramifiées
+Q54: 54) [V142] Quel élément correspond le mieux à : le collagène du cartilage ?	Réponse: A — Collagène type II
+Q55: 55) [V143] Quel élément correspond le mieux à : de longues chaînes glucidiques non ramifiées ?	Réponse: D — GAG
+Q56: 56) [V146] Lequel des énoncés décrit correctement : Endomysium ?	Réponse: B — localisation citée du TC lâche entre fibres musculaires striées
+Q57: 57) [V147] Parmi les propositions suivantes, laquelle correspond le mieux à : le collagène des lames basales (mailles, ne forme pas de fibres) ?	Réponse: D — Collagène type IV
+Q58: 58) [V151] Quel élément correspond le mieux à : la cellule résidente qui synthétise les macromolécules de la MEC ?	Réponse: A — Fibroblaste
+Q59: 59) [V153] Lequel des énoncés décrit correctement : Racine antérieure ?	Réponse: A — la racine motrice du nerf spinal
+Q60: 60) [V154] Parmi les propositions suivantes, laquelle correspond le mieux à : une glycoprotéine spécifique de la lame basale ?	Réponse: B — Laminine
+Q61: 61) [V156] Quel élément correspond le mieux à : la composition du disaccharide de base des GAG ?	Réponse: D — Acide uronique + hexosamine
+Q62: 62) [V157] Lequel des énoncés décrit correctement : Défilé des scalènes ?	Réponse: B — espace entre scalène antérieur (avant) et moyen (arrière)
+Q63: 63) [V162] Lequel des énoncés décrit correctement : Collagène type IV ?	Réponse: B — le collagène des lames basales (mailles, ne forme pas de fibres)
+Q64: 64) [V163] Parmi les propositions suivantes, laquelle correspond le mieux à : collagène en faisceaux orientés dans toutes les directions ?	Réponse: D — TC dense irrégulier
+Q65: 65) [V164] Lequel des énoncés décrit correctement : Stroma cornéen / aponévrose ?	Réponse: D — exemples de TC dense régulier bitendu
+Q66: 66) [V166] Parmi les propositions suivantes, laquelle correspond le mieux à : tissu conjonctif surtout embryonnaire (cordon ombilical) ?	Réponse: A — TC muqueux
+Q67: 67) [V171] Lequel des énoncés décrit correctement : Tissu réticulé ?	Réponse: B — charpente (maillage) en collagène III des organes hématopoïétiques/lymphoïdes
+Q68: 68) [V173] Quel élément correspond le mieux à : le collagène des lames basales (mailles, ne forme pas de fibres) ?	Réponse: D — Collagène type IV
+Q69: 69) [V174] Quel élément correspond le mieux à : le collagène des lames basales (mailles, ne forme pas de fibres) ?	Réponse: C — Collagène type IV
+Q70: 70) [V175] Lequel des énoncés décrit correctement : Plaquette ?	Réponse: C — fragment cellulaire impliqué dans l’hémostase
+Q71: 71) [V176] Quel élément correspond le mieux à : le collagène des lames basales (mailles, ne forme pas de fibres) ?	Réponse: D — Collagène type IV
+Q72: 72) [V177] Parmi les propositions suivantes, laquelle correspond le mieux à : la forme quiescente du fibroblaste ?	Réponse: D — Fibrocyte
+Q73: 73) [V178] Lequel des énoncés décrit correctement : Substance fondamentale ?	Réponse: D — l’élément de la MEC localisé entre cellules et fibres, de consistance semi-fluide
+Q74: 74) [V180] Lequel des énoncés décrit correctement : Racine postérieure ?	Réponse: A — la racine sensitive (avec ganglion spinal)
+Q75: 75) [V183] Quel élément correspond le mieux à : charpente (maillage) en collagène III des organes hématopoïétiques/lymphoïdes ?	Réponse: B — Tissu réticulé
+Q76: 76) [V186] Parmi les propositions suivantes, laquelle correspond le mieux à : l’élément de la MEC localisé entre cellules et fibres, de consistance semi-fluide ?	Réponse: D — Substance fondamentale
+Q77: 77) [V188] Quel élément correspond le mieux à : matrice liquide du sang (~55%) ?	Réponse: B — Plasma
+Q78: 78) [V189] Parmi les propositions suivantes, laquelle correspond le mieux à : exemple de TC à prédominance de fibres élastiques ?	Réponse: C — Ligaments jaunes
+Q79: 79) [V190] Lequel des énoncés décrit correctement : Racine postérieure ?	Réponse: C — la racine sensitive (avec ganglion spinal)
+Q80: 80) [V191] Parmi les propositions suivantes, laquelle correspond le mieux à : tissu conjonctif surtout embryonnaire (cordon ombilical) ?	Réponse: A — TC muqueux
+
+-->
+  </script>
+
+  <script id="deck_Plexus_Nerfs" type="text/plain"><!--
+# Deck: Plexus_Nerfs — 80 questions
+
+**Consigne** : 1 seule bonne réponse (A–D).
+
+1) Le nerf axillaire chemine avec l’artère circonflexe humérale postérieure dans :
+- A. Le canal de Guyon
+- B. Le canal carpien
+- C. Le sillon du nerf ulnaire
+- D. L’espace quadrangulaire
+
+2) Le plexus brachial est formé des APD de :
+- A. C3 à C7
+- B. C5 à T1
+- C. T1 à T5
+- D. C1 à C4
+
+3) Les divisions postérieures innervent préférentiellement :
+- A. La peau palmaire uniquement
+- B. Le diaphragme
+- C. Les loges postérieures (extenseurs)
+- D. Les loges antérieures (fléchisseurs)
+
+4) Le tronc supérieur du plexus brachial est formé par :
+- A. C7 seul
+- B. C8 et T1
+- C. C6 et C7
+- D. C5 et C6
+
+5) La branche profonde du nerf radial :
+- A. Est surtout sensitive et se termine en nerfs digitaux palmaires
+- B. Passe dans le canal carpien
+- C. Se termine en nerf cutané antébrachial latéral
+- D. Plonge dans le supinateur et innerve la loge postérieure
+
+6) Dans le cours, une atteinte du médian au canal carpien peut donner :
+- A. Paralysie du deltoïde
+- B. Anesthésie de la face médiale du bras
+- C. Fonte des espaces interosseux avec “main en griffe”
+- D. Fonte du thénar avec “main de singe”
+
+7) Au niveau des racines, le plexus brachial passe entre :
+- A. Petit pectoral (avant) et grand dorsal (arrière)
+- B. Grand pectoral (avant) et biceps (arrière)
+- C. Scalène antérieur (avant) et scalène moyen (arrière)
+- D. Trapèze (avant) et deltoïde (arrière)
+
+8) Au coude, le nerf ulnaire passe :
+- A. En avant de l’épicondyle latéral
+- B. Dans le canal carpien
+- C. En arrière de l’épicondyle médial (gouttière rétro-épitrochléo-olécranienne)
+- D. Dans la tabatière anatomique
+
+9) Le nerf interosseux antérieur (branche du médian) innerve notamment :
+- A. Tous les extenseurs de l’avant-bras
+- B. Flexor pollicis longus, 1/2 latérale du flexor digitorum profundus, carré pronateur
+- C. Deltoïde et petit rond
+- D. Supra-épineux et infra-épineux
+
+10) Dans le cours, le pouls radial peut être palpé :
+- A. Dans la fosse infra-épineuse
+- B. Dans le canal de Guyon
+- C. Dans la tabatière anatomique
+- D. En arrière de l’épicondyle médial
+
+11) Le nerf médian passe entre :
+- A. Le deltoïde et le petit rond
+- B. Les deux chefs du pronator teres
+- C. Le supinateur et le brachio-radial
+- D. Les deux chefs du triceps
+
+12) La corde postérieure est formée :
+- A. Des divisions antérieures des troncs sup et moyen
+- B. Des racines C5 à T1 non mélangées
+- C. Des 3 divisions postérieures
+- D. De la division antérieure du tronc inférieur
+
+13) Le nerf radial provient :
+- A. De la corde latérale
+- B. De la corde médiale
+- C. De la corde postérieure
+- D. Du tronc moyen
+
+14) Le nerf musculo-cutané provient :
+- A. De la corde latérale
+- B. De la corde médiale
+- C. Du tronc inférieur directement
+- D. De la corde postérieure
+
+15) L’artère axillaire se termine en donnant l’artère brachiale :
+- A. Au bord inférieur du muscle grand rond
+- B. Au défilé des scalènes
+- C. Au col chirurgical de l’humérus
+- D. Au sillon du nerf ulnaire
+
+16) Le nerf musculo-cutané se termine en donnant :
+- A. Le nerf interosseux antérieur
+- B. Le nerf cutané antébrachial latéral
+- C. Le nerf cutané médial du bras
+- D. Le nerf supra-scapulaire
+
+17) Le nerf radial plonge avec l’artère brachiale profonde dans :
+- A. L’espace quadrangulaire
+- B. Le défilé des scalènes
+- C. Le canal de Guyon
+- D. L’espace huméro-tricipital
+
+18) L’artère sous-clavière devient l’artère axillaire :
+- A. Au niveau du canal carpien
+- B. Au niveau du défilé costo-claviculaire
+- C. Au niveau de la tabatière anatomique
+- D. Au niveau du pli du coude
+
+19) Dans le défilé costo-claviculaire, d’avant en arrière on retrouve :
+- A. Veine axillaire, artère axillaire, cordes
+- B. Artère sous-clavière, veine sous-clavière, divisions du plexus
+- C. Divisions du plexus, veine sous-clavière, artère sous-clavière
+- D. Veine sous-clavière, artère sous-clavière, divisions du plexus
+
+20) Le nerf ulnaire provient :
+- A. Du tronc supérieur
+- B. De la corde médiale
+- C. De la corde postérieure
+- D. De la corde latérale
+
+21) Le nerf supra-scapulaire (cours) passe dans l’incisure scapulaire :
+- A. Sous le ligament transverse de la scapula
+- B. Dans le canal carpien
+- C. Au-dessus du ligament transverse de la scapula
+- D. Sans rapport avec un ligament
+
+22) Le canal de Guyon contient :
+- A. Le nerf radial et l’artère brachiale
+- B. Le nerf axillaire et l’artère axillaire
+- C. Le nerf ulnaire et l’artère ulnaire
+- D. Le nerf médian et l’artère radiale
+
+23) Dans le cours, l’artère sous-clavière passe :
+- A. Dans le canal carpien
+- B. Entre les scalènes antérieur et moyen
+- C. Dans l’espace quadrangulaire
+- D. En arrière du trapèze
+
+24) La branche postérieure du nerf spinal (dans le cours) est aussi appelée :
+- A. Lame basale
+- B. Corde postérieure
+- C. APD (anterior primary division)
+- D. PPD (posterior primary division)
+
+25) Après le petit pectoral, un rapport antérieur de l’artère axillaire (cours) est :
+- A. Le nerf médian
+- B. Le nerf supra-scapulaire
+- C. Le nerf radial
+- D. Le nerf axillaire
+
+26) [V2] Lequel des énoncés décrit correctement : Axillaire ?
+- A. formuler des hypothèses et les tester avec anamnèse + examen
+- B. les deux terminales de l’artère brachiale au pli du coude
+- C. l’artère faisant suite à la sous-clavière au défilé costo-claviculaire
+- D. branche terminale issue de la corde postérieure
+
+27) [V4] Quel élément correspond le mieux à : branche terminale issue de la corde postérieure ?
+- A. Tronc inférieur
+- B. Corde médiale
+- C. Corde latérale
+- D. Nerf radial
+
+28) [V5] Parmi les propositions suivantes, laquelle correspond le mieux à : branche terminale issue de la corde médiale ?
+- A. Défilé costo-claviculaire
+- B. Qualité et sécurité des soins
+- C. TC dense irrégulier
+- D. Nerf ulnaire
+
+29) [V8] Lequel des énoncés décrit correctement : Nerf radial ?
+- A. espace entre scalène antérieur (avant) et moyen (arrière)
+- B. formée des 3 divisions postérieures
+- C. branche terminale issue de la corde postérieure
+- D. cellule proche des capillaires riche en histamine (allergie)
+
+30) [V9] Lequel des énoncés décrit correctement : Mastocyte ?
+- A. le plexus innervant ceinture scapulaire + membre supérieur
+- B. la forme quiescente du fibroblaste
+- C. cellule proche des capillaires riche en histamine (allergie)
+- D. où passe le nerf axillaire avec l’a. circonflexe humérale postérieure
+
+31) [V23] Parmi les propositions suivantes, laquelle correspond le mieux à : branche terminale issue de la corde postérieure ?
+- A. Canal carpien
+- B. Radiale + ulnaire
+- C. Nerf radial
+- D. TC dense irrégulier
+
+32) [V28] Quel élément correspond le mieux à : le plexus innervant ceinture scapulaire + membre supérieur ?
+- A. Plexus lombaire
+- B. Nerfs intercostaux
+- C. Plexus brachial (C5–T1)
+- D. Plexus sacré
+
+33) [V33] Parmi les propositions suivantes, laquelle correspond le mieux à : formée des 3 divisions postérieures ?
+- A. Axillaire
+- B. Ligaments jaunes
+- C. Corde postérieure
+- D. Tissu réticulé
+
+34) [V36] Quel élément correspond le mieux à : la racine sensitive (avec ganglion spinal) ?
+- A. Racine postérieure
+- B. Tronc moyen
+- C. Division antérieure
+- D. Racine antérieure
+
+35) [V37] Lequel des énoncés décrit correctement : Défilé costo-claviculaire ?
+- A. cellule sanguine anucléée
+- B. où passent le nerf ulnaire et l’artère ulnaire
+- C. branche terminale issue de la corde médiale
+- D. où l’ordre antéro-postérieur est veine sous-clavière → artère → divisions
+
+36) [V38] Quel élément correspond le mieux à : où l’ordre antéro-postérieur est veine sous-clavière → artère → divisions ?
+- A. Défilé costo-claviculaire
+- B. Défilé des scalènes
+- C. Espace huméro-tricipital
+- D. Défilé du petit pectoral
+
+37) [V39] Parmi les propositions suivantes, laquelle correspond le mieux à : exemples de TC dense régulier unitendu ?
+- A. Plasmocyte
+- B. TC muqueux
+- C. Tendon/Ligament
+- D. Plexus brachial (C5–T1)
+
+38) [V40] Quel élément correspond le mieux à : où passent le nerf ulnaire et l’artère ulnaire ?
+- A. Canal de Guyon
+- B. Défilé costo-claviculaire
+- C. Canal carpien
+- D. Sillon du nerf radial
+
+39) [V43] Quel élément correspond le mieux à : où l’ordre antéro-postérieur est veine sous-clavière → artère → divisions ?
+- A. Défilé des scalènes
+- B. Espace huméro-tricipital
+- C. Défilé du petit pectoral
+- D. Défilé costo-claviculaire
+
+40) [V45] Parmi les propositions suivantes, laquelle correspond le mieux à : le plexus innervant ceinture scapulaire + membre supérieur ?
+- A. Fibronectine
+- B. GAG
+- C. Défilé costo-claviculaire
+- D. Plexus brachial (C5–T1)
+
+41) [V46] Lequel des énoncés décrit correctement : Racine postérieure ?
+- A. la racine sensitive (avec ganglion spinal)
+- B. l’artère issue de l’axillaire au bord inférieur du grand rond
+- C. branche terminale issue de la corde latérale
+- D. formée des 3 divisions postérieures
+
+42) [V47] Parmi les propositions suivantes, laquelle correspond le mieux à : la capacité à identifier ce qui nécessite une intervention médicale ?
+- A. Reconnaître ses limites
+- B. Tendon/Ligament
+- C. Myofibroblaste
+- D. Plexus brachial (C5–T1)
+
+43) [V53] Lequel des énoncés décrit correctement : Raisonnement clinique ?
+- A. cellule proche des capillaires riche en histamine (allergie)
+- B. zone classique de compression du nerf médian
+- C. formuler des hypothèses et les tester avec anamnèse + examen
+- D. innervent préférentiellement les loges postérieures (extenseurs)
+
+44) [V54] Parmi les propositions suivantes, laquelle correspond le mieux à : où le nerf radial accompagne l’a. brachiale profonde ?
+- A. Plexus brachial (C5–T1)
+- B. Fibroblaste
+- C. Tabatière anatomique
+- D. Espace huméro-tricipital
+
+45) [V55] Lequel des énoncés décrit correctement : Tronc supérieur ?
+- A. cellule sanguine anucléée
+- B. branche terminale issue de la corde médiale
+- C. site de palpation du pouls radial cité
+- D. formé par C5 et C6
+
+46) [V56] Quel élément correspond le mieux à : branche terminale issue de la corde postérieure ?
+- A. Nerf radial
+- B. Tronc inférieur
+- C. Corde latérale
+- D. Corde médiale
+
+47) [V58] Parmi les propositions suivantes, laquelle correspond le mieux à : branche terminale issue de la corde postérieure ?
+- A. Nerf radial
+- B. GAG
+- C. Dure-mère
+- D. Ligaments jaunes
+
+48) [V59] Quel élément correspond le mieux à : où le nerf radial accompagne l’a. brachiale profonde ?
+- A. Canal de Guyon
+- B. Espace quadrangulaire
+- C. Espace huméro-tricipital
+- D. Tabatière anatomique
+
+49) [V65] Lequel des énoncés décrit correctement : Racine antérieure ?
+- A. le plexus innervant ceinture scapulaire + membre supérieur
+- B. la racine motrice du nerf spinal
+- C. tissu conjonctif surtout embryonnaire (cordon ombilical)
+- D. lymphocyte B maturé sécrétant des Ig
+
+50) [V67] Parmi les propositions suivantes, laquelle correspond le mieux à : localisation citée du TC lâche entre fibres musculaires striées ?
+- A. Tabatière anatomique
+- B. Brachiale
+- C. Nerf radial
+- D. Endomysium
+
+51) [V70] Parmi les propositions suivantes, laquelle correspond le mieux à : cellule proche des capillaires riche en histamine (allergie) ?
+- A. PICO
+- B. Mastocyte
+- C. Sous-clavière
+- D. Canal de Guyon
+
+52) [V73] Lequel des énoncés décrit correctement : Plasma ?
+- A. formé par C5 et C6
+- B. où l’ordre antéro-postérieur est veine sous-clavière → artère → divisions
+- C. matrice liquide du sang (~55%)
+- D. l’artère issue de l’axillaire au bord inférieur du grand rond
+
+53) [V75] Quel élément correspond le mieux à : branche terminale issue de la corde postérieure ?
+- A. Tronc inférieur
+- B. Corde médiale
+- C. Nerf radial
+- D. Corde latérale
+
+54) [V76] Lequel des énoncés décrit correctement : Tronc supérieur ?
+- A. formé par C5 et C6
+- B. branche terminale issue de la corde médiale
+- C. exemples de TC dense régulier unitendu
+- D. où passe le nerf axillaire avec l’a. circonflexe humérale postérieure
+
+55) [V83] Parmi les propositions suivantes, laquelle correspond le mieux à : un objectif central mis en avant par l’IFEC ?
+- A. Axillaire
+- B. Qualité et sécurité des soins
+- C. TC lâche
+- D. Acide hyaluronique
+
+56) [V84] Parmi les propositions suivantes, laquelle correspond le mieux à : espace entre scalène antérieur (avant) et moyen (arrière) ?
+- A. Défilé costo-claviculaire
+- B. Tronc supérieur
+- C. Orcéine
+- D. Défilé des scalènes
+
+57) [V88] Parmi les propositions suivantes, laquelle correspond le mieux à : branche terminale issue de la corde postérieure ?
+- A. Racine antérieure
+- B. Nerf radial
+- C. Dure-mère
+- D. Espace quadrangulaire
+
+58) [V95] Lequel des énoncés décrit correctement : Canal carpien ?
+- A. la cause de l’hydrophilie des protéoglycanes
+- B. où le nerf radial accompagne l’a. brachiale profonde
+- C. zone classique de compression du nerf médian
+- D. matrice liquide du sang (~55%)
+
+59) [V96] Parmi les propositions suivantes, laquelle correspond le mieux à : exemples de TC dense régulier bitendu ?
+- A. Nerf musculo-cutané
+- B. Collagène type III
+- C. Stroma cornéen / aponévrose
+- D. Substance fondamentale
+
+60) [V101] Lequel des énoncés décrit correctement : Nerf radial ?
+- A. branche terminale issue de la corde postérieure
+- B. une glycoprotéine d’adhérence liant cellules et collagène
+- C. où l’ordre antéro-postérieur est veine sous-clavière → artère → divisions
+- D. tissu très distribué, rôle de remplissage, fibres sans orientation
+
+61) [V102] Parmi les propositions suivantes, laquelle correspond le mieux à : l’enzyme qui hydrolyse l’acide hyaluronique ?
+- A. Hyaluronidase
+- B. Radiale + ulnaire
+- C. Espace huméro-tricipital
+- D. Endomysium
+
+62) [V103] Lequel des énoncés décrit correctement : Dure-mère ?
+- A. formuler des hypothèses et les tester avec anamnèse + examen
+- B. exemple de localisation de TC dense irrégulier
+- C. l’artère à partir de laquelle commence l’irrigation du membre supérieur
+- D. espace entre scalène antérieur (avant) et moyen (arrière)
+
+63) [V106] Parmi les propositions suivantes, laquelle correspond le mieux à : innervent préférentiellement les loges postérieures (extenseurs) ?
+- A. Espace quadrangulaire
+- B. Divisions postérieures
+- C. Qualité et sécurité des soins
+- D. Fibroblaste
+
+64) [V109] Lequel des énoncés décrit correctement : Canal de Guyon ?
+- A. où passent le nerf ulnaire et l’artère ulnaire
+- B. l’artère faisant suite à la sous-clavière au défilé costo-claviculaire
+- C. innervent préférentiellement les loges postérieures (extenseurs)
+- D. le plexus innervant ceinture scapulaire + membre supérieur
+
+65) [V110] Quel élément correspond le mieux à : espace entre scalène antérieur (avant) et moyen (arrière) ?
+- A. Défilé des scalènes
+- B. Espace quadrangulaire
+- C. Canal carpien
+- D. Canal de Guyon
+
+66) [V114] Lequel des énoncés décrit correctement : Canal carpien ?
+- A. des maladies de surcharge lysosomiale par déficit enzymatique (accumulation de GAG)
+- B. des récepteurs membranaires dimériques impliqués dans l’ancrage à la MEC
+- C. localisation citée du TC lâche entre fibres musculaires striées
+- D. zone classique de compression du nerf médian
+
+67) [V116] Parmi les propositions suivantes, laquelle correspond le mieux à : où passe le nerf axillaire avec l’a. circonflexe humérale postérieure ?
+- A. Fibrocyte
+- B. Charges négatives
+- C. Espace quadrangulaire
+- D. Dure-mère
+
+68) [V119] Parmi les propositions suivantes, laquelle correspond le mieux à : la composition du disaccharide de base des GAG ?
+- A. Nerf ulnaire
+- B. Racine antérieure
+- C. Acide uronique + hexosamine
+- D. Mucopolysaccharidoses
+
+69) [V124] Parmi les propositions suivantes, laquelle correspond le mieux à : exemple de TC à prédominance de fibres élastiques ?
+- A. Brachiale
+- B. Espace huméro-tricipital
+- C. Ligaments jaunes
+- D. Plexus brachial (C5–T1)
+
+70) [V129] Parmi les propositions suivantes, laquelle correspond le mieux à : branche terminale issue de la corde médiale ?
+- A. TC dense irrégulier
+- B. Nerf ulnaire
+- C. Mucopolysaccharidoses
+- D. Défilé des scalènes
+
+71) [V130] Parmi les propositions suivantes, laquelle correspond le mieux à : branche terminale issue de la corde médiale ?
+- A. Tendon/Ligament
+- B. Nerf ulnaire
+- C. TC lâche
+- D. Plaquette
+
+72) [V132] Lequel des énoncés décrit correctement : Nerf radial ?
+- A. Patient/Problème – Intervention – Comparateur – Outcome
+- B. l’artère faisant suite à la sous-clavière au défilé costo-claviculaire
+- C. branche terminale issue de la corde postérieure
+- D. formée des 3 divisions postérieures
+
+73) [V134] Parmi les propositions suivantes, laquelle correspond le mieux à : espace entre scalène antérieur (avant) et moyen (arrière) ?
+- A. Stroma cornéen / aponévrose
+- B. Défilé des scalènes
+- C. Corde postérieure
+- D. Collagène type IV
+
+74) [V137] Lequel des énoncés décrit correctement : Reconnaître ses limites ?
+- A. l’enzyme qui hydrolyse l’acide hyaluronique
+- B. la racine sensitive (avec ganglion spinal)
+- C. la capacité à identifier ce qui nécessite une intervention médicale
+- D. où passe le nerf axillaire avec l’a. circonflexe humérale postérieure
+
+75) [V141] Quel élément correspond le mieux à : où l’ordre antéro-postérieur est veine sous-clavière → artère → divisions ?
+- A. Défilé des scalènes
+- B. Défilé costo-claviculaire
+- C. Espace huméro-tricipital
+- D. Défilé du petit pectoral
+
+76) [V144] Parmi les propositions suivantes, laquelle correspond le mieux à : innervent préférentiellement les loges postérieures (extenseurs) ?
+- A. MEC = fibres + substance fondamentale
+- B. Plaquette
+- C. Divisions postérieures
+- D. Nerf ulnaire
+
+77) [V145] Lequel des énoncés décrit correctement : Corde postérieure ?
+- A. formée des 3 divisions postérieures
+- B. le collagène des lames basales (mailles, ne forme pas de fibres)
+- C. exemple de localisation de TC dense irrégulier
+- D. le plexus innervant ceinture scapulaire + membre supérieur
+
+78) [V149] Lequel des énoncés décrit correctement : Espace quadrangulaire ?
+- A. l’élément de la MEC localisé entre cellules et fibres, de consistance semi-fluide
+- B. où passe le nerf axillaire avec l’a. circonflexe humérale postérieure
+- C. la forme quiescente du fibroblaste
+- D. le collagène majoritaire (~90%), ubiquitaire
+
+79) [V152] Lequel des énoncés décrit correctement : Intégrines (α/β) ?
+- A. des récepteurs membranaires dimériques impliqués dans l’ancrage à la MEC
+- B. fragment cellulaire impliqué dans l’hémostase
+- C. où passe le nerf axillaire avec l’a. circonflexe humérale postérieure
+- D. localisation citée du TC lâche entre fibres musculaires striées
+
+80) [V155] Parmi les propositions suivantes, laquelle correspond le mieux à : la composition du disaccharide de base des GAG ?
+- A. Dure-mère
+- B. Acide uronique + hexosamine
+- C. Endomysium
+- D. Nerf ulnaire
+
+-->
+  </script>
+
+  <script id="tsv_Plexus_Nerfs" type="text/plain"><!--
+Q1: Le nerf axillaire chemine avec l’artère circonflexe humérale postérieure dans :	Réponse: D — L’espace quadrangulaire
+Q2: Le plexus brachial est formé des APD de :	Réponse: B — C5 à T1
+Q4: Les divisions postérieures innervent préférentiellement :	Réponse: C — Les loges postérieures (extenseurs)
+Q7: Le tronc supérieur du plexus brachial est formé par :	Réponse: D — C5 et C6
+
+-->
+  </script>
+
+  <script id="deck_Securite_IFEC" type="text/plain"><!--
+# Deck: Securite_IFEC — 80 questions
+
+**Consigne** : 1 seule bonne réponse (A–D).
+
+1) Le format SOAP correspond à :
+- A. Squelette – Os – Articulations – Posture
+- B. Symptômes – Orientation – Auscultation – Prescription
+- C. Screening – Observation – Analyse – Plan
+- D. Subjectif – Objectif – Analyse – Plan
+
+2) Dans une approche “evidence-based”, la question PICO inclut typiquement :
+- A. Posture, Isométrie, Cardio, Ostéopathie
+- B. Placebo, Imagerie, Chirurgie, Ordonnance
+- C. Patient/Problème, Intervention, Comparateur, Outcome
+- D. Prévalence, Incidence, Coût, Organisation
+
+3) Dans les compétences IFEC, “raisonnement clinique” et “pensée critique” impliquent :
+- A. Se baser uniquement sur l’imagerie
+- B. Ne pas réévaluer
+- C. Formuler des hypothèses et les tester avec anamnèse + examen
+- D. Choisir une technique au hasard
+
+... (suite des 80 questions) ...
+
+-->
+  </script>
+
+  <script id="tsv_Securite_IFEC" type="text/plain"><!--
+Q3: Le format SOAP correspond à :	Réponse: D — Subjectif – Objectif – Analyse – Plan
+Q41: Dans une approche “evidence-based”, la question PICO inclut typiquement :	Réponse: C — Patient/Problème, Intervention, Comparateur, Outcome
+Q48: Dans les compétences IFEC, “raisonnement clinique” et “pensée critique” impliquent :	Réponse: C — Formuler des hypothèses et les tester avec anamnèse + examen
+Q67: Selon l’IFEC, le chiropracteur doit être capable de :	Réponse: B — Reconnaître les situations nécessitant une intervention médicale
+
+-->
+  </script>
+
+  <script>
+  // Minimal parser + player — works via file:// because data is embedded
+  function getText(id){ return document.getElementById(id).textContent.replace(/^<!--\n?/, '').replace(/\n?-->$/, ''); }
+  const mappings = {
+    'Histologie_TC': ['deck-Histologie_TC','tsv-Histologie_TC'],
+    'Angiologie': ['deck_Angiologie','tsv_Angiologie'],
+    'Myologie': ['deck_Myologie','tsv_Myologie'],
+    'Plexus_Nerfs': ['deck_Plexus_Nerfs','tsv_Plexus_Nerfs'],
+    'Securite_IFEC': ['deck_Securite_IFEC','tsv_Securite_IFEC']
+  };
+
+  const deckSelect = document.getElementById('deckSelect');
+  for(const k of Object.keys(mappings)){ const o = document.createElement('option'); o.value=k; o.textContent=k; deckSelect.appendChild(o); }
+
+  function parseMarkdown(md){
+    const lines = md.split(/\r?\n/);
+    const qs = [];
+    let cur = null;
+    for(const line of lines){
+      const m = line.match(/^\s*(\d+)\)\s*(.*)$/);
+      if(m){ if(cur) qs.push(cur); cur={num: m[1], text: m[2].trim(), choices:{}}; continue; }
+      const cm = line.match(/^\s*-\s*([A-D])\.\s*(.*)$/);
+      if(cm && cur){ cur.choices[cm[1]] = cm[2].trim(); }
+    }
+    if(cur) qs.push(cur);
+    return qs;
+  }
+
+  function parseTSV(tsv){
+    const lines = tsv.split(/\r?\n/).map(l=>l.trim()).filter(Boolean);
+    const textMap = new Map();
+    const numMap = new Map();
+    for(const line of lines){
+      const parts = line.split('\t');
+      const left = parts[0] || line;
+      const right = parts.slice(1).join('\t') || '';
+      const rmatch = right.match(/Réponse:\s*([A-D])/i);
+      const letter = rmatch ? rmatch[1].toUpperCase() : null;
+      const numMatch = left.match(/^Q(\d+)\s*:/i);
+      const qtext = left.replace(/^Q\d+:\s*/i,'').trim();
+      if(letter){
+        const key = normalize(qtext).slice(0,120);
+        textMap.set(key, letter);
+        if(numMatch){ numMap.set(parseInt(numMatch[1],10), letter); }
+      }
+    }
+    return {textMap, numMap};
+  }
+
+  function normalize(s){ return s.replace(/\s+/g,' ').replace(/[^ \wéèàâêîôûçù'-]/gi,'').toLowerCase().trim(); }
+
+  function tokensOf(s){
+    const stop = new Set(['le','la','les','l','de','des','du','un','une','et','en','à','a','au','aux','dans','sur','par','pour','qui','que','quoi','est','sont','se','ce','cette','ces','son','sa','ses','avec','ou','où','d','ne','pas','être','avoir','où','comme','dont','où']);
+    return normalize(s).split(/\s+/).filter(t=>t && !stop.has(t));
+  }
+
+  function matchAnswer(q, tsvMap){
+    // Try numeric match first (more reliable)
+    if(state && state.answersNumMap){
+      const num = parseInt(q.num,10);
+      if(!isNaN(num) && state.answersNumMap.has(num)) return state.answersNumMap.get(num);
+    }
+    const key = normalize(q.text).slice(0,120);
+    if(state && state.answersTextMap && state.answersTextMap.has(key)) return state.answersTextMap.get(key);
+    // fuzzy fallbacks on text map: try prefix/includes then token overlap
+    if(state && state.answersTextMap){
+      for(const [k,v] of state.answersTextMap){ if(key.startsWith(k) || k.startsWith(key)) return v; if(k.includes(key) || key.includes(k)) return v; }
+      // token overlap heuristic (choose best match)
+      const qtokens = new Set(tokensOf(q.text));
+      let best = {score:0, val:null};
+      for(const [k,v] of state.answersTextMap){
+        const ktoks = new Set(k.split(/\s+/).filter(Boolean));
+        let common=0; for(const t of ktoks){ if(qtokens.has(t)) common++; }
+        const denom = Math.min(qtokens.size, ktoks.size) || 1;
+        const score = common/denom;
+        if(score>best.score){ best = {score, val:v}; }
+      }
+      if(best.score >= 0.5) return best.val;
+    }
+    return null;
+  }
+
+  let state = {deckName:null, questions:[], answersMap:new Map(), idx:0, userAnswers:{}, reviewMode:false};
+
+  document.getElementById('loadBtn').addEventListener('click', ()=>{
+    const name = deckSelect.value; const ids = mappings[name];
+    document.getElementById('status').textContent = 'Chargement du deck ...';
+    const md = getText(ids[0]);
+    const tsv = getText(ids[1]);
+    const qs = parseMarkdown(md);
+    const tmap = parseTSV(tsv);
+    // Build a deck-specific numeric map by fuzzy-matching each question text
+    const deckNumMap = new Map();
+    try{
+      for(const q of qs){
+        const qnum = parseInt(q.num,10);
+        if(isNaN(qnum)) continue;
+        const key = normalize(q.text).slice(0,120);
+        if(tmap.textMap.has(key)){
+          deckNumMap.set(qnum, tmap.textMap.get(key));
+          continue;
+        }
+        // fuzzy match: token overlap
+        const qtokens = tokensOf(q.text);
+        let best = {score:0, val:null};
+        for(const [k,v] of tmap.textMap){
+          const ktoks = Array.from(k.split(/\s+/).filter(Boolean));
+          let common=0;
+          for(const qt of qtokens){
+            for(const kt of ktoks){
+              if(qt === kt) { common++; break; }
+              // prefix match (handles pluriels/variantes)
+              if(qt.startsWith(kt) || kt.startsWith(qt)) { common++; break; }
+              // substring containment
+              if(qt.length>4 && (qt.includes(kt) || kt.includes(qt))){ common++; break; }
+            }
+          }
+          const denom = Math.min(qtokens.length, ktoks.length) || 1;
+          const score = common/denom;
+          if(score>best.score){ best = {score, val:v}; }
+        }
+        // accept somewhat permissive threshold for deck-level mapping
+        if(best.score >= 0.35) deckNumMap.set(qnum, best.val);
+      }
+    }catch(e){ console.error('Deck mapping build error', e); }
+    // Merge TSV numeric map (original keys) with deck-specific numeric keys (deck numbers)
+    const mergedNumMap = new Map(tmap.numMap);
+    for(const [k,v] of deckNumMap) mergedNumMap.set(k,v);
+    state = {deckName:name, questions:qs, answersTextMap:tmap.textMap, answersNumMap:mergedNumMap, idx:0, userAnswers:{}, reviewMode:false};
+    document.getElementById('status').textContent = `Deck "${name}" chargé — ${qs.length} questions`;
+    document.getElementById('player').classList.remove('hidden'); renderQuestion(); updateControls();
+  });
+
+  document.getElementById('prevBtn').addEventListener('click', ()=>{ if(state.idx>0){state.idx--; renderQuestion(); updateControls();}});
+  document.getElementById('nextBtn').addEventListener('click', ()=>{ if(state.idx<state.questions.length-1){state.idx++; renderQuestion(); updateControls();}});
+  document.getElementById('submitBtn').addEventListener('click', ()=>{ computeScore(); updateControls(); });
+  document.getElementById('showAnswersBtn').addEventListener('click', ()=>{ state.reviewMode = true; renderQuestion(); renderReview(true); updateControls(); });
+  document.getElementById('resetBtn').addEventListener('click', ()=>{ resetTest(); });
+
+  function renderQuestion(){
+    const q = state.questions[state.idx];
+    document.getElementById('progress').textContent = `Question ${state.idx+1} / ${state.questions.length}`;
+    document.getElementById('question').textContent = `${q.num}) ${q.text}`;
+    const choicesDiv = document.getElementById('choices'); choicesDiv.innerHTML='';
+    const correctLetter = matchAnswer(q, state.answersMap);
+    const user = state.userAnswers[state.idx] || null;
+    for(const opt of ['A','B','C','D']){
+      const label = document.createElement('label'); label.className='choice';
+      const r = document.createElement('input'); r.type='radio'; r.name='choice'; r.value=opt;
+      if(state.userAnswers[state.idx]===opt) r.checked=true;
+      r.addEventListener('change', ()=>{ state.userAnswers[state.idx]=opt; updateControls(); });
+      if(state.reviewMode){ r.disabled = true; }
+      label.appendChild(r);
+      const span = document.createElement('span'); span.textContent = ` ${opt}. ${q.choices[opt] || ''}`;
+      label.appendChild(span);
+      if(state.reviewMode && correctLetter){
+        if(opt===correctLetter) label.classList.add('correct');
+        if(user && opt===user && user!==correctLetter) label.classList.add('wrong');
+      }
+      choicesDiv.appendChild(label);
+    }
+    updateControls();
+  }
+
+  function updateControls(){
+    const nextBtn = document.getElementById('nextBtn');
+    const submitBtn = document.getElementById('submitBtn');
+    const showAnswersBtn = document.getElementById('showAnswersBtn');
+    const resetBtn = document.getElementById('resetBtn');
+    if(!state || !state.questions) return;
+    const total = state.questions.length;
+    const answeredCount = Object.keys(state.userAnswers).length;
+    // next button appears only when current question has an answer or in review mode
+    if(state.reviewMode || state.userAnswers[state.idx]) nextBtn.style.display='inline-block'; else nextBtn.style.display='none';
+    // submit enabled when at least one question answered
+    submitBtn.disabled = (answeredCount===0);
+    // Show corrigé only when all questions answered
+    showAnswersBtn.disabled = (answeredCount !== total);
+    // reset always enabled when deck loaded
+    resetBtn.disabled = false;
+  }
+
+  function resetTest(){
+    state.userAnswers = {};
+    state.reviewMode = false;
+    state.idx = 0;
+    document.getElementById('result').textContent = '';
+    document.getElementById('review').innerHTML = '';
+    renderQuestion(); updateControls();
+  }
+
+  function computeScore(){
+    // Only evaluate the set of answered questions
+    let correct=0, total=0, missing=0;
+    const answeredIndexes = Object.keys(state.userAnswers).map(n=>parseInt(n,10));
+    for(const i of answeredIndexes){
+      const q = state.questions[i]; const user = state.userAnswers[i] || null;
+      const correctLetter = matchAnswer(q, state.answersMap);
+      if(correctLetter==null){ missing++; continue; }
+      total++;
+      if(user===correctLetter) correct++;
+    }
+    const pct = total? Math.round(100*correct/total):0;
+    document.getElementById('result').innerHTML = `Score (questions répondues): ${correct}/${total} (${pct}%). Questions sans clé: ${missing}.`;
+    // show review for answered questions only
+    renderReview(false);
+  }
+
+  // renderReview(showAll=false) : showAll=true -> show full QCM; false -> only answered questions
+  function renderReview(showAll){
+    const box = document.getElementById('review'); box.innerHTML='';
+    const total = state.questions.length;
+    for(let i=0;i<total;i++){
+      const q = state.questions[i]; const user = state.userAnswers[i] || null; const correctLetter = matchAnswer(q,state.answersMap);
+      if(!showAll && !user) continue; // skip unanswered when not showing all
+      const div = document.createElement('div'); div.style.borderTop='1px solid #ddd'; div.style.padding='8px 0';
+      const h = document.createElement('div'); h.style.fontWeight='600'; h.textContent = `${i+1}) ${q.text}`; div.appendChild(h);
+      const choicesWrap = document.createElement('div');
+      for(const opt of ['A','B','C','D']){
+        const label = document.createElement('label'); label.className='choice';
+        const span = document.createElement('span'); span.textContent = ` ${opt}. ${q.choices[opt] || ''}`;
+        label.appendChild(span);
+        // highlight correct/incorrect
+        if(correctLetter && opt===correctLetter) label.classList.add('correct');
+        if(user && opt===user && user!==correctLetter) label.classList.add('wrong');
+        choicesWrap.appendChild(label);
+      }
+      div.appendChild(choicesWrap);
+      // add textual summary
+      const summary = document.createElement('div'); summary.style.marginTop='6px';
+      if(!correctLetter) summary.innerHTML = `<em>Clé introuvable</em>`;
+      else{
+        const correctText = q.choices[correctLetter] || '(texte indisponible)';
+        if(user===correctLetter) summary.innerHTML = `<span class='review-correct'>Votre réponse: ${user} — correcte</span> — Clé: ${correctLetter} — ${correctText}`;
+        else summary.innerHTML = `<span class='review-wrong'>Votre réponse: ${user || '-'} — incorrect</span> — Clé: ${correctLetter} — ${correctText}`;
+      }
+      div.appendChild(summary);
+      box.appendChild(div);
+    }
+    if(box.children.length===0) box.innerHTML = '<em>Aucune question répondue pour le moment.</em>';
+  }
+  </script>
+</body>
+</html>

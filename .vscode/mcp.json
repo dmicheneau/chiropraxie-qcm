@@ -1,0 +1,101 @@
+{
+	"servers": {
+		"io.github.ChromeDevTools/chrome-devtools-mcp": {
+			"command": "npx",
+			"args": [
+				"-y",
+				"chrome-devtools-mcp"
+			],
+			"env": {},
+			"type": "stdio"
+		},
+		// "vitest": {
+			// "command": "npx",
+			// "args": [
+				// "-y",
+				// "@djankies/vitest-mcp"
+			// ],
+			// "type": "stdio"
+		// },
+		// "postgres": {
+			// "command": "docker",
+			// "args": [
+				// "run",
+				// "-i",
+				// "--rm",
+				// "-e",
+				// "DATABASE_URI",
+				// "crystaldba/postgres-mcp",
+				// "--access-mode=unrestricted"
+			// ],
+			// "env": {
+				// "DATABASE_URI": "postgres://postgres:postgrespassword@postgres:5432/devflow"
+			// }
+		// },
+		// "hasura": {
+			// "command": "docker",
+			// "args": [
+				// "run",
+				// "-i",
+				// "--rm",
+				// "sanjay3290/hasura-mcp:latest",
+				// "--endpoint",
+				// "http://localhost:8080",
+				// "--admin-secret",
+				// "nhost-admin-secret",
+				// "--name",
+				// "hasura-devflow"
+			// ]
+		// },
+		// "tailwindcss-server": {
+			// "command": "npx",
+			// "args": [
+				// "-y",
+				// "tailwindcss-mcp-server"
+			// ]
+		// },
+		"browsermcp": {
+			"command": "npx",
+			"args": [
+				"@browsermcp/mcp@latest"
+			]
+		},
+		"sequentialthinking": {
+			"command": "docker",
+			"args": [
+				"run",
+				"--rm",
+				"-i",
+				"mcp/sequentialthinking"
+			]
+		},
+		// "lucide-icons": {
+			// "command": "npx",
+			// "args": [
+				// "lucide-icons-mcp",
+				// "--stdio"
+			// ]
+		// },
+		// "memory": {
+			// "command": "docker",
+			// "args": [
+				// "run",
+				// "-i",
+				// "-v",
+				// "claude-memory:/app/dist",
+				// "--rm",
+				// "mcp/memory"
+			// ]
+		// },
+        "playwright": {
+          "command": "docker",
+          "args": [
+            "run",
+            "-i",
+            "--rm",
+            "mcp/playwright"
+          ]
+        }
+	},
+	"inputs": []
+}

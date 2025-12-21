@@ -1,0 +1,15 @@
+body{font-family: system-ui, -apple-system, "Segoe UI", Roboto, Arial; padding:20px; background:#f7f7f8; color:#111}
+main{max-width:900px;margin:0 auto;background:#fff;padding:20px;border-radius:8px;box-shadow:0 4px 18px rgba(0,0,0,0.06)}
+.controls{display:flex;gap:8px;align-items:center;margin-bottom:12px}
+select{padding:6px 8px}
+button{padding:6px 10px;border-radius:6px;border:1px solid #ccc;background:#eee;cursor:pointer}
+.hidden{display:none}
+#questionArea{font-weight:600;margin:12px 0}
+.choice{margin:6px 0}
+.choice input{margin-right:8px}
+.nav{margin-top:10px}
+#result{margin-top:20px}
+.review-item{padding:8px;border-top:1px solid #eee}
+.review-item.unknown{background:#fff5f5}
+.meta{color:#333;margin-top:6px}
+@media (max-width:600px){main{padding:12px}}

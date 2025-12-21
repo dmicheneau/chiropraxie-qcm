@@ -1,0 +1,2924 @@
+
+
+===== PAGE 1 =====
+ANATOMIE DESCRIPTIVE
+DES MEMBRES
+Résumé
+L’objectif de ce cours est de faire une description des membres afin de savoir repérer les
+différentes structures et afin de pouvoir mettre en relation l’anatomie avec la clinique, la
+radiologie et le traitement d’un patient.
+Charles KALMUS – IFEC 2023-2024
+Avant-propos:
+Concernant ce polycopié, plusieurs moyens ont été mis en place afin de faciliter l'assimilation et la
+compréhension de l'information, ainsi que la bonne visualisation des structures et régions mentionnées. Il est
+accompagné du diaporama diffusé en cours.
+L'ensemble poly/diapo rassemblent l'ensemble des connaissances qui sont censés être maitrisées en 1A, et
+surtout forment la base, à partir de laquelle sont construits les examens partiels et finaux. Ceci étant dit, rien ne vous
+empêche d'aller chercher des informations ailleurs.
+La manière dont est construit le poly devrait vous permettre de rapidement retrouver l'information
+cherchée, mais aussi aider aux révisions.
+Cependant des éléments supplémentaires peuvent être diffusés et/ou énoncés en cours magistraux, qui ne
+
+
+===== PAGE 2 =====
+seront pas fournis en dehors. Eléments pouvant faciliter la compréhension du cours, ou une meilleure gestion des
+examens…. La présence en cours est donc fortement conseillée…
+Au fur et à mesure de la lecture, vous apercevrez la présence d'un code couleur explicité ci-après:
+"Les mots comme tel" – signifie que le terme apparait relativement pour la première fois, il est donc nouveau
+ou il s'agit d'une information importante
+"Les mots comme tel" – signifie qu'il s'agit d'une information supplémentaire, non forcément à
+connaitre obligatoirement (cf. les dits du prof) ou il s'agit d'une redite.
+"Les mots comme tel" – signifie que le terme devrait attirer votre attention et être retenu
+"Les mots comme tel" – signifie qu'il s'agit d'un muscle
+"Les mots comme tel" – signifie qu'il s'agit d'un ligament
+"Les mots comme tel" – signifie qu'il s'agit d'une artère
+"Les mots comme tel" – signifie qu'il s'agit d'une veine
+"Les mots comme tel" – signifie qu'il s'agit d'un nerf
+"Les mots comme tel" – signifie qu'il y a une connotation clinique / fonction anatomique
+Un mélange peut simplement signifier une même appellation pour au moins deux
+structures. Références utilisées:
+CHARLES KALMUS – IFEC 2023-2024 1
+Table des matières
+LE MEMBRE SUPERIEUR ...................................................................................................................................................
+6 I – Introduction et vue
+globale...................................................................................................................................... 6 II – Ostéologie de la
+ceinture scapulaire et du bras...................................................................................................... 7
+A – La clavicule ..........................................................................................................................................................
+7 B – La scapula (omoplate)
+
+
+===== PAGE 3 =====
+......................................................................................................................................... 8 C –
+L’humérus............................................................................................................................................................ 9 D
+– L’articulation gléno-humérale........................................................................................................................... 10
+III – Myologie au niveau de l’épaule ...........................................................................................................................
+11 A – Muscles du dos et du membre supérieur
+......................................................................................................... 11 B – Muscles du thorax et du membre
+supérieur..................................................................................................... 13 C – Les autres muscles de
+l’épaule.......................................................................................................................... 14 D – Muscles de la coiffe
+des rotateurs.................................................................................................................... 15
+IV – Fosse axillaire & Cie...............................................................................................................................................
+16 A – Ouverture axillaire:
+........................................................................................................................................... 16 B – Fosse axillaire:
+................................................................................................................................................... 16 C – Les espaces
+axillaires:........................................................................................................................................ 16
+V – Ostéologie de l’avant-bras. ...................................................................................................................................
+18 A – Le
+radius............................................................................................................................................................ 18 B –
+L'ulna ................................................................................................................................................................. 20 C
+– L'articulation du coude...................................................................................................................................... 22
+VI – Myologie au niveau du bras.................................................................................................................................
+22 A – Muscle de la loge antérieure du
+bras................................................................................................................ 23 B – Muscles de la loge postérieure
+du bras ............................................................................................................ 24
+VII – Ostéologie de la main..........................................................................................................................................
+25 A – Les os du
+carpe.................................................................................................................................................. 25 B – Les
+métacarpiens............................................................................................................................................... 26 C –
+Les phalanges.................................................................................................................................................... 27 D
+– L'articulation du poignet................................................................................................................................... 28
+VIII – Myologie de l'avant-bras....................................................................................................................................
+29 A – Loge antérieure superficielle
+............................................................................................................................ 30 B – Loge antérieure profonde
+................................................................................................................................. 32 C – Loge postérieure
+superficielle........................................................................................................................... 33 D – Loge
+postérieure profonde ............................................................................................................................... 35
+IX – Myologie de la main.............................................................................................................................................
+37 A – Eminence thénar...............................................................................................................................................
+37 B – Eminence hypothénar.......................................................................................................................................
+38 C – Couche musculaire profonde de la main ..........................................................................................................
+39 X – Neurologie du membre
+
+
+===== PAGE 4 =====
+supérieur......................................................................................................................... 40
+CHARLES KALMUS – IFEC 2023-2024 2
+A – Le plexus brachial..............................................................................................................................................
+41 B – Les branches collatérales du plexus brachial:
+................................................................................................... 43 C – Les terminales du plexus brachial:
+.................................................................................................................... 45
+1. Le n. musculo-cutané (C ,C ): ..................................................................................................................... 45
+5 6
+2. Le n. axillaire (C ,C ):................................................................................................................................... 46
+5 6
+3. Le n. ulnaire (C ,T ): .................................................................................................................................... 47
+8 1
+4. Le n. médian (C ,C ,C ,C ,T ): ...................................................................................................................... 49
+5 6 7 8 1
+5. Le n. radial (C ,C ,C ,C ,T ): ......................................................................................................................... 51
+5 6 7 8 1
+XI – Angiologie du membre supérieur......................................................................................................................... 53
+A – Les artères du membre supérieur:................................................................................................................... 53 1.
+L'a. sous-clavière......................................................................................................................................... 53 2. L'a.
+axillaire:................................................................................................................................................ 54 3. L'a.
+brachiale:.............................................................................................................................................. 56 4. L'a.
+radiale:.................................................................................................................................................. 57 5. L'a.
+ulnaire:.................................................................................................................................................. 58 6. L'arcade
+dorsale de la main:....................................................................................................................... 59 7. L'arcade
+palmaire superficielle: ................................................................................................................. 60 8. L'arcade
+palmaire profonde:...................................................................................................................... 60 B – Veines du
+membre supérieur:.......................................................................................................................... 61 1. Les veines
+superficielles de la main: ........................................................................................................... 61 2. Les veines
+profondes:.................................................................................................................................. 62 LE MEMBRE
+INFERIEUR................................................................................................................................................... 63 I –
+Introduction et vue globale.................................................................................................................................... 63 II –
+Ostéologie de la ceinture pelvienne et de la cuisse .............................................................................................. 65 A –
+Généralités........................................................................................................................................................ 65 B –
+L’ilium................................................................................................................................................................ 66 C –
+L’ischium............................................................................................................................................................ 67 D – Le
+pubis............................................................................................................................................................. 69 E – Le
+foramen obturé............................................................................................................................................. 70 F –
+L'acétabulum (cavité cotyloïdienne).................................................................................................................. 71 G –
+Les bords de l'os coxal....................................................................................................................................... 71 H – Le
+sacrum.......................................................................................................................................................... 72 I – Le
+coccyx............................................................................................................................................................. 72 J – Les
+articulations de la ceinture pelvienne.......................................................................................................... 73 1. La
+symphyse pubienne. .............................................................................................................................. 73 2.
+L'articulation sacro-iliaque......................................................................................................................... 73 K – Le
+fémur ............................................................................................................................................................ 75 L –
+
+
+===== PAGE 5 =====
+L'articulation coxo-fémorale.............................................................................................................................. 80 M – Le
+bassin et ses espaces................................................................................................................................... 81 III –
+Myologie de la fosse iliaque ................................................................................................................................. 81
+CHARLES KALMUS – IFEC 2023-2024 3
+IV – Myologie de la région fessière (glutéale).............................................................................................................
+83 V – Ostéologie de la
+jambe.......................................................................................................................................... 87 A – Le
+tibia............................................................................................................................................................... 87 B – La
+fibula ............................................................................................................................................................. 90 C – La
+patella ........................................................................................................................................................... 92 VI –
+Fascias et muscles de la cuisse............................................................................................................................. 92 VII
+– Myologie de la cuisse .......................................................................................................................................... 93 A
+– Loge antérieure, muscles antérieurs ............................................................................................................... 93 B –
+Loge postérieure, muscles médiaux................................................................................................................. 95 C –
+Loge postérieure – muscles postérieurs, les ischio-jambiers.......................................................................... 98 D –
+Articulation du genou ....................................................................................................................................... 99 E –
+Articulation tibio-fibulaire proximale et distale .............................................................................................. 101 VIII
+– Ostéologie du pied ........................................................................................................................................... 101 A
+– Le talus............................................................................................................................................................ 102 B –
+Le calcanéum................................................................................................................................................... 104 C –
+Le cuboïde ....................................................................................................................................................... 105 D –
+L'os naviculaire................................................................................................................................................ 106 E –
+Les os cunéiformes.......................................................................................................................................... 107 F –
+Les métatarses................................................................................................................................................. 108 G –
+Les phalanges.................................................................................................................................................. 109 H –
+Les os sésamoïdes........................................................................................................................................... 109 I –
+Les arches du pied ............................................................................................................................................ 110 J –
+Les articulations de la cheville et du pied ........................................................................................................ 110
+L'articulation talo-crurale................................................................................................................................. 110
+Articulation subtalaire...................................................................................................................................... 111
+L'articulation transverse du tarse .................................................................................................................... 112 Les
+articulations des os du tarse distal ............................................................................................................ 113 Les
+articulations de l'avant-pied ...................................................................................................................... 113 IX –
+Myologie de la jambe......................................................................................................................................... 114 A
+– Loge antérieure .............................................................................................................................................. 114 B -
+Loge latérale .................................................................................................................................................... 115 C –
+Loge postérieure (superficielle) ..................................................................................................................... 116 D –
+Loge postérieure (profonde).......................................................................................................................... 117 X –
+Myologie du pied................................................................................................................................................. 118 A
+- Face dorsale..................................................................................................................................................... 118 B
+
+
+===== PAGE 6 =====
+– Face plantaire 1er plan (superficiel)................................................................................................................ 119 C –
+Face plantaire 2e plan (moyen superficiel) .................................................................................................... 120 D –
+Face plantaire 3e plan (moyen profond)........................................................................................................ 121 E –
+Face plantaire 4e plan (profond)..................................................................................................................... 122 XI –
+Neurologie du membre inférieur....................................................................................................................... 123
+CHARLES KALMUS – IFEC 2023-2024 4
+A – Le plexus lombaire: ......................................................................................................................................... 123
+B - Les collatérales du plexus lombaire:................................................................................................................ 124
+1. Le n. ilio-hypogastrique (L1):.................................................................................................................... 124 2. Le
+n. ilio-inguinal (L1): .............................................................................................................................. 125 3. Le n.
+génito-fémoral (L1, L2): ................................................................................................................... 126 4. Le n.
+latéral fémoral cutané (L2, L3): ....................................................................................................... 126 C – Les
+terminales du plexus:................................................................................................................................ 127 1. Le n.
+obturateur (L2, L3, L4): .................................................................................................................... 127 2. Le n.
+fémoral (L2, L3, L4) (n. crural):......................................................................................................... 128 D – Le plexus
+sacré: ............................................................................................................................................... 130 E – Les
+collatérales du plexus sacré: ..................................................................................................................... 131 F – La
+terminale du plexus sacré:.......................................................................................................................... 132 1. Le n.
+sciatique (L4, L5, S1, S2, S3):............................................................................................................ 132 2. Le n. tibial
+(L4, L5, S1, S2, S3): .................................................................................................................. 133 3. Le n. fibulaire
+commun (L4, L5, S1, S2): ................................................................................................... 135 XII – Angiologie du
+membre inférieur – les artères .................................................................................................. 137 A – Les artères de
+la région fessière...................................................................................................................... 137 B – Les artères de
+la cuisse.................................................................................................................................... 138 C – Les artères de
+la région du genou ................................................................................................................... 140 D – Les artères de
+la jambe ................................................................................................................................... 141 E – Les artères du
+pied .......................................................................................................................................... 144 A – Le réseau
+veineux superficiel.......................................................................................................................... 147
+
+
+===== PAGE 7 =====
+CHARLES KALMUS – IFEC 2023-2024 5
+LE MEMBRE SUPERIEUR
+I – Introduction et vue globale
+Le membre supérieur dans son ensemble, sert chez l’homme, à la fonction de préhension. Former d’une multitude
+d’articulations avec des degrés de mobilité plus ou moins grands, il est constitué de plusieurs parties qui sont :
+- l’épaule
+- le bras
+- le coude
+- le poignet
+- la main
+
+
+===== PAGE 8 =====
+Chacune de ces parties est subdivisée en région qui seront détaillées plus loin.
+Le membre supérieur est composé d’une partie plus ou moins « fixe », juxtaposée au tronc, et d’une partie mobile,
+libre. La partie fixe est formée de la ceinture scapulaire (composé de la clavicule et de la scapula), et la partie libre
+de l’humérus, du radius, de l’ulna, des os du carpe et des os de la main.
+Pour ce qui est de son attache, le membre
+supérieur est
+articulé avec le tronc par l’intermédiaire de la
+clavicule, et est
+fixée au cou et à la partie thoracique par plusieurs
+muscles (m.)
+de part et d’autres. L’ensemble est posé de chaque
+côté sur
+l’ouverture thoracique supérieure. On retrouve
+alors à la base du
+cou l’ouverture axillaire formée par :
+- le bord latéral de la 1ère côte
+- la partie postérieure de la clavicule
+- la partie supérieure de la scapula
+- la partie médiane du processus
+coracoïde.
+C’est par cette ouverture que vont passer les artères, veines et
+nerfs destinés aux membres supérieurs. Un désordre à ce niveau
+peut avoir des conséquences cliniques.
+CHARLES KALMUS – IFEC 2023-2024 6
+II – Ostéologie de la ceinture scapulaire et du bras.
+A – La clavicule
+La clavicule est un os long, qui est plus volumineux à son extrémité sternale, et plus plat en son extrémité acromiale.
+Elle présente de manière générale une forme en « S », les 2/3 médiale étant convexe antérieurement et le 1/3 latéral
+étend concave antérieurement. C’est un os plat à 2 faces (supérieure/inférieure), et 2 bords (antérieur/postérieur).
+Sur la face supérieure, latéralement vont s’insérer les m. trapèze postérieurement et deltoïde
+antérieurement. Médialement ce sont les muscles grand pectoral antérieurement et sterno-cléïdo-mastoïdien
+(SCM) postérieurement, qui ont leurs attaches.
+La face inférieure, elle, reçoit l’insertion du m. subclavier au niveau du sillon du même nom. On peut aussi
+trouver des zones rugueuses notamment latéralement - le tubercule conoïde et la ligne trapézoïde qui reçoivent
+respectivement les ligaments conoïde et trapézoïde. Les deux, associés, forment le ligament coraco-claviculaire qui
+
+
+===== PAGE 9 =====
+permet l’attache entre la clavicule et le processus coracoïde. Médialement les zones rugueuses permettent les
+attachent entre les clavicules, le sternum et la 1ère cote.
+La clavicule s’articule avec le manubrium sternal par une
+articulation synoviale comprenant un disque. Cette
+articulation est dite « en selle ». Elle permet à la clavicule
+d’avoir des mouvements antéro-postérieur ainsi que
+verticaux. La clavicule est liée aussi à la 1ère cote, par
+l’intermédiaire d’une articulation costo-chondrale.
+Tout cet ensemble est consolidé par différents
+ligaments. Le ligament interclaviculaire qui lie les
+clavicules entre-elles et au manubrium, les ligaments
+sternoclaviculaire antérieur et postérieur qui relient la
+clavicule au sternum de manière plus spécifique ainsi que
+le ligament costoclaviculaire qui fait le lien entre la 1ère
+côte et la clavicule.
+CHARLES KALMUS – IFEC 2023-2024 7
+B – La scapula (omoplate)
+La scapula est un os plat qui s’amarre
+à la paroi thoracique postérieure par des muscles relativement grands. Elle s’étend entre la 2eet 7ecôte. Il s’agit d’un os
+triangulaire avec deux faces (costale et postérieure) ; trois bords (supérieur, médial et latéral) ; et trois angles (supérieur,
+inférieur et latéral). Elle est aussi formée de l’épine de la scapula ainsi que du processus coracoïde. La scapula est le
+point d’ancrage de très nombreux muscles. Elle s’articule de manière directe avec la clavicule et l’humérus, et
+indirectement avec le gril costal.
+
+
+===== PAGE 10 =====
+La face costale concave donne insertion aux m. subscapulaire sur la majorité de sa surface et au m. dentelé
+antérieur (serratus anterior) le long du bord médial.
+La face postérieure présente sur son tiers supérieur l’épine de la scapula qui se dirige latéralement et vers le haut.
+Cette épine se termine par un processus - l’acromion, qui s’articule avec la clavicule par une surface articulaire sur
+son bord médial. L’épine de la scapula reçoit sur son bord postérieur, supérieurement le m. trapèze, et
+inférieurement le m. deltoïde. Le bord latéral de l’épine forme avec le col de la scapula (situé au niveau de l’angle
+latéral) l’échancrure spino-glénoïdale, par laquelle passe l’artère et le nerf suprascapulaire. Enfin cette épine,
+sépare la face postérieure de l’omoplate en deux fosses - la fosse supra-épineuse qui donne insertion au m. supra
+épineux, et la fosse infra-épineuse qui donne insertion aux m. infra-épineux. Au niveau du bord latéral de cette
+fosse, s’insèrent respectivement de haut en bas les m. petit et grand rond, séparés par l’a. circonflexe de la scapula.
+Le bord médial, sur sa face postérieure, permet l’insertion respectivement de haut en bas des muscles
+: - m. élévateur de la scapula, au-dessus de l’épine.
+- m. petit rhomboïde en regard de l’épine de la scapula.
+- m. grand rhomboïde en-dessous de l'épine.
+- L’angle inférieur, peut parfois avoir l’insertion du m. grand dorsal.
+Au niveau du bord supérieur, on peut voir l’insertion du m. omo-hyoïdien, et latéralement à cette insertion il
+y a l’incisure scapulaire, dans laquelle passe de nouveau les nerf et artère suprascapulaire, séparés par le ligament
+transverse de la scapula, qui relient les 2 bords de l’incisure. Latéralement à cet incisure trouve le processus
+coracoïde dont la forme est en doigt demi-fléchi se dirigeant en avant et en dehors. Sur son apex sincère les m.
+coraco-brachial et le court chef du biceps brachial. Sur son bord médial se fixent le m. petit pectoral et le ligament
+coraco-claviculaire ; sur son bord latéral on trouve les ligaments coraco-huméral et coraco-acromial.
+Enfin, l’angle latéral de la scapula présente un col. De part et d’autre de ce col se trouvent deux tubercules,
+le supra-glénoïdale, supérieurement, et le infra-glénoïdale intérieurement. Ces reliefs permettent l’insertion
+respectivement du long chef du biceps brachial et du long chef du triceps brachial. À l’apex de l’angle latéral, il y a la
+cavité glénoïdale, surface articulaire ovalaire qui s’articule avec la tête de l’humérus. Tout le long du col, sur la face
+costale, on trouve plusieurs ligaments - les lig. gléno-huméraux supérieur, moyen et inférieur.
+CHARLES KALMUS – IFEC 2023-2024 8
+C – L’humérus
+L’humérus est un os long, composé de 2 épiphyses et 1 diaphyse. L’épiphyse proximal s’articule
+avec la cavité glénoïdale par la tête humérale (2/3 sphère) et forme ainsi l’articulation gléno
+humérale. L’épiphyse distale s’articule avec l’ulna et le radius pour former l’articulation du coude.
+L’épiphyse proximale contient la tête humérale, et les tubercules
+mineur et majeur (respectivement trochin et trochiter). Entre ces
+structures se trouve le col anatomique de l’humérus, partie très courte, sur
+laquelle s’insère la capsule articulaire et quelques ligaments. Cette épiphyse
+se continue ensuite par le col chirurgical faisant le lien avec la diaphyse. La
+tête humérale regarde en haut et en arrière. On lui décrit un angle
+d’inclinaison de 130° et un angle de déclinaison de de 20° environ.
+Au niveau du col anatomique on trouve les ligaments :
+- lig. coraco-huméral sur la partie supérieure
+- Lig. gléno-huméraux supérieur, moyen et inférieur sur la partie
+antérieure.
+Postérieurement, ce col est en rapport avec le n. axillaire.
+Entre le trochin et le trochiter il y a la gouttière bicipitale qui permet le
+passage du tendon du long chef du biceps brachial. Celle-ci est recouverte
+du lig. transverse de l’humérus qui relie les 2 tubercules. Sur le trochin
+
+
+===== PAGE 11 =====
+s’insère le m. subscapulaire. Sur le trochiter, en revanche s’insèrent :
+- m. supra-épineux sur sa face supérieure
+- m. infra-épineux et m. petit rond sur sa face postérieur
+Les 4 m. du trochin et trochiter forment ce qu’on appelle la coiffe des rotateurs.
+La diaphyse présente un aspect triangulaire en coupe transversale, avec un bord antérieur, latéral
+et médial. Elle s’arrondie proximalement et s’aplatie distalement.
+Sur la face antéro-médial, le trochin se prolonge par la crête du tubercule mineur qui donne insertion
+au m. grand rond médialement et m. grand dorsal latéralement. Sur la partie moyenne de cette face,
+s’insère le m. coraco-brachial et sur sa moitié inférieur le m. brachial.
+Sur la face antéro-latéral, au milieu, se trouve la tubérosité deltoïdienne (ou "V" deltoïdien) où se
+termine le m. deltoïde. Sur le bord antérieur, le trochiter se prolonge par la crête du tubercule
+majeur sur lequel s’insère le m. grand pectoral. Ce bord comprend aussi en partie la tubérosité
+deltoïdienne ainsi que l’insertion du m. brachial.
+Le bord médial se prolonge distalement par la crête supracondylaire médiale et donne insertion
+au septum intermusculaire médial. Le bord latéral, lui, se prolonge distalement par la crête
+supracondylaire latérale et donne insertion au septum intermusculaire latéral, et dans sa partie
+inférieure s’insère les m. brachio-radial et long extenseur radial du carpe.
+Sur la face postérieure de la diaphyse, on trouve un relief important - le sillon du n. radial qui permet
+le passage du n. radial et des vaisseaux brachiaux profonds en bas et en dehors. Au-dessus de ce
+sillon s’insère le chef latéral du triceps brachial, et en dessous le chef médial du triceps brachial.
+L’épiphyse distale, aplatie d’avant en arrière, comporte le condyle huméral et les épicondyles
+médial et latéral (ou épitrochlée, épicondyle respectivement). Le condyle huméral est formé du
+capitulum et de la trochlée. Le capitulum, semi-sphérique, est surmonté antérieurement de la fosse
+radiale. La trochlée humérale, en forme de poulie creuse avec 2 versants, est surmontée, elle, de la
+fosse coronoïde antérieurement et de la fosse olécranienne postérieurement. L’épicondyle médiale,
+saillant, reçoit le lig. collatéral ulnaire du coude et les m. rond pronateur et les fléchisseurs sur sa face
+antérieure. Sur la face postérieure se trouve le sillon du n. ulnaire. L’épicondyle latéral, moins
+volumineux, reçoit l’insertion des m. supinateur et extenseurs et le lig. collatéral radial du coude sur les
+faces antérieure et latérale. Sur la face postérieure on trouve l’insertion du m. anconé.
+CHARLES KALMUS – IFEC 2023-2024 9
+D – L’articulation gléno-humérale
+
+
+===== PAGE 12 =====
+L’articulation gléno-humérale possède un très
+grand degré de mobilité. En effet, la tête humérale
+sphérique, s’articulant avec la petite surface de la cavité
+glénoïdale, ceci en fait l’articulation la plus mobile du
+corps, au détriment de sa stabilité. En compensation,
+multiples ligaments viennent se fixer au pourtour pour
+maintenir l’ensemble. En plus de la capsule articulaire le
+lig. coraco-huméral renforce la partie supérieur, les lig.
+gléno-huméraux eux renforcent la partie antérieure. Pour
+augmenter la surface de contact articulaire, on trouve le
+labrum glénoïdal, une structure fibro-cartilagineuse qui
+s’insère en périphérie de la cavité. Les lig. coraco
+acromial, coraco-claviculaire, et acromio-claviculaire,
+permettent de former un ensemble rigide capable faire
+passer des muscles en-dessous et au-dessus, sans entraver
+le mouvement. De même, le lig. transverse de l’humérus permet au tendon du biceps de ne pas se luxer lors des
+mouvements. Les muscles, eux aussi ont un rôle de stabilisation pour l’articulation. Cependant pour permettre un
+bon glissement entre les tissus mous, il y a plusieurs bourses séreuses qui servent de « lubrificateurs » en quelques
+sortes lors de la mobilisation. On trouve notamment la bourse sous-acromiale/sous-deltoïdienne, subscapulaire
+expansion de la capsule articulaire, la bourse subcoracoïdienne entre le processus coracoïde et la capsule. Un autre
+prolongement de la capsule entoure le long chef du biceps pour lui permettre une circulation aisée.
+L’articulation gléno-humérale participe à l’articulation de l’épaule en plus de l’articulation acromio-claviculaire, la
+sterno-claviculaire et l’omarthrose entre la scapula et grill costal.
+CLINIQUE
+La fracture de la clavicule n’étant pas chose rare, des signes peuvent être présents au niveau du membre
+supérieur du fait de sa proximité avec le paquet vasculo-nerveux.
+Les fractures au niveau de l’humérus peuvent aussi engendrer des conséquences neurologiques. En effet,
+lors de la fracture au niveau du col chirurgical, c’est le n. axillaire qui peut être impacté, en revanche lors d’une
+fracture de la diaphyse c’est le n. radial qui peut être alors touché. Au niveau de l’épicondyle médial, c’est le n.
+ulnaire qui peut être lésé dans sa gouttière.
+Du fait de son manque de stabilité, lors d’un traumatisme au niveau de l’épaule, il peut arriver que celle-ci
+puisse se luxer. En général cela se fait en avant.
+
+
+===== PAGE 13 =====
+CHARLES KALMUS – IFEC 2023-2024 10
+III – Myologie au niveau de l’épaule
+A – Muscles du dos et du membre supérieur
+Groupe superficiel
+Trapèze (Trapezius) Grand dorsal (Latissimus dorsi)
+Origine • External Occipital Protuberance (EOP) Par l’intermédiaire du fascia
+• Ligament nucal thoraco-lombaire : • SP de T7-L5 + lig.
+• SP C7->T12 + lig. interépineux correspondants inter-épineux
+• Crête sacrale médiane du sacrum
+• 1/5 post. de la crête iliaque
+• Inconstant : K9-K12 + angle inf. de la scapula
+Terminaison • Faisceau sup. = 1/3 externe de la face supérieure de la Latéralement sur la crête du tubercule mineur
+clavicule, postérieurement
+• Faisceau moy. = bord médial de l’acromion •
+Faisceau inf. = bord sup. et post. de l’épine de la
+scapula + tubercule du trapèze
+Trajet • Faisceau sup. = vers le bas, en dehors et en • Oblique en dehors et haut
+avant • Faisceau moy. = horizontalement en • Contourne les flancs du tronc
+dehors • Faisceau inf. = en haut et en dehors
+Action • Faisceau sup. = élévation de la scapula • Adduction du bras
+• Faisceau moy. = rétraction de la scapula • Rotation interne de la gléno-humérale
+• Faisceau inf. = abaissement de la scapula • Extension du bras
+Si épaule fixe = inflexion homolatérale +
+rotation controlatérale du rachis C’
+Si les 2 côtés se contractent en même temps ->
+extension du cou.
+Innervation N. accessoire = CN XI N. thoraco-dorsal (C6,C7,C8)
+CHARLES KALMUS – IFEC 2023-2024 11
+
+
+===== PAGE 14 =====
+Groupe profond
+Elévateur de la scapula Petit rhomboïde Grand rhomboïde
+(Levator scapula) (Rhomboïd minor) (Rhomboïd major)
+Origine Face postérieure des TP de C1-C4 • Lig. nucal SP T2-T5 + lig. inter-épineux
+• SP de C7 et T1
+Terminaison • Partie sup. du bord médial de la Bord médial de la scapula Bord médial de la scapula
+scapula au niveau de l’épine en dessous de l’épine
+• Angle sup. de la scapula
+Trajet En bas et en dehors Oblique en bas et en dehors Oblique en bas et en dehors
+Action Si rachis fixe : • Elévation de la scapula
+• Elévateur de la scapula • Rétraction de la scapula
+• Abaissement de la cavité • Fixe la scapula contre le thorax
+glénoïdale par sonnette interne • Participent à la rotation médiale de la scapula
+Si scapula fixe :
+• Inflexion homolatérale du rachis
+C’ • Rotation homolatérale du
+rachis C’
+La contraction bilatérale
+engendre une extension au
+niveau du cou
+Innervation Dorsal scapular nerve (C3,C4,C5) Dorsal scapular nerve (C4,C5)
+
+
+===== PAGE 15 =====
+CHARLES KALMUS – IFEC 2023-2024 12
+B – Muscles du thorax et du membre supérieur
+Grand pectoral Petit pectoral Subclavier Dentelé antérieur
+(Pectoralis major) (Pectoralis minor) (Subclavius) (Serratus anterior)
+Origine • Faisceau claviculaire = Latéralement aux 3e, 4e 1ère articulation Antérieurement, sur
+partie méd. de la face 5e articulations costo costo chondrale les faces externes de
+supérieure et du bord ant. chondrales K1-K9
+de la clavicule
+• Faisceau sterno-costal = face
+ant. du manibrium sternal,
+du corps du sternum et sur
+les cartilages costaux sous
+jacents
+• Faisceau abdominal =
+gaine du m. droit de
+l’abdomen
+Terminaison Latéralement sur la crête Face médiale de Sillon du m. sous-clavier Bord médial de la scapula
+du tubercule majeur l’apophyse coracoïde
+Trajet Les 3 faisceaux se dirigent Vers le haut et en dehors En dehors sous la Vers l’arrière en
+latéralement clavicule contournant le grill
+costal entre ce dernier
+et la
+scapula
+Action • Adduction du bras • Protraction de la • Fixe et abaisse la • Fixe la scapula contre
+• Rotation médiale de la scapula clavicule le thorax
+gléno humérale • Abaisseur de la • Inspirateur accessoire • Protraction de la
+scapula • Inspirateur scapula • Abaisseur et
+accessoire de la
+scapula
+• Participe à la
+sonnette latérale
+Innervation N. pectoral médial et N. pectoral médial (C8,T1) N. subclavier (C5,C6) N. long thoracique
+latéral (C8,T1) (C5,C6,C7)
+
+
+===== PAGE 16 =====
+CHARLES KALMUS – IFEC 2023-2024 13
+C – Les autres muscles de l’épaule
+Deltoïde Grand rond (Teres major)
+Origine • Faisceau ant. (claviculaire) = 1/3 lat. du bord ant. Moitié inf. du bord lat. de la scapula
+de la clavicule
+• Faisceau moy. (acromial) = bord lat. de l’acromion
+• Faisceau post. (épineux) = bord post. de l’épine de
+la scapula
+Terminaison Tubérosité deltoïdienne au niveau de l’humérus Médialement sur la crête du tubercule mineur
+Trajet • Faisceau ant. = vers le bas, en dehors et en Oblique en haut en dehors et en avant
+arrière • Faisceau moy. = vers le bas
+• Faisceau post. = vers le bas, en dehors et en avant
+Action • Faisceau ant. = flexion + rotation médiale • ADDuction du bras
+• Faisceau moy. = ABDuction • Rotation interne de la gléno-humérale
+• Faisceau post. = extension + rotation latérale • Extension du bras
+Innervation N. Axillaire (C5,C6) N. subscapulaire / lower subscapular n. (C5,C6,C7)
+
+
+===== PAGE 17 =====
+CHARLES KALMUS – IFEC 2023-2024 14
+D – Muscles de la coiffe des rotateurs
+Supra-épineux Infra-épineux Petit rond Subscapulaire
+(Supraspinatus) (Infraspinatus) (Teres minor) (Subscapularis)
+Origine Fosse supra-épineuse Fosse infra-épineuse ½ sup du bord latéral Fosse subscapulaire,
+de la scapula face costale de la
+scapula
+Terminaison Trochiter partie sup. Trochiter partie Trochiter partie Trochin
+post. sous le post. sous
+supra-épineux l’infra-épineux
+Trajet Latéralement, au-dessus de En dehors et en haut En dehors et en haut En haut et en dehors
+l’épine, sous l’acromion, entre la scapula et le
+au-dessus de la gléno-humérale grill costal
+Action • ABDuction du bras • Rotation latérale de • Rotation latérale de • Rotation médiale de
+la gléno-humérale la gléno-humérale la gléno-humérale
+• Rotation latérale accessoire de
+la gléno-humérale • ABDuction • ADDuction • ADDuction
+accessoire de la accessoire de la accessoire de la
+gléno-humérale gléno-humérale gléno-humérale
+Innervation N. supra-scapulaire (C5,C6) N. supra-scapulaire N. axillaire (C5,C6) n. subscapulaire /
+(C5,C6) upper & lower
+subscapular n.
+(C5,C6)
+
+
+===== PAGE 18 =====
+CHARLES KALMUS – IFEC 2023-2024 15
+IV – Fosse axillaire & Cie
+A – Ouverture axillaire:
+Comme énoncé au début, la ceinture scapulaire est posée sur une partie de l'ouverture thoracique
+supérieure de chaque côté. La liaison du membre supérieur avec le cou se fait grâce aux différents muscles. Il se crée
+entre les différentes structures, un espace permettant
+le
+passage serein des vaisseaux et des nerfs vers le
+membre
+supérieur. A la base du cou on retrouve l'ouverture
+axillaire
+qui est formée par:
+- Le bord latéral de la 1ère côte
+- La partie postérieure de la clavicule
+- La partie supérieure de la scapula
+- La partie médiale du processus coracoïde
+Cette ouverture constitue l'entrée de la fosse axillaire.
+B – Fosse axillaire:
+La
+fosse
+axillaire peut être considérée
+comme une pyramide. On lui décrit 4 parois
+(antérieure, postérieure, médiale, latéral) et une
+base.
+• La paroi antérieure est constituée des
+
+
+===== PAGE 19 =====
+m. subclavier, petit pectoral, grand pectoral
+et en partie le deltoïde.
+• La paroi postérieure est constituée des m.
+subscapulaire, petit rond, grand rond, grand dorsal et les espaces axillaires.
+• La paroi médiale est essentiellement faite de la paroi thoracique latérale avec le m. grand dentelé qui la
+recouvre.
+• La paroi latérale, elle, est formée de l'humérus, du m. biceps brachial et du m. coraco-brachial.
+Quant à la base, elle est seulement faite à partir de le peau et des relief dû aux muscles qui l'entourent.
+C – Les espaces axillaires:
+Les m. triceps brachial, petit et grand rond présents au niveau de la paroi
+postérieur de la fosse axillaire, crées avec l'humérus en partie, 3 espaces axillaires (latéral, médial et inférieur).
+CHARLES KALMUS – IFEC 2023-2024 16
+L'espace axillaire médial (triangulaire) ou espace omo-tricipital, est délimité par:
+- Le long chef du triceps brachial latéralement
+- Le m. grand rond inférieurement
+- Le m. petit rond supérieurement
+Cet espace permet le passage des vaisseaux circonflexe de la scapula.
+L'espace axillaire latéral (quadrangulaire) ou espace huméro-tricipital, est délimité par:
+- Le col chirurgical de l'humérus latéralement
+- Le long chef du triceps brachial médialement
+- Le m. grand rond inférieurement
+- Le m. petit rond supérieurement
+Cet espace laisse passer le n. axillaire et les vaisseaux circonflexes postérieurs de l'humérus
+L'espace axillaire inférieur (triangulaire) lui est limité par:
+- Le m. grand rond et grand dorsal supérieurement
+- Le long chef du triceps brachial médialement
+- L'humérus latéralement
+Cet espace permet le passage au n. radial et aux vaisseaux brachiaux profonds.
+Les espaces axillaires médial et latéral peuvent être rassemblés ensemble sous l'appellation d'espace omo-huméral.
+
+
+===== PAGE 20 =====
+CHARLES KALMUS – IFEC 2023-2024 17
+V – Ostéologie de l’avant-bras.
+A – Le radius
+Le radius, os latéral de l’avant-bras, est un os long de formes différentes sur sa
+longueur. Son épiphyse distale est plus volumineuse que la proximale.
+Au niveau de l'épiphyse proximal, il comprend une tête, un col et une tubérosité
+radiale. La tête est en forme de cylindre dont la circonférence s’articule avec l’incisure radiale
+de l’ulna et est entouré du ligament annulaire du radius. Sur sa face supérieure, elle présente
+une fossette qui s’articule avec le capitulum de l’humérus, et son bord médial s’articule avec
+la zone capitulo-trochléaire.
+Le col du radius fait suite à la tête, il est court et s’étend jusqu’à là tubérosité radiale.
+Cette tubérosité est une saillie médiale sur laquelle s’insère le m. biceps brachial
+postérieurement. Antérieurement à elle se situe la bourse bicipito-radiale.
+La diaphyse du radius présente une courbure antéro-médiale sur sa longueur; elle
+possède trois bords (antérieur, postérieur et interosseux) ; ainsi que trois faces (antérieur,
+postérieur et latéral).
+
+
+===== PAGE 21 =====
+Le bord antérieur commence au niveau de la tubérosité radiale, il continue en bas et
+en dehors en diagonale – il forme la ligne oblique du radius. Il permet l'insertion du m.
+fléchisseur superficiel des doigts. Latéralement à la ligne oblique et à la tubérosité radiale
+s'insère le m. supinateur, sur la face latérale. Toujours sur la face latérale et inférieurement au
+m. supinateur se trouve la tubérosité pronatrice qui sera le point d'ancrage pour le m. rond
+pronateur. Médialement à la ligne oblique, on trouve la face antérieure sur laquelle va
+s'insérer
+le m. long fléchisseur du pouce sur une large superficie et en-dessous s'insère le m. carré
+pronateur, qui se continue jusqu'à l'épiphyse distale.
+Le bord postérieur commence inférieurement à la tubérosité radiale et descend
+obliquement en dehors laissant place à la face postérieure. Il permet l'insertion du septum
+antébrachial latéral. En haut de la face postérieure, il y a l'insertion du m. long abducteur du
+pouce, en dessous se trouve l'insertion du m. court extenseur du pouce. Ensuite la face
+postérieure laisse place à l'épiphyse distale du radius.
+Le bord interosseux, lui, sépare la face antérieure et postérieure, et donne insertion à la
+membrane interosseuse antébrachiale.
+L'épiphyse distale du radius est une extrémité volumineuse, qui présente une forme
+quadrangulaire et 5 faces.
+La face antérieure prolonge l'insertion du m. carré pronateur, limitée latéralement par la
+crête suprastyloïdienne.
+La face latérale, dans la continuité de la face latérale de la diaphyse, est prolongée
+inférieurement par le processus styloïde radial, sur lequel va venir s'attacher le lig. collatéral
+radial du carpe.
+CHARLES KALMUS – IFEC 2023-2024 18
+Cette face latérale présente, de part et d'autre au-dessus du processus
+styloïde, 2 sillons qui vont permettre le passage de différents tendons.
+Le sillon antérieur laisse passer les tendons des m. long abducteur du pouce et
+court extenseur du pouce. Au-dessus de ce sillon se termine le m. brachio-radial.
+Le sillon postérieur, lui, laisse passer le tendon du m. long extenseur radial du
+carpe.
+En anatomie de surface, on peut décrire ce qu'on appelle la tabatière
+anatomique, qui est en regard de cette face latérale. Il s'agit d'une
+dépression
+délimitée antérieurement par le m. abductor pollicis longus et m. extensor
+pollicis brevis et postérieurement par le m. extensor pollicis longus. Le
+
+
+===== PAGE 22 =====
+plancher étant formé par le scaphoïde.
+On peut mesurer le pouls radial au niveau de ce creux.
+La face dorsale présente, elle aussi, 2 sillons qui seront séparés l'un de l'autre par le tubercule dorsal
+(tubercule de Lister).
+Dans le sillon latéral passe le tendon du court extenseur radial du carpe, alors que dans le sillon médial vont passer
+les tendons des m. long extenseur du pouce (latéralement) et les tendons des m. extenseur des doigts et extenseur
+de l'index (médialement).
+Sur l'aspect supérieur de la face médiale s'insère une partie du m. carré pronateur, et inférieurement on
+trouve l'incisure ulnaire qui s'articule avec la circonférence articulaire de la tête ulnaire.
+Enfin, la face inférieure, qui a une forme triangulaire, s'articule avec les os
+du carpe. La partie latérale répond au scaphoïde, alors que la partie médiale, elle,
+répond au lunatum.
+CHARLES KALMUS – IFEC 2023-2024 19
+B – L'ulna crête trochléaire qui relie l'olécrane et le rostrum
+coronoïdien,
+Face médiale
+ainsi qu'un sillon transversal joignant les surfaces verticale
+C'est l'os médial de l'avant-bras, est un os long dont
+et
+l'épiphyse proximale est plus volumineuse que la distale. De
+horizontale. La crête trochléaire sépare les versants médial
+forme
+et
+triangulaire en coupe, l'ulna présente une courbure en
+latéral.
+avant, près
+de l'épiphyse distale.
+L'olécrane prolonge le corps vers le haut. Il possède
+plusieurs faces (antérieure, postérieure, supérieure,
+L'épiphyse proximale présente deux reliefs importants –
+latérale,
+l'olécrane et le processus coronoïde. Entre ces deux saillies,
+médiale).
+se
+Sur sa face supérieure, il reçoit le m. triceps brachial.
+forme une excavation - l'incisure trochléaire, qui s'articule
+La face latérale permet l'insertion du lig. collatéral radial du
+avec la
+coude
+trochlée de l'humérus et qui présente, de manière
+antérieurement, et l'insertion du m. anconé
+longitudinale, la
+
+
+===== PAGE 23 =====
+postérieurement. latérale de la tubérosité se continue par la corde oblique
+La face médiale, elle, permet l'insertion du lig. collatéral alors que le versant médial reçoit les m. rond pronateur et
+ulnaire du coude fléchisseur superficiel des doigts.
+antérieurement et l'insertion du m. fléchisseur ulnaire du
+La face latérale s'articule en haut avec la circonférence
+carpe postérieurement. La face postérieur est sous-cutané radiale, par l'incisure radiale. En avant et en arrière de
+cette dernière se trouvent les insertions des lig. annulaire
+et devient la face postérieur de la diaphyse. et collatéral radial du coude. Inférieurement s'insère le lig.
+carré. En bas de la face latérale, on trouve la fosse
+supinatrice qui reçoit le m. supinateur, limitée
+Le processus coronoïde, prolonge le corps en avant. Il
+postérieurement par la crête du m. supinateur.
+présente 4 faces
+(supérieure, antérieure, latérale, médiale).
+La face médiale présente en avant le tubercule coronoïdien
+sur lequel s'insère le lig. collatéral ulnaire du coude, et en
+La face supérieure, articulaire, se prolonge en avant par le
+arrière cette face reçoit l'insertion du m. fléchisseur
+rostrum coronoïdien.
+profond des doigts.
+La face antérieure présente la tubérosité ulnaire où se
+termine le m. brachial. Au dessus de cette tubérosité Face latérale
+s'insère le lig. collatéral ulnaire du coude. Le versant
+
+
+===== PAGE 24 =====
+CHARLES KALMUS – IFEC 2023-2024 20
+La diaphyse ulnaire, triangulaire, présente 3 faces (antérieure,
+postérieure et médiale) et 3 bords (antérieur, postérieur, interosseux).
+
+
+===== PAGE 25 =====
+Sur la partie supérieur de la face antérieure s'insère le m. fléchisseur profond
+des doigts, sur le 1/3 inférieur s'insère le m. carré pronateur.
+La partie supérieure de la face postérieure présente une surface triangulaire où
+s'insère le m. anconé. En dessous, la crête supinatrice se prolonge par une crête
+longitudinale, qui donne en sa partie latérale l'insertion (respectivement de
+haut en bas) des m. long abducteur du pouce, court extenseur du pouce, long
+extenseur du pouce et extenseur de l'index.
+La face médiale sert d'insertion sur les 2/3 supérieurs pour le m. fléchisseur
+profond des doigts.
+Le bord antérieur permet supérieurement l'insertion du m. fléchisseur profond
+des doigts et inférieurement l'insertion du m. carré pronateur.
+Le bord postérieur se divise supérieurement vers les bords de l'olécrane. Ce
+bord permet l'insertion du septum intermusculaire antébrachial médial. Sur son
+versant médial il reçoit le m. fléchisseur ulnaire du carpe et le m. extenseur
+ulnaire du carpe sur son versant latéral.
+Le bord interosseux donne insertion à la membrane interosseuse antébrachiale.
+L'épiphyse distale est formée de la tête et du processus styloïde ulnaire. La
+partie latérale de la tête (circonférence articulaire ulnaire) s'articule avec
+l'incisure ulnaire du radius et forme ainsi l'articulation radio-ulnaire distale.
+Le processus styloïde ulnaire, en forme de cône postéro-médial permet
+l'insertion du disque articulaire (de l'articulation radio-ulnaire distale) sur sa face latérale et
+l'insertion du lig. collatéral ulnaire du carpe sur sa face postérieure.
+Les disque articulaire permet la séparation entre l'articulation radio-ulnaire distale et radio
+carpienne.
+L'apophyse styloïde radiale se projette plus bas que l'apophyse styloïde ulnaire.
+L'articulation radio-ulnaire distale est de type trochoïde, elle est entouré de quelques
+ligaments vue ultérieurement.
+Le radius et l'ulna sont reliés, au niveau l'articulation distale par deux ligaments:
+- Le lig. radio-ulnaire antérieur
+- Le lig. radio-ulnaire postérieur
+CHARLES KALMUS – IFEC 2023-2024 21
+
+
+===== PAGE 26 =====
+C – L'articulation du coude
+L'articulation du coude est une articulation unique mais formée par 3 os - l'humérus, le radius, l'ulna; le tout
+permettant essentiellement le mouvement de flexion/extension du coude. Cependant ces trois os s'articulant entre
+eux forment 3 "sous-articulations" de différents types.
+L'articulation huméro-ulnaire est de type ginglyme.
+L'articulation huméro-radiale est de type sphéroïde.
+L'articulation radio-ulnaire proximale est de type trochoïde.
+L'articulation du coude est vraiment stable en comparaison à la
+gléno-humérale. Ceci étant dit, une multitude de ligaments
+viennent fixer et maintenir le tout ensemble. De plus les différentes
+fosses présentent au niveau de l'humérus permettent aux reliefs du
+radius et de l'ulna de pouvoir s'y insérer sans entrave quelconque
+au mouvement.
+Au niveau du coude, 2
+bourses principales à signaler:
+la
+bourse olécranienne,
+sous-cutanée, au niveau de
+l'olécrane
+et la bourse bicipito-radiale.
+Le lig. annulaire du radius:
+tendu entre les bords
+antérieur
+et postérieur de l'incisure radiale. Il
+encercle le radius.
+Le lig. oblique du coude: il s'agit d'un épaississement oblique du
+lig. antérieur. Entre l'épicondyle médial et la face antérieur du
+ligament annulaire.
+Le lig. postérieur: constitué de fibres transversales et obliques.
+Le lig. collatéral ulnaire: (composé de 4 faisceaux)
+- Faisceau antérieur entre l'épicondyle médial et le bord
+médial du processus coronoïde
+- Faisceau moyen entre l'épicondyle médial et le tubercule
+coronoïde
+- Faisceau postérieur entre l'épicondyle médial et le bord
+médial de l'olécrane
+- Faisceau arciforme entre le tubercule coronoïde et la base
+de l'olécrane
+Le lig. collatéral radial: (composé de 3 faisceaux)
+- Faisceau antérieur entre l'épicondyle latéral et le bord
+antérieur de l'incisure radiale
+- Faisceau moyen entre l'épicondyle latéral et le bord
+postérieur de l'incisure radiale/crête du m. supinateur
+- Faisceau postérieur entre l'épicondyle latéral et le bord
+latéral de l'olécrane
+Le lig. carré: lame fibreuse entre le col du radius et le bord
+inférieur de l'incisure radiale.
+La corde oblique: ligament puissant tendu entre le versant
+
+
+===== PAGE 27 =====
+inféro-latéral du processus coronoïde et la partie inférieure de la tubérosité radiale
+La membrane interosseuse antébrachial: elle comble l'espace entre l'ulna et le radius. Elle relie
+les bords interosseux des 2 os.
+VI – Myologie au niveau du bras
+CHARLES KALMUS – IFEC 2023-2024 22
+Les septums intermusculaires brachiaux s'insérant au niveau des bords médial et latéral de l'humérus divise
+le compartiment brachial en 2 loges. Les muscles présents dans chacune de ces loges auront un rôle commun. On
+distingue donc la loge antérieure du bras avec des muscles responsables de la flexion et la loge postérieure avec des
+muscles responsables de l'extension.
+A – Muscle de la loge antérieure du bras
+Biceps brachial Coraco-brachial Brachialis
+Origine • Long chef: tubercule • Apex du processus coracoïde Partie inf. des faces médiale et
+supra glénoïdale latérale de l'humérus
+• Court chef: apex du
+processus coracoïde
+Terminaison • Tubérosité du radius Partie moyenne de la face Tubérosité ulnaire
+• Aponévrose bicipitale se médiale de l'humérus
+perdant dans le fascia de
+l'avant-bras
+Trajet • Le tendon du long chef passe En bas et légèrement en dehors En bas
+au dessus de la tête humérale
+puis descend dans la
+gouttière
+bicipitale
+• Court chef: en dehors et en bas
+Action • Flexion du coude • Flexion de la Flexion du coude
+• Supination du coude gléno-humérale • Adduction
+• Stabilisation de la gléno accessoire de la
+humérale gléno-humérale
+• Flexion accessoire de l'épaule
+Innervation N. musculo-cutané (C5,C6) N. musculo-cutané (C5,C6,C7)
+CLINIQUE:
+C'est au niveau du tendon distale du m. biceps brachial que l'on
+peut palper le reflexe C5. On obtient alors une flexion du coude.
+
+
+===== PAGE 28 =====
+CHARLES KALMUS – IFEC 2023-2024 23
+B – Muscles de la loge postérieure du bras
+Triceps brachial Anconé (Anconeus)
+Origine • Long chef: tubercule infra-glénoïdale Face post. de l'épicondyle lat. de l'humérus
+• Chef médial: face post. de la diaphyse humérale
+(en dessous du sillon du n. radial)
+• Chef latéral: face post. de la diaphyse humérale
+(au dessus du sillon du n. radial)
+Terminaison Tendon commun sur la face sup. de l'olécrane • Face post.-lat. de l'olécrane
+• Face post.-sup. de la diaphyse de l'ulna
+Trajet En bas En bas et en dedans
+Action • Extension du coude Extension du coude
+• Long chef – extension du bras
+Innervation N. radial (C6,C7,C8) N. radial (C6,C7,C8)
+N. axillaire (long chef)
+CLINIQUE:
+Au niveau du tendon distal du m. triceps, on peut taper le reflexe C7. On
+obtient alors une extension du coude.
+
+
+===== PAGE 29 =====
+CHARLES KALMUS – IFEC 2023-2024 24
+VII – Ostéologie de la main
+La main est constituée de 27 os répartis en trois groupes:
+• Le carpe (composé de 2 rangées de 4 os)
+• Le métacarpe (composé de 5 os)
+• Les phalanges (composées de 14 os)
+A – Les os du carpe
+Les 2 rangées (proximale et distale) sont séparés par une interligne, et composé de (latéral à médial):
+- Scaphoïde / Lunatum / Triquetrum / Pisiforme
+- Trapezium / Trapézoide / Capitatum / Hamatum
+En haut avec le radius; En dehors avec le scaphoïde; En
+dedans avec le triquetrum; En bas avec le capitatum.
+Le scaphoïde:
+Le triquetrum:
+Il possède 3 faces articulaires.
+La face supérieure s'articule avec le radius; De forme pyramidal à sommet inféro-médial, il s'articule: En
+haut avec le disque radio-ulnaire; En dehors avec le lunatum; En
+La face inférieure avec le Trapezium et le Trapézoide;
+bas avec l'hamatum; En avant avec le pisiforme. Sur sa face
+La face médiale, elle, avec le lunatum et le capitatum.
+médiale s'insère le lig. collatéral ulnaire du carpe.
+La face latérale présente une saillie, le tubercule du scaphoïde,
+Le pisiforme:
+où s'insère le lig. collatéral latéral du carpe.
+De forme ovoïde il s'articule en arrière avec le triquetrum. Sur
+Sur la face antérieure s'insère le m. court abducteur du pouce, et
+sa face antérieure s'insèrent les m. fléchisseur ulnaire du
+la retinacula des fléchisseurs.
+carpe et abducteur du petit doigt ainsi que la retinacula des
+La face postérieure forme le plancher de la tabatière
+fléchisseurs.
+anatomique.
+Le trapezium:
+Il s'articule:
+Le lunatum:
+Présentant une forme semi-lunaire il 'articule:
+En haut avec le scaphoïde; En bas avec la base du Ier métacarpien;
+En dedans avec le trapézoïde et la base du IIe méta Sa face
+
+
+===== PAGE 30 =====
+antérieure présente le tubercule du trapèze où s'insèrent les m. Et en bas avec les bases des IIe et IIIe métacarpiens
+opposant du pouce et court fléchisseur du pouce. Il y a aussi un (accessoirement le IVe méta).
+sillon dans lequel glisse le tendon du m. fléchisseur radial du
+Sa face antérieure reçoit les m. court fléchisseurs du pouce et
+carpe.
+adducteur du pouce.
+Le trapézoïde:
+L'hamatum:
+Il s'articule:
+En forme de pyramide avec un crochet, il s'articule: En haut avec
+En haut avec le scaphoïde; En dehors avec le trapezium; En
+le triquetrum; En dehors avec le capitatum; En bas avec la base
+dedans avec le capitatum; en bas avec la base du IIe méta. Sa face du IVe méta via la facette articulaire latérale; et la base du Ve
+antérieure permet l'insertion des m. court fléchisseur du pouce méta via la facette articulaire médiale. A sa face antérieure il
+et adducteur du pouce. présente un processus en crochet – c'est l'hamulus de
+l'hamatum (ou hook of hamatum),
+Le capitatum: sur lequel s'insèrent les m. opposant du petit doigt et court
+Le plus grand des os du carpe, de forme allongée, s'articule: fléchisseur du petit doigt.
+En haut avec le lunatum; En dehors avec le trapézoïde et le
+scaphoïde; en dedans avec l'hamatum;
+CHARLES KALMUS – IFEC 2023-2024 25
+B – Les métacarpiens
+Ils sont au nombre de 5 et présente une structure semblable, à savoir:
+- Une épiphyse proximale – la base du méta – de forme quadrangulaire/cuboïde;
+- Une diaphyse incurvée légèrement en avant, de forme prismatique et donnant l'insertion des m.
+interosseux palmaires et dorsaux sur sa face "antérieure" (médiale/latérale) et aux m. extenseurs sur sa
+face dorsale;
+- Une épiphyse distale – la tête du méta – de forme arrondie avec une face articulaire antéro-inférieure
+pour les bases des phalanges. Les faces latérale et médiale présentent des tubercules pour le lig.
+collatéral métacarpo-phalangien.
+Le métacarpiens s'articulent entre eux par des facettes articulaires médiale et latérale sauf le Ier méta. La face
+supérieure de la base permet l'articulation avec les os du carpe.
+Spécificités:
+Le Ier métacarpien est plus court mais plus volumineux.
+Sur la face "antérieure" du corps s'insèrent les m. opposant du pouce et
+1er m. interosseux palmaires et dorsal.
+Sur la face latérale de la base s'insère le m. long abducteur du pouce.
+Le IIe métacarpien est le plus long.
+Sur la face antérieure de la base s'insère le fléchisseur radial du carpe
+Sur la face postérieure s'insère le m. long extenseur radial du carpe.
+Sur le bord palmaire du corps s'insère le m. adducteur du pouce.
+Le IIIe métacarpien présente sur la face dorso-latérale de la
+base, le processus styloïde où s'insère le m. court extenseur
+radial du carpe.
+Sur la face palmaire de la base s'insère le m. fléchisseur radial
+du carpe.
+Le bord antérieur du corps reçoit le m. adducteur du pouce.
+Le Ve métacarpien reçoit le m. extenseur ulnaire du carpe sur
+la face médiale de la base.
+Le corps, lui, permet l'insertion des m. opposant du V et les 4e
+
+
+===== PAGE 31 =====
+interosseux palmaire et dorsal.
+CHARLES KALMUS – IFEC 2023-2024 26
+C – Les phalanges
+Au nombre de 3 par doigt, sauf le pouce (2), ce sont des os longs avec une base, un corps, une tête. Phalange
+proximale = Phalange (P1); Phalange moyenne = Phalangine (P2); Phalange distale = Phalangette (P3).
+La base présente une cavité glénoïdale en face supérieure. Les bords médial et
+latéral permettent l'insertion des m. interosseux et des lig. collatéraux
+métacarpo-phalangiens.
+La face dorsale donne insertion au m. extenseur des doigts.
+Au niveau du pouce:
+Le bord latéral reçoit les m. abducteur et court fléchisseur du pouce.
+Le bord médial, lui, les m. adducteur du pouce et 1er interosseux palmaire.
+La face dorsale, le m. court extenseur du pouce.
+Au niveau du petit doigt:
+Le bord latéral reçoit le m. 4einterosseux palmaire.
+Le bord médial, les m. abducteur et court fléchisseur du petit doigt.
+Les têtes des phalanges ont une surface articulaire plus présente sur la face palmaire et les faces médiale et latérale
+ont des fossettes surmontée de tubercules pour les lig. collatéraux interphalangiens.
+Les phalanges moyennes (P2) donnent insertion au m. fléchisseur superficiel des doigts sur la face antérieure du
+corps, et au m. extenseur des doigts sur la face postérieure de la base.
+Les phalangettes (P3):
+La face antérieure de la base reçoit le m. fléchisseur profond des doigts.
+La face postérieure de la base reçoit le m. extenseur des doigts.
+Au niveau du pouce:
+La face palmaire de la base permet l'insertion du m. long fléchisseur du pouce.
+La face dorsale, elle, l'insertion du m. long extenseur du pouce.
+
+
+===== PAGE 32 =====
+Les os sésamoïdes sont des petits osselets pouvant être présent au niveau des articulations des doigts. Certains
+constants d'autres non, ils peuvent permettre des insertions musculaire.
+Les sésamoïdes du pouce sont constants. Ils sont présents au niveau de l'articulation métacarpo-phalangienne.
+Le sésamoïde latéral permet l'insertion du m. court fléchisseur du pouce.
+Le sésamoïde médial permet l'insertion du m. adducteur du pouce et 1er interosseux palmaire.
+CHARLES KALMUS – IFEC 2023-2024 27
+D – L'articulation du poignet
+De part leur disposition des os du carpe, on peut lui décrire 4 faces. La face
+postérieure est convexe, la face inférieure s'articule avec les métacarpiens, la face
+supérieure est convexe et s'articule avec le radius et le disque radio-ulnaire.
+La face palmaire est concave et forme le sillon carpien qui permet le passage de
+nombreux tendons entre-autres. Ce sillon est délimité latéralement par les
+tubercules du scaphoïde et du trapezium; médialement par le pisiforme et
+l'hamulus de l'hamatum. S'insère sur ces bords le rétinaculum des fléchisseurs, qui
+forme avec le sillon, le canal carpien. Du fait des projections du rétinaculum, ce
+canal peut être divisé en une partie médiale, plus grande, où passe les tendons des
+fléchisseurs (superficiels et profonds) des doigts et le tendon du long fléchisseur du pouce avec
+le n. médian; et une partie latérale, plus petite, où passe le tendon du fléchisseur radial du
+carpe.
+D'autre part, une expansion du rétinaculum des extenseurs contourne le pisiforme et s'insère
+sur le rétinaculum des fléchisseur, formant un canal entre le pisiforme et les deux rétinacula.
+C'est le canal ulnaire (ou canal de Guyon) dans lequel passent le n. ulnaire et l'artère ulnaire.
+Afin de maintenir la région du poignet en cohésion, une
+multitude de petits ligaments s'insèrent de part et d'autres
+des différents os.
+
+
+===== PAGE 33 =====
+Les lig. radio-carpien (palmaire et dorsal) et ulno-carpien palmaire font le lien
+entre avant-bras et carpe.
+Les lig. collatérale radial et ulnaire du carpe évitent un glissement du carpe en
+dedans ou en dehors.
+Les lig. médio-carpien dorsal, lig. inter-carpiens dorsaux et palmaires et lig. carpo
+métacarpiens dorsaux et palmaires maintiennent les os du carpes entre eux.
+Les rétinacula des fléchisseurs et des extenseurs sont lames fibreuses servant de
+cloison et de maintien des tendons
+Au niveau des doigts en retrouve:
+- Les lig. collatéraux médiaux et latéraux (ayant
+chacun un faisceau palmaire et dorsal)
+- Les lig. palmaires
+Le ligament faisant le lien entre les bases des
+métacarpiens – lig. métacarpien transverse profond.
+CHARLES KALMUS – IFEC 2023-2024 28
+VIII – Myologie de l'avant-bras
+Comme au niveau du bras, les septums intermusculaires antébrachiaux permettent de délimiter des loges
+musculaires. On a ainsi une loge antérieure (composée des fléchisseurs et des pronateurs) et une loge postérieure
+(composée des extenseurs essentiellement et du supinateur). Au niveau de la loge antérieure on peut trouver
+différentes subdivisions.
+La division suivante est arbitraire mais pratique. Serons donc vu:
+• La loge antébrachiale antérieure superficielle avec:
+- Le brachio-radial
+- Les épitrochléens (rond pronateur, fléchisseur radial du carpe, long palmaire, fléchisseur superficiel des
+doigts, fléchisseur ulnaire du carpe)
+• La loge antébrachiale antérieure profonde avec:
+- Le fléchisseur profond des doigts
+- Le long fléchisseur du pouce
+- Le carré pronateur
+• La loge antébrachiale postérieure superficielle avec:
+- Le long extenseur radiale du carpe
+- Les épicondyliens (le court extenseur radial du carpe, l'extenseur des doigts, l'extenseur ulnaire du
+carpe, l'extenseur du petit doigt)
+• La loge antébrachiale postérieure profonde avec:
+- Le supinateur
+- Le long abducteur du pouce
+- Le court extenseur du pouce
+- Le long extenseur du pouce
+
+
+===== PAGE 34 =====
+- L'extenseur de l'index
+CHARLES KALMUS – IFEC 2023-2024 29
+A – Loge antérieure superficielle
+Brachio-radialis Rond pronateur Fléchisseur radial du
+(pronator teres) carpe (flexor carpi
+radialis)
+Origine • Crête supra-condylaire latérale • Chef huméral (superficiel): Epitrochlée (tendon commun)
+de l'humérus épitrochlée
+• Bord latéral de la diaphyse • Chef ulnaire (profond):
+processus coronoïde
+Terminaison Base de l'apophyse styloïde radiale Tubérosité pronatrice du radius Face palmaire des base du IIe et
+IIIe métacarpien
+Trajet En bas En bas et en dehors En bas légèrement en dehors
+
+
+===== PAGE 35 =====
+Action • Flexion du coude • Pronation de l'avant-bras • Flexion du poignet
+• Supination accessoire de • Flexion accessoire du coude • Déviation radiale du carpe •
+l'avant bras Flexion et pronation accessoire
+de l'avant-bras
+Innervation N. Radial (C5,C6) N. Médian (C6,C7) N. Médian (C6,C7)
+CLINIQUE:
+On peut taper le réflexe C6 au niveau
+du tendon distal du m.
+brachio-radialis. On obtient
+alors une flexion du coude.
+Vis-à-vis des m.
+épitrochléens, lors de
+certaines pratiques
+sportives de lancer, il peut y avoir une
+inflammation à l'origine
+tendineuse proximale. Provoquant
+alors des douleurs à la face
+interne du coude. C'est ce
+qu'on appelle l'épitrochléite,
+ou
+tendinopathie des
+épitrochléens. (on peut rencontrer
+l'appellation de golfer's elbow)
+CHARLES KALMUS – IFEC 2023-2024 30
+Loge antérieure superficielle
+
+
+===== PAGE 36 =====
+Long palmaire Fléchisseur superficiel des Fléchisseur ulnaire du carpe
+(Palmaris Longus) doigts (Flexor digitorum (Flexor carpi ulnaris)
+superficialis)
+Origine Epitrochlée (tendon commun) • Chef huméral: Epitrochlée • Chef huméral: Epitrochlée
+(tendon commun) (tendon commun)
+• Chef ulnaire: processus • Chef ulnaire: Face médiale de
+coronoïde • Chef radial: ligne l'olécrane; et 2/3 supéro-médial
+oblique du radius de l'ulna
+Les chefs sont unis par une
+arcade fibreuse.
+Terminaison Aponévrose palmaire Face palmaire des P2 des 4 • Pisiforme
+derniers doigts • Hamatum
+• Face palmaire de la base du
+Ve méta
+Trajet En bas En bas En bas
+Action • Flexion du poignet • Flexion du poignet • Flexion du poignet
+• Flexion accessoire du coude • Flexion • Déviation ulnaire du carpe
+métacarpo-phalangienne • • Flexion accessoire du coude
+Flexion entre P1 et P2
+Innervation N. Médian (C7,C8) N. Médian (C7,C8,T1) N. Ulnaire (C7,C8)
+CLINIQUE:
+On peut taper le réflexe C8 au niveau du tendon
+distal du m. flexor carpi ulnaris. On obtient alors une
+flexion du carpe et une déviation ulnaire.
+
+
+===== PAGE 37 =====
+CHARLES KALMUS – IFEC 2023-2024 31
+B – Loge antérieure profonde
+Fléchisseur profond des Long fléchisseur du pouce Carré pronateur
+doigts (Flexor digitorum (Flexor pollicis longus) (Pronator quadratus)
+profondus)
+Origine • Partie proximale des faces • Face antérieure du radius Partie antéro-inférieur
+antérieure et médiale ulnaire • Membrane interosseuse de l'ulna
+• Membrane interosseuse
+Terminaison Face palmaire des bases Face palmaire de la base de P2 Partie antéro-inférieur
+des 4 derniers P3 du pouce du radius
+Trajet En bas En bas d'abord puis en dehors après En dehors
+le canal carpien Légèrement en bas
+Action • Flexion du poignet • Flexion du pouce Pronation de l'avant-bras
+• Flexion des doigts • Flexion accessoire du
+poignet • Déviation ulnaire
+du poignet
+Innervation N. médian (C8,T1) – partie N. Médian (C7,C8) N. Interosseux
+latérale N. ulnaire (C8,T1) – antérieur (C7,C8)
+
+
+===== PAGE 38 =====
+partie médiale (branche du n. médian)
+Au niveau de l'articulation
+méta-carpo-phalangienne, chaque
+tendon
+du m. fléchisseur superficiel des doigts se
+divise en deux parties pour
+laisser le tendon du m. fléchisseur
+profond des doigts. Ces languettes
+de rejoignent ensuite au niveau de la
+terminaison.
+CHARLES KALMUS – IFEC 2023-2024 32
+C – Loge postérieure superficielle
+Long extenseur radial du carpe Court extenseur radial du carpe
+(Extensor carpi radialis longus) (Extensor carpi radialis brevis)
+Origine Crête supra-condylaire latérale de l'humérus Epicondyle latérale (tendon commun)
+Terminaison Face dorsale de la base du IIe métacarpien Face dorsale de la base du IIIe métacarpien
+
+
+===== PAGE 39 =====
+Trajet En bas En bas
+Action • Extension du poignet • Extension du poignet
+• Déviation radiale accessoire du poignet • Déviation radiale accessoire du poignet
+Innervation N. radial (C5,C6) N. radial (C7,C8)
+L'ensemble des tendons des
+muscles de loge postérieure
+à destination de la main
+passent sous le rétinaculum
+des
+extenseurs au niveau du
+poignet.
+CLINIQUE:
+Vis-à-vis des m.
+épicondyliens, lors
+des certaines
+activités sportives
+(golf, tennis,…) ou
+encore lors du
+bricolage, il peut y avoir une
+inflammation au niveau de
+l'insertion
+tendineuse
+proximale des ces muscles,
+provoquant alors des douleurs au niveau de la face
+interne du coude. C'est ce qu'on appelle la
+tendinopathie des épicondyliens ou encore le tennis
+elbow.
+CHARLES KALMUS – IFEC 2023-2024 33
+Loge postérieure superficielle
+
+
+===== PAGE 40 =====
+Extenseur des doigts Extenseur du petit doigt Extenseur ulnaire du
+(extensor digitorum) (extensor digiti minimi) carpe (Extensor carpi
+ulnaris)
+Origine Epicondyle latérale (tendon commun) Epicondyle latérale (tendon • Epicondyle latérale
+commun) (tendon commun)
+• Bord postéro-latéral de l'ulna
+Terminaison Face dorsale des bases de P2 et P3 Face dorsale des bases de P2 et Face dorsale de la base du
+P3 du petit doigt via le tendon Ve méta
+de l'extensor digitorum
+Trajet En bas En bas En bas
+Action • Extension du poignet • Extension du petit doigt • Extension du poignet
+• Extension des doigts • Extension du poignet • Déviation ulnaire du poignet
+Innervation N. radial (C7,C8) , N. radial (C6,C7,C8), N. radial (C6,C7,C8),
+branche profonde Branche profonde Branche profonde
+Le tendon de
+l'extensor
+digitorum se
+divise en
+plusieurs parties,
+une pour chaque
+doigts, au
+niveau du
+rétinaculum des
+extenseurs.
+Ensuite au
+niveau de la
+métacarpo-phalangienne chaque
+tendon se divise en 3 languettes. Une centrale qui
+s'insère sur P2 et une médiale et latérale qui
+rejoignent P3.
+
+
+===== PAGE 41 =====
+Le tendon de l'extensor digitorum sert de
+terminaison au tendon du m. digiti minimi.
+CHARLES KALMUS – IFEC 2023-2024 34
+D – Loge postérieure profonde
+Supinateur Long ABDucteur du pouce Court extenseur du
+(Supinator) (Abductor pollicis longus) pouce (Extensor
+pollicis brevis)
+Origine • Faisceau superficiel: • Partie moyenne des • Partie postéro-inférieure
+Epicondyle huméral latérale faces postérieures du du radius (en dessous de
+• Faisceau profond: radius et l'ABDuctor pollicis
+Crête et fosse supinatrice ulna longus) • Membrane
+• Membrane interosseuse interosseuse
+Terminaison • Faisceau superficiel: Face latérale de la base du Face dorsale de la base de
+latéralement à la ligne oblique Iermétacarpien P1 du pouce
+du radius
+• Faisceau profond:
+face postéro-latérale du col
+du radius
+Trajet Oblique en bas, en dehors En bas et en dehors En bas
+Contourne la partie proximale
+du radius
+Action Supination de l'avant-bras • Abduction du pouce • Extension du pouce
+• Déviation radiale • Extension accessoire
+accessoire du poignet du poignet
+Innervation N. radial (C6,C7) , N. radial (C7,C8) , N. radial (C7,C8) ,
+Branche profonde Branche profonde Branche profonde
+
+
+===== PAGE 42 =====
+CHARLES KALMUS – IFEC 2023-2024 35
+Loge postérieure profonde
+Long extenseur du pouce Extenseur de l'index
+(Extensor pollicis longus) (Extensor indicis)
+Origine • Tiers moyen de la face post. de • Ties inférieur de la face post. de
+l'ulna • Membrane interosseuse l'ulna • Membrane interosseuse
+Terminaison Face dorsale de la base de P2 du pouce Face dorsale des bases P2 et P3 via le ten
+de l'extensor digitorum
+Trajet En bas En bas
+Action • Extension du pouce • Extension de l'index
+• Extension accessoire du poignet • Extension accessoire du poignet
+Innervation N. radial (C7,C8) , N. radial (C7,C8) ,
+Branche profonde Branche profonde
+
+
+===== PAGE 43 =====
+CHARLES KALMUS – IFEC 2023-2024 36
+IX – Myologie de la main
+La main est une région remplie de nombreuses structures musculaires, fibreuses, vasculaires et nerveuses. Au
+niveau musculaire on peut décrire une couche superficielle et une couche profonde. La couche superficielle peut
+être, elle-même, subdivisée en 2 régions:
+- L'éminence thénar qui comprend les muscles destinés au pouce, donc situés latéralement
+- L'éminence hypothénar qui comprend les muscles destinés à l'auriculaire, donc situés médialement.
+A – Eminence thénar
+Court ABDucteur du Court fléchisseur du Opposant du pouce ADDucteur du pouce
+pouce (ABDuctor pouce (Opponens pollicis) (ADDuctor pollicis)
+pollicis brevis) (Flexor pollicis brevis)
+Origine • Tubercule du • Tubercule du • Tubercule du • Chef oblique:
+scaphoïde • trapezium • trapezium • os trapézoïde,
+Rétinaculum des Rétinaculum des Rétinaculum des capitatum, base du
+fléchisseurs fléchisseurs fléchisseurs IIIe méta.
+• Chef transverse:
+face palmaire du IIIe
+méta.
+
+
+===== PAGE 44 =====
+Terminaison Face latérale de la base • Face palmaire de la Face latérale du Ier méta • Bord médiale de la
+de P1 du pouce base de P1 du pouce base de P1 du
+• Os sésamoïde pouce
+• Os sésamoïde médial
+Trajet En bas et en dehors En bas et en dehors En bas et en dehors En dehors
+Action ABDuction du pouce Flexion du pouce • Flexion du pouce ADDuction du pouce
+• Rotation médiale
+du pouce
+Innervation N. médian (C8,T1) N. médian (C8,T1) N. médian (C8,T1) N. ulnaire (C8,T1),
+Branche profonde
+Le m. abductor pollicis brevis recouvre le m. flexor pollicis
+brevis.
+Le m. opponens pollicis recouvre en partie de m. flexor
+pollicis
+brevis et est recouvert par le m. abductor pollicis brevis.
+CHARLES KALMUS – IFEC 2023-2024 37
+B – Eminence hypothénar
+ABDucteur propre du Ve Fléchisseur propre du Ve Opposant propre du Ve
+doigt (ABDuctor digiti doigt (Flexor digiti minimi) doigt (Opponens digiti
+minimi) minimi)
+(manus) (manus)
+Origine • Pisiforme • Crochet de l'hamatum • Crochet de l'hamatum
+• Rétinaculum des fléchisseurs • Rétinaculum des fléchisseurs • Rétinaculum des fléchisseurs
+Terminaison Face médiale de la base de P1 Face médiale de la base de P1 Face médiale du Ve méta.
+de l'auriculaire de l'auriculaire
+
+
+===== PAGE 45 =====
+Trajet En bas En bas et légèrement en dedans En bas et légèrement en dedans
+Action ABDuction de l'auriculaire Flexion de l'auriculaire • Flexion de l'auriculaire
+• Rotation latérale de l'auriculaire
+Innervation N. ulnaire (C8,T1), N. ulnaire (C8,T1), N. ulnaire (C8,T1),
+Branche profonde Branche profonde Branche profonde
+Le m. opponens digiti minimi est recouvert par le m. flexor
+digiti
+minimi qui est lui-même recouvert par le m. abductor digiti
+minimi.
+CHARLES KALMUS – IFEC 2023-2024 38
+C – Couche musculaire profonde de la main
+Interosseux dorsaux Interosseux palmaires Lombricaux
+(Dorsal interossei) (Palmar interossei) (Lumbricals)
+Muscles bipennés Muscles unipennés 1er et 2e unipennés
+(manus) (manus) 3e et 4e bipennés
+
+
+===== PAGE 46 =====
+(manus)
+Origine Faces interosseuses des • 1er interosseux: bases des Ier et • Bords latéraux des tendons
+métacarpiens IIe méta + trapezium du flexor digitorum
+• 2e,3e,4einterosseux: faces profondus
+adductrices (axiales) des IIe, • Bords médiaux pour les 3e et
+IVe, Ve méta. Respectivement 4e lombricaux
+Terminaison • Faces abductrices • Faces adductrices (axiales) Bords latéraux des tendons
+(abaxiales) des bases des des bases des P1 des Ier, IIe, des extensor digitorum du
+P1 des espaces IVe, Ve doigt
+interdigitaux respectifs correspondant
+méta respectivement
+• "aponévrose dorsale des doigts" et
+tendon de l'extensor digitorum • "aponévrose dorsale des doigts" et
+correspondant tendon de l'extensor digitorum
+correspondant
+Trajet En bas En bas En bas en passant de la face
+palmaire à dorsale
+Action • Abduction des doigts • Adduction des doigts • Flexion des MCP's
+• Flexion des MCP's accessoire • Flexion des MCP's accessoire • Extension des IP's
+• Extension des IP's accessoire • Extension des IP's accessoire
+Innervation N. ulnaire (C8,T1), N. ulnaire (C8,T1), N. médian pour les 2
+Branche profonde Branche profonde latéraux N. ulnaire pour
+les 2 médiaux
+*MCP's – Métacarpo-phalangienne
+*IP's – Inter-phalangienne
+CHARLES KALMUS – IFEC 2023-2024 39
+X –
+Neurologie du
+membre
+supérieur
+
+
+===== PAGE 47 =====
+Le système nerveux périphérique est la structure qui permet de faire le lien entre le système
+nerveux central et les organes cibles. Ce système permet le passage de l'information
+sensitive et motrice, et donc le bon fonctionnement du corps.
+De manière générale, de la moëlle émergent deux petites
+racines:
+- une antérieure – motrice
+- une postérieure – sensitive (avec son ganglion spinal).
+Ces 2 racines se réunissent en un tronc, formant le nerf
+spinal qui sort du canal vertébral. Dès sa sortie, le nerf
+spinal donne une branche postérieure, plus petite, à destinée dorsale et une branche
+antérieure, plus grande, destinée à la partie ventrale, au tronc et au membres.
+La branche postérieure peut se nommer – PPD (posterior primary division)
+La branche antérieure peut se nommer – APD (anterior primary division)
+En général, les APD's se rassemblent entre elles pour former des plexus (sauf pour la
+région thoracique), s'appelant différemment selon la région.
+Concernant le membre supérieur, il s'agit du plexus brachial.
+C'est le plexus brachial qui est en charge d'innerver l'ensemble de la ceinture scapulaire
+ainsi que le membre supérieur. Il est composé des APD de C5 à T1.
+Le plexus correspond au mixage des racines citées. On peut le diviser en plusieurs parties.
+Son aboutissement, ce sont les différents nerfs qui en découlent.
+CHARLES KALMUS – IFEC 2023-2024 40
+A – Le plexus brachial
+5 racines (C5,C6,C7,C8,T1)
+C5 et C6 forment le tronc supérieur.
+C7 forme le tronc moyen.
+C8 et T1 forment le tronc inférieur.
+Chacun des 3 troncs donne 2 divisions, une antérieure
+et
+une postérieure qui s'anastomosent (s'unissent) pour
+donner 3 cordes. D'un point de vue fonctionnel, les
+
+
+===== PAGE 48 =====
+divisions
+postérieures innervent les loges postérieures (extenseurs) et
+les divisions antérieures les loges antérieures (fléchisseurs)
+Les 3 cordes:
+- la corde postérieure est formée des 3 divisions postérieures
+- la corde médiale est formée de la division antérieure du tronc inférieur - la corde
+latérale est formée des divisions antérieures des troncs supérieur et moyen
+Enfin, les cordes se divisent et forment les branches terminales du plexus brachial:
+CHARLES KALMUS – IFEC 2023-2024 41
+- le n. musculo-cutané est formé de la corde latérale
+- le n. médian est formé des cordes latérale et médiale
+- le n. ulnaire est issu de la corde médiale
+- le n. radiale vient de la corde postérieure
+- le n. axillaire est issu de la corde postérieure
+Le plexus brachial donne plusieurs branches collatérales à différents niveaux:
+- Le n. dorso-scapulaire (C5)
+- Le n. phrénique (C3,C4,C5)
+- Le n. supra-scapulaire (C5,C6)
+- Le n. sous-clavier (C5,C6)
+- Le n. pectoral médial (C8,T1)
+- Le n. pectoral latéral (C5,C6,C7)
+- Le n. long thoracique (C5,C6,C7)
+- Le n. subscapulaire supérieur (C5,C6,C7,C8,T1)
+- Le n. subscapulaire moyen (C6,C7,C8) (aussi "n. thoraco-dorsal")
+- Le n. subscapulaire inférieur (C5,C6)
+- Le n. cutanée médial du bras
+- Le n. cutanée médial de l'avant-bras
+- Les n. pour les scalènes et longus coli
+
+
+===== PAGE 49 =====
+Rapports du plexus brachial:
+A leur sortie, les racines passent entre le m. scalène antérieur (en avant) et le m. scalène
+moyen (en arrière). Cet espace est aussi appelé "défilé des scalènes". Les plexus se trouve en
+arrière de l'a. sous-clavière et au-dessus de l'apex du poumon.
+Ensuite, les troncs se dirigent en bas, en dehors. Ils restent au-dessus de la clavicule et en
+avant du m. trapèze.
+Les divisions, elles, passent entre la clavicule et la 1ère côte. En dessous du m. subclavier.
+On appelle cet espace le "défilé costo-claviculaire". D'avant en arrière en retrouve la veine sous
+clavière, l'a. sous-clavière, les divisions du plexus.
+Après, les cordes entourent l'a. axillaire – la corde latérale en dehors,
+la
+corde médiale en dedans et la corde postérieure en arrière. A ce niveau, tout
+le complexe passe au niveau du "défilé du petit pectoral". Cet espace est fait:
+- Du m. subscapulaire postérieurement
+- Du m. serratus anterior médialement
+- Du m. petit pectoral antérieurement
+- Des m. coraco-brachial et court chef du biceps brachial latéralement
+CHARLES KALMUS – IFEC 2023-2024 42
+CLINIQUE: lors du passage de l'un des défilé, le plexus peut se retrouver irrité et ainsi créer des signes
+(fourmillements, douleurs,…) au niveau du membre supérieur. Les atteintes à ce niveau sont regroupées sous
+l'appellation de "TOS" (pour thoracic Outlet Syndrom)
+B – Les branches collatérales du plexus brachial:
+• Le N. dorso-scapulaire:
+N. moteur, naissant de la racine C5, plongeant en arrière du plexus brachial, en avant
+du trapèze. Il rejoint le bord médial de la scapula. Il est satellite de l'a.
+dorso-scapulaire.
+Innerve: les m. levator scapulae, rhomboïd minor, rhomboid major.
+• Le N. phrénique:
+N. moteur. Nait de la racine C5 et rejoint le diaphragme.
+• Le N. supra-scapulaire:
+N. moteur naissant du tronc supérieur. Il se dirige en arrière au-dessus de la
+scapula,
+accompagné de l'a. supra-scapulaire. Passe dans l'incisure scapulaire, sous le lig.
+
+
+===== PAGE 50 =====
+transverse de la scapula. Il rejoint la fosse supra-épineuse. Passe par l'échancrure spino
+glénoïdale et rejoint la fosse infra-épineuse.
+Innerve: les m. supra-épineux, infra-épineux, articulation gléno-humérale.
+• Le N. sous-clavier:
+N. moteur naissant du tronc supérieur.
+Innerve: le m. sous-clavier.
+• Le N. pectoral médial:
+N. moteur descendant de la corde médiale, il traverse le m. petit pectoral et se
+termine dans le m. grand pectoral. Il innerve les deux muscles.
+• Le N. pectoral latéral:
+N. moteur issu de la corde latérale, il descend, passe en dedans du petit pectoral.
+Se
+termine dans le grand pectoral. Il existe une anastomose entre le n. pectoral médial
+et latéral – c'est l'anse des pectoraux qui contourne l'a. axillaire antérieurement.
+Innerve: le m. grand pectoral
+• Le N. long thoracique:
+N. moteur naissant des racines C5,C6,C7, passe en arrière du plexus, descend et longe la cage
+thoracique.
+Innerve: le m. serratus anterior
+• Le N. subscapulaire supérieur:
+N. moteur qui nait de la corde postérieure et qui
+plonge
+directement dans le m. subscapulaire qu'il
+innerve.
+• Le N. subscapulaire moyen (N. thoraco-dorsal):
+N. moteur qui nait aussi de la corde postérieure. Il
+descend le long de la paroi thoracique jusqu'au m.
+grand
+dorsal qu'il innerve.
+• Le N. subscapulaire inférieur:
+N. moteur naissant de la corde postérieure. Il donne une
+branche au m. subscapulaire.
+CHARLES KALMUS – IFEC 2023-2024 43
+Innerve: le m. grand rond.
+• Le N. cutanée médial du bras:
+N. sensitif qui nait de la corde médiale. Il descend légèrement
+le long
+du n. ulnaire puis traverse le fascia du bras au niveau du creux
+axillaire et devient cutané pour la face médiale du bras.
+
+
+===== PAGE 51 =====
+• Le N. cutanée médial de l'avant-bras:
+N. sensitif qui nait de la corde médiale après le n. cutanée du bras. Il
+descend le long du n. ulnaire avec le n. cutané du bras puis traverse
+le
+fascia de le bras avec la veine basilique.
+Innerve: cutané pour la face antérieure du bras et pour la face
+médiale
+de l'avant-bras.
+• Les N. pour les m. scalènes et longus coli:
+N. moteurs qui sont destinés aux muscles proches de l'émergence des racines. On retrouve des branches pour les m.
+scalène antérieur, moyen, postérieur, les m. intertransversaires et le m. longus coli.
+CHARLES KALMUS – IFEC 2023-2024 44
+C – Les terminales du plexus brachial:
+1. Le n. musculo-cutané (C ,C ):
+5 6
+
+
+===== PAGE 52 =====
+N. sensitivo-moteur qui nait de la corde latérale, plonge de suite dans le m.
+coraco-brachial. Il est dans la loge antérieure du bras. On le retrouve entre le
+court chef du biceps brachial en avant et le coraco-brachial en arrière pour la
+moitié supérieure. Sur la moitié inférieure, il est entre le long chef du biceps
+brachial en avant et le m. brachialis en arrière. Il passe en avant de
+l'épicondyle latéral, traverse le fascia antébrachial au niveau du pli du coude
+pour donner sa terminale – le n. cutané antébrachial latéral
+Ce dernier se divise en 2 branches terminales:
+- Branche antéro-latérale du n. cutané antébrachial latéral -
+Branche postéro-latérale du n. cutané antébrachial latéral
+Innerve par ses différentes branches:
+- Le m. coraco-brachial
+- Le court chef du biceps brachial
+- Le long chef du biceps brachial
+- Le m. brachialis
+- L'articulation du coude
+- Les faces cutanées antéro-latérale et postéro-latérale de l'avant-bras
+Ses fonctions:
+- Flexion du bras
+- Flexion du coude
+- Sensibilité de la face latérale de l'avant-bras
+CHARLES KALMUS – IFEC 2023-2024 45
+2. Le n. axillaire (C ,C ):
+5 6
+
+
+===== PAGE 53 =====
+N. sensitivo-moteur, qui nait de la corde postérieure en arrière de l'a. axillaire. Il
+plonge de suite dans l'espace quadrangulaire avec l'a. circonflexe humérale
+postérieure. Contourne le col chirurgical de l'humérus recouvert par le m.
+déltoide.
+Il se termine dans le m. deltoïde.
+Ses branches collatérales:
+- La branche cutanée supéro-latérale du bras:
+contourne la face postérieure du m. deltoide en dedans. Traverse le
+fascia du bras et devient cutané pour la face supéro-latérale du bras.
+- La branche musculaire pour l'innervation du m. petit rond.
+Ses fonctions:
+- Abduction du bras
+- Sensibilité de la face supéro-latérale bras
+CHARLES KALMUS – IFEC 2023-2024 46
+
+
+===== PAGE 54 =====
+3. Le n. ulnaire (C ,T ):
+8 1
+N. sensitivo-moteur qui nait de la corde médial. Il se termine après le canal de
+Guyon en
+donnant 2 branches terminales:
+- Branche superficielle du n. ulnaire
+- Branche profonde du n. ulnaire
+Trajet & Rapports:
+Il descend en dedans de l'a. brachiale dans la loge antérieure. Au niveau
+de la moitié
+supérieur du bras, il traverse le septum intermusculaire brachial médial et passe
+dans la loge
+postérieure du bras avec l'a. collatérale ulnaire supérieure, longeant ensuite la
+face
+postérieure du septum jusqu'au coude.
+Au niveau du coude, le n. ulnaire passe dans le sillon du n. ulnaire (ou
+"gouttière
+rétro-épitrochléo-olécranienne), en arrière de l'épicondyle médial, et traverse le
+m. flexor
+carpi ulnaris.
+Dans l'avant-bras, il se trouve entre le m. flexor digitorum superficialis en avant et le
+m. flexor digitorum profondus en arrière (le m. flexor carpi ulnaris étant en dedans). Il suit
+son trajet avec l'a. ulnaire dans la loge antérieure de l'avant-bras, jusqu'au canal de Guyon.
+Branches collatérales pour:
+- L'articulation du coude
+- Le m. flexor carpi ulnaris
+- La ½ médiale du m. flexor digitorum profondus
+- branches cutanées:
+➢ Le rameau cutané dorsal du n. ulnaire nait avant le canal de Guyon. Il
+passe sous le m. flexor carpi ulnaris et rejoint la face dorsal de la
+main,
+traverse le fascia, devient cutané et donne 3 branches terminales:
+➔ N. digital dorsal propre médial du Ve doigt
+➔ N. digital dorsal propre latéral du Ve doigt
+➔ N. digital dorsal propre médial du IVe doigt
+➢ Le rameau cutané palmaire du n. ulnaire nait avant le canal de
+Guyon. Il
+passe par-dessus le rétinaculum des fléchisseurs et se charge de la région
+cutanée de l'hypothénar.
+
+
+===== PAGE 55 =====
+CHARLES KALMUS – IFEC 2023-2024 47
+Branches terminales: Naissant après le passage dans le canal de Guyon.
+❖ Le n. ulnaire superficiel:
+Il donne:
+- Le n. digital palmaire propre médial du Ve doigt
+- Le IVe n. digital palmaire commun qui se divise en:
+-> n. digital palmaire propre latéral du Ve doigt
+-> n. digital palmaire propre médial du IVe doigt
+❖ Le n. ulnaire profond:
+Il plonge dans l'hypothénar avec le rameau palmaire profond de l'a.
+ulnaire.
+Il passe, avec l'arcade palmaire profonde, en arrière des tendons des
+m. flexor
+digitorum profondus, flexor digitorum superficialis et en avant des
+métacarpiens.
+Innerve par ses branches (motrices) :
+- Le m. flexor digiti minimi
+- Le m. abductor digiti minimi
+- Le m. opponens digiti minimi
+- Les 4 m. interosseux palmaires
+- Les 4 m. interosseux dorsaux
+- Les 3e et 4e m. lombricaux
+- Les 2 chefs du m. adductor pollicis
+- Le m. flexor pollicis brevis
+Ses fonctions:
+- Mouvements des doigts sauf la flexion des Ier, IIe, IIIe et IVe doigts
+- Sensibilité de l'auriculaire, de la ½ médiale de l'annulaire et de la
+
+
+===== PAGE 56 =====
+région
+hypothénar.
+CLINIQUE:
+Le n. ulnaire passe par 2-3 zones relativement délicates:
+- La gouttière du n. ulnaire
+- Le passage dans le m. flexor carpi ulnaris
+- Le canal de Guyon.
+Une fracture, ou une compression quelconques à ces niveaux peut donner des signes sur la suite de son trajet
+(douleurs, fourmillements, engourdissement,...). Si l'atteinte est majorée, il peut y avoir une perte de force ainsi
+qu'une fonte musculaire des espaces interosseux, faisant apparaitre d'avantage les tendons. Il y a alors une
+apparences de main en grill.
+CHARLES KALMUS – IFEC 2023-2024 48
+4. Le n. médian (C ,C ,C ,C ,T ):
+5 6 7 8 1
+N. sensitivo-moteur, formé par une branche des corde
+médiale et
+latérale. Il se termine au niveau de la main par 3 branches
+terminales:
+- Ier n. digital palmaire commun
+- IIe n. digital palmaire commun
+- IIIe n. digital palmaire commun
+Trajet & Rapports:
+Le nerf accompagne l'a. brachiale dans le bras en avant de
+celle-ci. Au niveau du pli du coude, il passe en dedans du
+tendons du biceps et de l'artère, et se retrouve sous
+l'aponévrose bicipitale. Ensuite, il passe
+entre les 2 chefs du m. pronator teres (chef huméral en
+avant, chef
+ulnaire en arrière). Il continue sous l'arcade tendineuse du m.
+flexor
+digitorum superficialis, et se retrouve sous ce muscle, et en
+avant du
+m. flexor digitorum profondus.
+Il passe ensuite dans le canal carpien.
+Branches collatérales:
+- Br. musculaire pour le chef ulnaire du m. pronator teres
+- Branches musculaires pour les m. épicondyliens médiaux
+(pronator teres, flexor carpi radialis, palmaris longus,
+flexor digitorum superficialis)
+
+
+===== PAGE 57 =====
+- N. interosseux antérieur:
+Juste après le passage du m. pronator teres, il suit l'a. interosseuse
+antérieure en avant de la membrane interosseuse. Se trouve entre le m. flexor
+palmaris longus en dehors et le m. flexor digitorum profondus en dedans. Il va
+jusqu'au m. carré pronateur où il se termine.
+Innerve les muscles:
+-> Flexor pollicis longus
+-> ½ latérale du flexor digitorum
+profondus
+-> Carré pronateur
+- Un rameau palmaire du n. médian:
+Juste avant le canal carpien, il passe par-dessus le
+rétinaculum des fléchisseurs et s'occupe de
+l'innervation cutanée du thénar
+- Un rameau thénarien:
+Née après le passage du canal carpien et innerve les
+muscles:
+> Abductor pollicis brevis
+>
+Flexor
+pollicis
+brevis
+>
+Opponens pollicis
+CHARLES KALMUS – IFEC 2023-2024 49
+Branches terminales (cutanées):
+- Ier n. digital palmaire commun qui donne :
+➔ Le n. digital palmaire propre médial du Ier doigt
+➔ Le n. digital palmaire propre latéral du Ier doigt
+➔ Le n. digital palmaire propre latéral du IIe doigt
+-> Branche collatérale: motrice pour le Ier m.
+lombrical
+- IIe n. digital palmaire commun qui donne:
+➔ Le n. digital palmaire propre médial du IIe doigt
+➔ Le n. digital palmaire propre latéral du IIIe doigt
+-> Branche collatérale: motrice pour le IIe m.
+lombrical
+- IIIe n. digital palmaire commun qui donne:
+➔ Le n. digital palmaire propre médial du IIIe doigt
+➔ Le n. digital palmaire propre latéral du IVe doigt
+
+
+===== PAGE 58 =====
+Ses fonctions:
+- Flexion du poignet
+- Flexion des doigts
+- Mouvements du pouce
+- Pronation de l'avant-bras
+- Sensibilité de la face palmaire des 3 premiers doigts, de la ½ latérale de l'annulaire et de la face dorsale
+des P2,P3 des 3 premiers doigts.
+CLINIQUE:
+L'atteinte du n. médian peut se situer à différents niveaux:
+- Entre les 2 chefs dum. Pronator teres
+- Lors de son passage sous l'arcade du m. flexor digitorum superficialis
+- Dans le canal carpien.
+Lors de son passage dans le canal carpien, le nerf peut se retrouver irrité, comprimé par épaississement des tissus
+environnant, provoquant ainsi des signes (fourmillements, douleurs, perte de force….) au niveau de la main. Lors
+d'une atteinte prononcée, il peut y avoir une fonte musculaire au niveau du thénar, donnant à la main une
+apparence en main de singe (pouce dans le plan des autre doigts)
+CHARLES KALMUS – IFEC 2023-2024 50
+5. Le n. radial (C ,C ,C ,C ,T ):
+5 6 7 8 1
+N. sensitivo-moteur, qui nait de la corde postérieure. Au niveau du pli du coude, il
+se termine en donnant 2 branches terminales:
+- N. radial superficiel
+- N. radial profond
+Trajet & Rapports:
+Il plonge dans l'espace huméro-tricipital, avec l'a. brachiale profonde. Il passe
+ensuite dans le sillon du n. radial à la face postérieure de la diaphyse de l'humérus.
+Au 1/3 inférieure du bras, le nerf traverse le septum intermusculaire brachiale, et
+se retrouve dans la loge antérieure du bras. Dans le 1/3 inférieur du bras il descend
+
+
+===== PAGE 59 =====
+entre le m. brachio-radialis en avant et
+l'extensor carpi radialis longus en arrière. Ensuite, il passe en avant de l'épicondyle latéral
+avec l'a. collatérale radiale, et se divise en 2 branches terminales.
+Branches collatérales:
+- N. cutané postérieur du bras:
+Il nait quasiment au niveau de l'espace huméro-tricipital. Contourne
+médialement le
+long chef du triceps et est cutané pour la face postérieure du bras
+Dans la loge postérieure:
+- Le m. long chef du triceps brachial
+- Le m. chef latéral du triceps brachial
+- Le n. supérieur du chef médial du triceps
+- Le n. inférieur du chef médial du triceps et de l'anconeus
+- Branches cutanées au niveau du 1/3 inférieur de l'humérus:
+➔ N. cutané latéral inférieur du bras
+➔ N. cutané postérieur de l'avant-bras
+Dans la loge antérieure:
+- Branche musculaire pour le m. brachio-radialis
+- Branche musculaire pour le m. extensor carpi radialis longus
+CHARLES KALMUS – IFEC 2023-2024 51
+Les branches terminales:
+❖ Branche superficielle du n. radial
+Branche essentiellement sensitive qui nait au niveau du pli du coude en avant de l'épicondyle latéral. Au 2/3
+supérieur de l'avant-bras, cette branche suit le m. brachio-radial en avant et le m. supinateur en arrière. Au niveau
+du 1/3 inférieur, elle passe sous le m. brachio-radial et rejoint la face dorsale de l'avant-bras. Le nerf traverse le
+fascia de l'avant-bras. Il passe ensuite en arrière du rétinaculum des extenseurs et se divise en branches terminales:
+- N. digital dorsal médial du pouce
+- N. digital dorsal latéral du pouce
+- N. digital dorsal médial du IIe
+
+
+===== PAGE 60 =====
+doigt
+- N. digital dorsal latéral du IIe doigt
+- N. digital dorsal latéral du IIIe doigt
+❖ Branche profond du n. radial
+Branche surtout motrice, qui nait du n. radial au niveau du pli du coude.
+Elle plonge de suite dans le m. supinateur, contourne le col du radius et
+se retrouve en face postérieure, dans la loge postérieure de l'avant
+bras. Cette branche s'occupe de tous les muscles de la loge postérieure.
+Ses branches collatérales:
+- Pour le m. supinator
+- Pour le m. extensor carpi radialis brevis
+Ses branches terminales:
+- Pour le m. extensor digitorum
+- Pour le m. extensor indicis
+- Pour le m. extensor digiti minimi
+- Pour le m. extensor carpi ulnaris
+- Pour le m. abductor pollicis longus
+- Pour le m. extensor pollicis longus
+- Pour le m. extensor pollicis brevis
+- Branche interosseuse postérieure (à la membrane interosseuse) pour la face dorsale des os du carpe.
+Ses fonctions:
+- Participe à toutes les extensions et supinations du membre
+mobile
+- Sensibilité de la face postérieure du bras et de l'avant-bras
+- Sensibilité de la face latéro-inférieure du bras
+- Sensibilité de la face dorsale des 3 premiers doigts de la main
+CLINIQUE:
+Le n. radial peut être surtout irrité à 2 endroits:
+- Le sillon du n. radial
+- Lors du passage dans le m. supinateur.
+Selon le degré d'atteinte, il peut s'en suivre des troubles sensitifs voire
+moteur.
+Si la compression du nerf est trop grande, il peut y avoir une paralysie des
+extenseurs donnant à la main une apparence en col de cygne, du fait de l'action
+des antagonistes (les fléchisseurs).
+CHARLES KALMUS – IFEC 2023-2024 52
+XI – Angiologie du membre supérieur
+Le système vasculaire a pour but de véhiculer le sang vers les
+membres, les organes, etc. Il est constitué d'une "pompe" – le cœur,
+dont les voies efférentes sont les artères et les voies afférentes – les
+veines.
+
+
+===== PAGE 61 =====
+A – Les artères du membre supérieur:
+Avant de donner les artères du membres supérieurs, le cœur
+donne l'aorte ascendante, suivi de l'arc aortique. A son tour l'arc
+aortique donne des branches collatérales qui sont entre autres:
+- Le tronc brachio-céphalique
+- L'artère carotide commune gauche
+- L'artère subclavière gauche…
+Le tronc brachio-céphalique est responsable de l'irrigation de la partie
+droite du membre supérieur et donne comme terminales l'a. carotide
+commune droite et l'a. subclavière droite. C'est à partir de l'a.
+subclavière (droite et gauche) que commence l'irrigation du membre
+supérieur.
+1. L'a. sous-clavière
+naît derrière l'articulation sterno-claviculaire, monte en
+courbe latéralement. Elle passe entre les m. scalènes antérieur
+et
+moyen, puis au-dessus de la 1ère côte, en avant du plexus brachial, et
+finie sa route au niveau du défilé costo-claviculaire, où elle se donne
+suite à l'artère axillaire.
+L'a. sous-clavière donne plusieurs collatérales, dont:
+- L'a. dorsale de la scapula (ou a. scapulaire dorsale):
+Avant le défilé costo-claviculaire, elle passe entre les troncs
+supérieur et moyen du plexus brachial, puis à la face profonde du
+m. élévateur de la scapula, longe le bord médial de la scapula
+accompagné du n. dorsal de la scapula. Elle s'anastomose avec
+les a. supra-scapulaire et subscapulaire.
+Cette artère donne des branches pour les m. rhomboïdes et le m.
+levator scapulae, le trapèze le grand dorsal.
+- Le tronc thyro-cervical:
+Celui-ci donne:
+- L'a. thyroïdienne inférieure
+- L'a. cervicale ascendante
+- L'a. transverse cervicale
+- L'a. supra-scapulaire:
+Cette artère est plus en lien avec le membre supérieur, car elle rejoint le bord supérieur de la scapula,
+passe au-dessus du ligament transverse de la scapula. Elle se retrouve dans la fosse supra-épineuse en
+avant du m. supra-épineux. Ensuite elle passe dans l'échancrure spino-glénoidale pour rejoindre la fosse
+infra-épineuse.
+Elle s'anastomose avec l'a. circonflexe de la scapula et l'a. dorsal scapulaire.
+Elle vascularise les m. supra- et infra-épineux.
+CHARLES KALMUS – IFEC 2023-2024 53
+2. L'a. axillaire:
+A partir du défilé costo-claviculaire entre K1 et la clavicule,
+après le passage de cette dernière, l'a. sous-clavière devient l'a.
+
+
+===== PAGE 62 =====
+axillaire. Celle-ci se termine en donnant l'a. brachiale au niveau du
+bord inférieur du m. grand rond et grand pectoral.
+Trajet & Rapports:
+Au niveau de la clavicule, elle est sous le m. sous-clavier.
+Ensuite de manière générale, on retrouve: en dedans le m. serratus
+anterior; en arrière - le m. subscapulaire, grand rond et grand
+dorsal; latéralement - le coraco-brachial et le court chef du biceps
+brachial; en avant - le m. grand pectoral en haut et petit pectoral
+en bas.
+Après la clavicule, et avant le m. petit pectoral, l'artère se
+situe entre les troncs du plexus brachial latéralement et la veine
+axillaire médialement. Puis l'a. axillaire se retrouve entre la corde
+latérale en dehors, la corde médiale en dedans et la corde
+postérieure en arrière.
+Enfin, après le passage du m. petit pectoral, jusqu'au bord
+inférieur du m. grand rond, on a les rapports suivants:
+- En avant le n. médian
+- En dedans le n. ulnaire, les n. cutanés médiaux et la
+veine axillaire
+- En dehors le n. musculo-cutané
+- En arrière les n. radial et axillaire.
+Collatérales:
+- L'a. thoracique supérieure:
+Naît de l'a. axillaire juste après le défilé costo-claviculaire, elle descend vers le 1er et 2e espace intercostal
+antérieurement pour vasculariser la région infra-claviculaire et les m. pectoraux.
+- Le tronc thoraco-acromial:
+Nait de l'a. axillaire avant le m. petit pectoral et donne 2 branches:
+➔ La branche acromiale:
+Elle part latéralement et donne plusieurs rameaux:
+⇨ Le rameau pour l'articulation scapulo-humérale qui irrigue l'articulation;
+⇨ Le rameau
+acromio-claviculaire qui
+irrigue
+l'articulation;
+⇨ Le rameau deltoïdien
+pour vasculariser le
+muscle et
+qui suit le sillon
+delto-pectoral avec
+le veine
+céphalique.
+➔ La branche thoracique:
+Elle part médialement et
+donne:
+⇨ Des rameaux pour les 2 pectoraux
+⇨ Un rameau claviculaire qui remonte vers le sous
+clavier
+
+
+===== PAGE 63 =====
+CHARLES KALMUS – IFEC 2023-2024 54
+- L'a. thoracique latérale:
+Elle descend médialement puis le long de la cage thoracique avec le n. long thoracique vers le
+m. serratus anterior, et les m. intercostaux.
+- Les branches subscapulaires:
+Elles naissent de l'a. axillaire sous le petit pectoral en regard du m. subscapulaire qu'elles irriguent.
+- L'a. subscapulaire:
+Elle naît inférieurement au muscle et descend médialement pour donner 2 branches
+terminales: ➔ L'a. thoraco-dorsale:
+Satellite du n. thoraco-dorsal, elle se dirige vers le m. grand dorsal et le m. dentelé
+antérieur, qu'elle vascularise.
+➔ L'a. circonflexe de la scapula:
+Contourne le bord latéral de la scapula entre le m. petit et grand rond. Se retrouve dans la
+fosse infra-épineuse en avant du m. infra-épineux. Elle vascularise les muscles de la zone
+et s'anastomose avec l'a. supra-scapulaire.
+- L'a. circonflexe humérale antérieure:
+Naît de l'a. axillaire au-dessus du m. grand rond. Elle
+contourne le col chirurgical de l'humérus
+antérieurement, mais en arrière des muscles biceps
+et coraco-brachial. Elle s'anastomose avec l'a.
+circonflexe humérale postérieure. Elle vascularise
+ces muscles et l'articulation scapulo-humérale.
+- L'a. circonflexe humérale postérieure:
+Naît de l'a. axillaire en dessous ou en arrière de l'a.
+circonflexe humérale antérieure. Elle gagne l'espace
+axillaire latéral avec le n. axillaire, et contourne le
+col chirurgicale postérieurement. Elle s'anastomose
+avec l'a. circonflexe humérale antérieure et peut
+donner 2 branches terminales:
+➔ Une branche descendante: vers la
+terminaison du m. deltoïde
+➔ Une branche ascendante: qui
+s'anastomose avec la branche
+acromiale du tronc thoraco-acromiale.
+
+
+===== PAGE 64 =====
+CHARLES KALMUS – IFEC 2023-2024 55
+3. L'a. brachiale:
+Elle fait suite à l'a axillaire. Elle naît au niveau du bord inférieur du grand
+pectoral et se termine au niveau du pli du coude en donnant 2 branches terminales: -
+L'a. radiale
+- L'a. ulnaire
+Trajet & Rapports:
+L'artère longe le bord médial du m. coraco-brachial et la face antérieure du septum
+intermusculaire brachial médial. Le biceps brachial recouvre l'a. brachiale en avant,
+médialement c'est le fascia du bras qui recouvre l'artère. C'est à ce niveau, au milieu du
+bras que l'on palpe le l'a. brachiale via le pouls brachial. Au 1/3 supérieur, le n. ulnaire est
+postéro-médial à l'artère. Le n. médian, lui, suit l'artère en avant jusqu'au pli du coude. Au
+1/3 supérieur, le n. radial est postéro-latéral. Les n. cutanés médial du bras et de l'avant
+bras suivent leur trajet médialement à l'artère au niveau du bras. Il y a 2 veines brachiales
+qui accompagnent l'a. brachiale sur son trajet (réseau en échelle).
+Au niveau du pli du coude, l'a. brachiale est recouverte par l'aponévrose bicipitale.
+On peut là aussi, palper le pouls brachiale, en dedans du tendon du biceps brachial.
+Collatérales:
+- L'a. brachiale profonde:
+Elle naît au niveau du 1/3 supérieur du bras, plonge avec le n. radial dans
+l'espace huméro-tricipital puis entre les 2 chefs, médial et latéral du m.
+triceps. Elle suit le nerf dans le sillon du n. radial sur la face postérieure de
+la diaphyse du l'humérus, puis se divise en 2 branches terminales:
+➔ L'a. collatérale radiale:
+Elle suit le n. radial, au niveau du 1/3 inférieur du bras elle
+traverse le septum intermusculaire latéral du bras puis suit son
+trajet en arrière du m. brachio-radialis. Elle passe en avant de
+l'épicondyle latéral et s'anastomose avec l'a. récurrente radiale.
+➔ L'a. collatérale moyenne reste dans loge postérieure, passe en
+arrière de l'épicondyle latéral et s'anastomose avec l'a. récurrente
+interosseuse.
+
+
+===== PAGE 65 =====
+- L'a. collatérale ulnaire supérieure:
+Elle nait à la partie moyenne du bras du coté médial. Elle suit le
+trajet du n. ulnaire; au niveau du 1/3 supérieur, traverse le septum
+intermusculaire brachial médial vers la loge postérieure et passe
+en arrière de l'épicondyle médial. Elle s'anastomose avec l'a.
+récurrente ulnaire postérieure.
+- L'a. collatérale ulnaire inférieure:
+Elle nait de l' a. brachial au-dessus du pli du coude, passe en avant
+de l'épicondyle médial. Elle s'anastomose avec l'a. récurrente
+ulnaire antérieure.
+- Les branches musculaires:
+Destinés aux muscles avoisinants.
+- L'a. nourricière de l'humérus
+CHARLES KALMUS – IFEC 2023-2024 56
+4. L'a. radiale:
+Une des branche terminale de l'a. brachiale, elle nait de l'artère au
+niveau du pli du
+coude. Elle se termine en formant l'arcade palmaire profonde.
+Trajets & Rapports:
+Au 1/3 supérieur de l'avant-bras elle est en dehors du m. pronateur teres, en
+avant du
+m. supinator et en dedans du m. brachio-radialis où elle rejoint le n. radial
+superficiel
+qu'elle suit jusqu'au poignet. Au 1/3 inférieur de l'avant-bras, elle se situe en
+dehors du m. flexor carpi radialis et en dedans du m. brachio-radialis. C'est à ce
+niveau qu'on peut
+palper le pouls de l'a. radiale au niveau distal de l'avant-bras.
+Au niveau du poignet, elle passe en dehors du ligament collatérale radial du
+poignet
+pour rejoindre la tabatière anatomique (où on peut palper aussi le pouls radial)
+et se
+retrouve sur la face dorsale de la main. Par-dessus passent les tendons des m.
+abductor pollicis longus et court extenseur du pouce. Au niveau du 1er espace
+intermétacarpien
+l'artère plonge dans le m. 1er interosseux dorsal puis palmaire, et rejoint la face palmaire
+profonde, pour former l'arcade palmaire profonde.
+Collatérales:
+- L'a. récurrente radiale
+Contourne tendon distal du biceps brachiale antérieurement et remonte en avant de
+l'épicondyle latéral et sous le m. brachio-radialis et s'anastomose avec l'a. collatérale
+radiale. Elle irrigue les muscles épicondyliens.
+- Les branches musculaires: responsables de la vascularisation des muscles voisins.
+
+
+===== PAGE 66 =====
+- Rameau carpien palmaire de l'a. radiale:
+Rameau qui s'anastomose avec le rameau carpien palmaire de l'a. ulnaire,
+inférieurement au m. carré pronateur, en arrière des tendons, et antérieurement au
+carpe. L'anastomose donne le réseau carpien palmaire pour toutes les articulations du
+carpe face antérieure.
+- Rameau palmaire superficiel:
+Naît en regard du processus styloïde radial. Se situe en avant du rétinaculum des
+fléchisseurs et forme avec l'a. ulnaire, l'arcade palmaire superficielle.
+- Rameau carpien dorsal de l'a. radiale:
+Nait dans la tabatière anatomique. Passe sous les tendons des extenseurs et
+s'anastomose avec le rameau carpien dorsal de l'a. ulnaire pour former le réseau
+carpien dorsal. Vascularise les articulations du carpe face dorsale.
+- L'a. collatérale dorsale latérale du pouce:
+Naît dans la tabatière anatomique et se dirige vers la colonne du pouce.
+- 1ère a. métacarpienne dorsale:
+Naît au-dessus du 1er interosseux dorsal. Rapidement elle donne les aa. digitales
+dorsales du pouce et de l'index.
+- L'a. principale du pouce:
+Nait dans le 1er espace métacarpien, face palmaire, et donnent 2 aa. digitales
+palmaires du pouce (latérale et médiale). L'a. radiale de l'index peut en être une
+collatérale, mais ce peut être aussi une collatérale de l'a. radiale.
+CHARLES KALMUS – IFEC 2023-2024 57
+5. L'a. ulnaire:
+Nait de l'a. brachiale au niveau du pli du coude et se termine par l'arcade palmaire
+superficielle.
+Trajets & Rapports:
+Après son origine, elle passe sous le m. pronator teres, puis dans l'arcade
+tendineuse du m. flexor digitorum superficialis. Dans l'avant-bras elle se retrouve
+entre les m. flexor digitorum superficialis en avant et flexor digitorum profundus en
+arrière. Au niveau du 1/3 supérieur de l'avant-bras elle rejoint le n. ulnaire; Au niveau
+du 1/3 inférieur elle longe le bord médial du m. flexor digitorum profondus. A cet
+endroit on peut palper le pouls ulnaire entre les tendons des m. fléchisseur superficiel
+des doigts et flexor carpi ulnaris. A hauteur du poignet, elle passe dans le canal de
+Guyon en dehors du pisiforme et du nerf. Elle se termine en formant l'arcade palmaire
+superficielle en s'anastomosant avec le rameau palmaire superficielle, collatéral de l'a.
+radiale.
+Collatérales:
+- L'a. récurrente ulnaire:
+Nait de l'a. ulnaire en dedans du tendon du m. biceps brachial et part en
+dedans. Se divise en 2 branches terminales:
+
+
+===== PAGE 67 =====
+➔ L'a. récurrente ulnaire antérieure: qui passe en avant de l'épicondyle
+médial et s'anastomose avec l'a. collatérale ulnaire inférieure.
+➔ L'a. récurrente ulnaire postérieure: qui passe en arrière de l'épicondyle
+médial avec le n. ulnaire. Elle s'anastomose avec l'a. collatérale ulnaire
+supérieure.
+- L'a. interosseuse commune:
+Nait de l'a. ulnaire environ 5cm après le pli du coude. Elle se dirige vers la
+membrane interosseuse. Près de cette dernière elle se divise en 2 branches
+terminales:
+➔ L'a. interosseuse antérieure: qui longe antérieurement la membrane
+interosseuse jusqu'au m. carré pronator. Elle est situé entre le m.
+flexor palmaris longus en dehors et le m. flexor digitorum profondus
+en dedans. Elle est accompagnée du n. interosseux antérieur. Elle
+traverse la membrane interosseuse dans la partie distale et s'anastomose avec l'a. interosseuse
+postérieure.
+➔ L'a. interosseuse postérieure: qui passe en arrière de la membrane interosseuse et s'occupe de
+la vascularisation de la loge postérieure de l'avant-bras => les extenseurs. Elle se retrouve avec
+le n. radial profond, et se termine dans le réseau carpien dorsal. Dès sa naissance, elle donne
+une collatérale:
+⇨ A. récurrente interosseuse: qui remonte, passe en arrière de l'épicondyle latéral et
+s'anastomose avec l'a. collatérale moyenne.
+CHARLES KALMUS – IFEC 2023-2024 58
+- Branches musculaires: pour irriguer les muscles voisins.
+- Rameau carpien palmaire de l'a. ulnaire:
+Il forme le réseau carpien palmaire avec le rameau carpien palmaire de
+l'a. radiale.
+- Rameau carpien dorsal de l'a. ulnaire:
+Il contourne l'ulna, rejoint la face postérieure et forme le réseau carpien
+dorsal.
+- Rameau palmaire profond:
+Il nait après le canal de Guyon et qui s'anastomose avec l'a. radiale pour former l'arcade palmaire
+profonde.
+6. L'arcade dorsale de la main:
+Elle est formé par le rameau carpien dorsal de l'a. radiale et par le
+rameau carpien dorsal de l'a. ulnaire. Aussi, le réseau carpien dorsal participe à
+sa formation. Cette arcade passe en dessous des tendons des m. extenseurs, face
+
+
+===== PAGE 68 =====
+dorsale du carpe.
+Elle donne:
+- La IIe a. métacarpienne dorsal:
+qui donne à son tour:
+➔ L'a. digitale dorsale médiale de l'index
+➔ L'a. digitale dorsale latérale du IIIe doigt
+- La IIIe a. métacarpienne dorsale:
+Qui donne à son tour:
+➔ L'a. digitale dorsale médiale du IIIe doigt
+➔ L'a. digitale dorsale latérale du IVe doigt
+- La IVe a. métacarpienne dorsale:
+Donnant:
+➔ L'a. digitale dorsale médiale du IVe doigt
+➔ L'a. digitale dorsale latérale du Ve doigt
+- L'a. digitale dorsale médiale du Ve doigt
+L'ensemble des a. digitales dorsale vont jusqu’à la face dorsale des P1 des doigts respectifs.
+CHARLES KALMUS – IFEC 2023-2024 59
+7. L'arcade palmaire superficielle:
+Elle née de l'anastomose de la terminaison de l'a. ulnaire et du rameau palmaire
+superficiel qui passe sur l'abductor pollicis brevis. Elle se trouve entre l'aponévrose
+palmaire antérieurement, et les tendons et le n. médian postérieurement.
+L'arcade donne:
+- La IVe a. digitale palmaire commune
+Celle-ci donne:
+➔ L'a. digitale palmaire propre latérale du Ve doigt
+➔ L'a. digitale palmaire propre médiale du IVe doigt
+- La IIIe a. digitale palmaire commune
+Qui donne:
+➔ L'a. digitale palmaire propre latérale du IVe doigt
+➔ L'a. digitale palmaire propre médiale du IIIe doigt
+- La IIe a. digitale palmaire commune
+Se terminant par:
+➔ L'a. digitale palmaire propre latérale du IIIe doigt
+➔ L'a. digitale palmaire propre médiale du IIe doigt
+- L'a. digitale palmaire propre médiale du Ve doigt
+
+
+===== PAGE 69 =====
+Les artères communes se situent en avant des tendons, et elles se divisent au
+niveau du ligament transverse superficielle du métacarpe.
+8. L'arcade palmaire profonde:
+Elle est formée du rameau palmaire profond de l'a. ulnaire et de l'a.
+radiale, qui vient de la tabatière anatomique et qui passe sous l'arcade
+réunissant les 2 chefs du m. adductor pollicis. L'arcade se situe dans la loge
+palmaire moyenne, avec les tendons des fléchisseurs, le m. abducteur du
+pouce et les lombricaux en avant et les métacarpiens en arrière.
+Elle donne:
+- La IIe a. métacarpienne palmaire
+- La IIIe a. métacarpienne palmaire
+- La IVe a. métacarpienne palmaire
+Ces artères s'anastomosent au niveau des têtes des métacarpiens
+avec les a. digitales palmaire commune respectives de chaque
+espace.
+- Les branches perforantes palmaires
+Dans les IIe, IIIe, IVe espaces intermétacarpiens elles vascularisent
+les m. interosseux palmaire et dorsaux. Elles servent
+d'anastomoses entre l'arcade palmaire profonde et l'arcade
+dorsal de la main.
+- Les a. digitales palmaires propres qui sont issues de l'anastomose
+des a. métacarpiennes palmaires et des a. digitales palmaires
+communes.
+Elles vont vers les faces palmaires des P1, P2, P3 et les faces
+dorsales des P2, P3
+CHARLES KALMUS – IFEC 2023-2024 60
+B – Veines du membre supérieur:
+Le réseau veineux est composé dans son ensemble de veines
+superficielles et profondes. La description se fait distal à
+proximal. Les veines superficielles se situent entre la peau et
+les fascias; En revanche les veines profondes, elles, se
+retrouvent dans les tissus, elles suivent de manière générale
+l'artère et ce au nombre de 2 par artères. Du fait des anastomoses entre elles, il se crée un
+réseau en échelle au niveau profond (sauf pour la veine axillaire et sous-clavière).
+1. Les veines superficielles de la main:
+Le réseau unguéal -> réseau veineux dorsal:
+Il s'agit du petit réseau veineux la partie distale dorsale des doigts. Il se draine
+dans 2 veines digitales dorsales qui se drainent à leur tour dans les veines métacarpiennes
+dorsales. Ces dernières, au nombre de 3 en général, se drainent dans le réseau veineux
+dorsal. Ce réseau étant relativement développé, fini par se drainer dans les veines
+
+
+===== PAGE 70 =====
+superficielles de l'avant-bras.
+Le réseau pulpaire -> réseau veineux palmaire:
+Il s'agit d'un petit réseau se trouvant au niveau de la pulpe des doigts. Ce réseau
+se continue par les veines digitales palmaires qui, elle, se draine à différents niveaux: -
+Le réseau veineux palmaire;
+- Les veines intercapitales;
+- Les veines métacarpiennes palmaires;
+- L'arcade superficielle.
+Le réseau veineux palmaire se draine dans les veines superficielle de l'avant-bras. Les v.
+intercapitales unissent les v. digitales palmaires et les v. métacarpiennes dorsales. Elles
+passent entre les têtes des métacarpiens.
+Les veines superficielles de l'avant-bras et du bras:
+- La v. céphalique accessoire:
+Au niveau de la face dorsale de l'avant-bras, le réseau n'est pas très dense. On
+peut essentiellement retrouver la veine céphalique accessoire, qui part du poignet et
+rejoint la veine céphalique en passant sur la face postérieure de l'avant-bras et en le
+contournant au niveau du tiers proximal son bord latéral.
+- La v. céphalique:
+Elle nait à la face dorsale du pouce en drainant le réseau veineux dorsal de la main.
+Elle suit la tabatière anatomique, contourne le bord latéral de l'avant-bras au tiers distal et
+se retrouve sur la face antérieure. Au-dessus du m. brachio-radial, et suivant le n. cutané
+latéral de l'avant-bras, passé la fosse cubitale, elle continue son chemin dans le sillon
+bicipital latéral, et rejoint le sillon delto-pectoral et se termine dans la v. axillaire après la
+traversée du fascia au niveau du trigone clavi-pectoral.
+CHARLES KALMUS – IFEC 2023-2024 61
+- La v. basilique:
+Elle nait à la face dorsale de l'auriculaire en drainant le réseau le
+réseau veineux
+dorsal de la main. Elle contourne le bord médial de l'avant-bras au tiers distal,
+rejoint la face
+antérieure, où elle continue son chemin jusqu'à la fosse cubitale en passant
+au-dessus du
+m. fléchisseur ulnaire du carpe accompagné du n. cutané médial de
+l'avant-bras. Elle
+rejoint le sillon bicipital médial puis traverse le fascia à la partie moyenne du
+bras et se
+termine au niveau du tiers proximal du bras en se drainant dans la veine
+brachiale médiale.
+- La v. (médiane) antébrachiale:
+Elle nait à la face antérieure du poignet en drainant le réseau veineux
+
+
+===== PAGE 71 =====
+palmaire. Elle
+remonte le long de l'avant-bras jusqu'à la fosse cubitale où elle se sépare en v. médiane
+céphalique et v. médiane basilique qui se drainent respectivement dans la v. céphalique et
+basilique. Elle donne aussi la v. médiane du coude qui permet l'anastomose de la v.
+basilique avec la v. brachiale médiale.
+- La v. basilique accessoire:
+Au niveau de la face dorsale de l'avant-bras, on peut la retrouver partant du poignet et
+rejoignant la veine basilique en passant sur la face postérieure de l'avant-bras et en le
+contournant au niveau du tiers proximal son bord médial.
+2. Les veines profondes:
+Comme énoncé plus haut, les veines profondes sont paires par artère qu'elle accompagnent.
+Elles constituent un réseau en échelle par les anastomoses qu'elles forment entre elles.
+Les arcades veineuses palmaires profondes drainent les veines métacarpiennes palmaires.
+Les veines ulnaires et radiales drainent les veines profondes de la main.
+Les veines brachiales latérale et médiale sont formées par la réunions des v. radiales et ulnaires.
+Elles suivent l'a. brachiale et se terminent en donnant une v. axillaire.
+La v. axillaire nait au bord inférieur du m. grand pectoral. Elle longe l'a.
+axillaire
+médialement jusqu'à la partie inférieure du m. subclavier, où elle donne
+suite à la
+v. subclavière. Elle reçoit les branches affluentes suivantes:
+- Les v. circonflexes subscapulaires,
+- Les v. thoraciques latérales et céphalique.
+CHARLES KALMUS – IFEC 2023-2024 62
+LE MEMBRE INFERIEUR
+I – Introduction et vue globale
+Le membre inférieur est directement attaché au squelette axial par
+l'articulation sacro-iliaque et par de solides ligaments qui unissent l'os coxal au
+sacrum. Le squelette de la ceinture du membre inférieur est formé des os coxaux
+
+
+===== PAGE 72 =====
+ou hémi-bassins. Le squelette de la partie libre de chaque membre inférieur est, lui,
+constitué de la patella, de l'os fémoral, de l'os tibial, de l'os fibulaire et des os du pied
+(talus, calcaneum, naviculaire, cuboïde, 3 os cunéïformes, 5 métatarsiens et 14
+phalanges)
+Le membre inférieur comporte la région glutéale, la région fémorale ou cuisse, la
+jambe ou région crurale et le pied. Chacune de ces régions est séparée de la suivante par
+une articulation:
+- Articulation coxo-fémorale (entre la région glutéale et fémorale) -
+Articulation du genou (entre la cuisse et la jambe)
+- Articulation de la cheville ou talo-crurale (entre la jambe et le pied)
+La fonction primaire du membre inférieur est de supporter le
+poids du corps avec un minimum de dépense énergétique, ainsi que
+le maintien de l'équilibre du corps. Une seconde fonction majeure
+du membre inférieur est de permettre au corps de se mouvoir dans
+l'espace. Cette fonction de locomotion implique la participation des
+mobilités de toutes les articulations du membre inférieur pour poser
+le pied sur le sol et assurer le mouvement du corps par rapport au
+pied.
+A la différence du membre supérieur, où la plupart des éléments
+neurovasculaires vont du cou au membre supérieur à travers un
+unique chemin, au membre inférieur il y a quatre entrées et sorties
+principales entre le membre inférieur, l'abdomen, le pelvis et le
+périnée. Ce sont:
+• L'espace entre le ligament inguinal et l'os coxal
+• La grande incisure ischiatique
+• La canal obturateur
+• La petite incisure ischiatique.
+CHARLES KALMUS – IFEC 2023-2024 63
+Le pelvis et le périnée sont des régions liées entre elles, en rapport avec le pelvis osseux et avec les parties
+terminales de la colonne vertébrale. Le pelvis est divisé en deux régions:
+- La région supérieure, en rapport avec les parties hautes des os coxaux et les vertèbres lombaires
+inférieures, est le faux pelvis (grand pelvis) ; généralement considérée comme une partie de l'abdomen. -
+La région inférieure, le vrai pelvis (petit pelvis) est limitée par la partie inférieure des os coxaux, le sacrum
+et le coccyx. Il y a une ouverture supérieure et une ouverture inférieure.
+
+
+===== PAGE 73 =====
+La cavité pelvienne de forme arrondie, contenue dans le vrai pelvis, comporte une ouverture supérieure, des
+parois et un plancher. Cette cavité est en continuité, vers le haut, avec la cavité abdominale et contient des
+éléments des appareils urinaire, gastro-intestinal et de la reproduction.
+Le périnée est au-dessous du plancher de la cavité pelvienne. Ses limites sont celles de l'ouverture inférieure du
+pelvis (détroit inférieur du pelvis). Le périnée contient les organes génitaux externes et les orifices des appareils
+génito-urinaire et gastro-intestinal.
+CHARLES KALMUS – IFEC 2023-2024 64
+II – Ostéologie de la ceinture pelvienne et de la cuisse
+A – Généralités
+La ceinture pelvienne est formée de 2 hémi-bassins - les os coxaux -
+et le sacrum. Le sacrum fait partie de la base de la colonne vertébrale. Il
+s'articule avec l'os coxal grâce à l'articulation sacro-iliaque. L'os coxal est l'os
+de la hanche. C'est un os plat, qui constitue les parois antéro-latérales du
+
+
+===== PAGE 74 =====
+bassin osseux. Il est formé, avant ossification complète, de trois parties:
+l'ilium, l'ischium et le pubis. Les 2 hémi-bassins s'articulent entre eux en
+avant par la symphyse pubienne.
+La jonction des trois parties se localise au niveau de l'acétabulum,
+et elle se fait entre 15-17ans. De ce fait, l'acétabulum est formé pour 1/5 par
+l'os du pubis, pour 2/5 de l'ischium et pour 2/5 de l'ilium.
+L'os coxal a la forme d'une hélice à deux pales dont l'inférieure est perforée du foramen obturé.
+Il présente:
+- Deux faces: externe et interne
+- Quatre bords: supérieur, antérieur, inférieur et postérieur
+- Quatre angles: antéro-supérieur, antéro-inférieur, postéro-supérieur et postéro-inférieur
+CHARLES KALMUS – IFEC 2023-2024 65
+B – L’ilium
+L’ilium représente la plus grande partie de l‘os coxal et contribue la
+formation de la partie supérieure de la cavité acétabulaire. Il est divisé en deux
+parties : l’aile, qui en représente les 2/3 et le corps.
+L’aile et le corps de l’ilium sont séparés, sur la face interne, par une crête
+courbe, oblique en bas et en avant - la ligne innominée ou ligne arquée - qui se
+prolonge sur la branche supérieure du pubis par la ligne pectinée. Elle sépare
+ainsi, le vrai pelvis (ou cavité pelvienne) du faux pelvis, correspondant à la partie
+inférieure de la cavité abdominale. Sur son chemin, elle donne insertion au m.
+
+
+===== PAGE 75 =====
+petit psoas.
+Sur la face interne de l’aile iliaque, relativement en avant, se situe une vaste
+dépression regardant en avant, en haut et en dedans appelée fosse iliaque, qui est
+entièrement recouverte par le m. iliaque. D'autre part, dans la partie postérieure se
+trouve la face sacro-pelvienne.
+Elle est composée inférieurement, de la surface auriculaire, en forme de pavillon
+d'oreille, et convexe dans son ensemble. Elle s'articule avec la surface semblable du
+sacrum. En avant s'insèrent les ligaments sacro-iliaques ventraux. Supérieurement
+sur la face sacro-pelvienne, se trouve la tubérosité iliaque. Il s'agit d'une saillie
+irrégulière et large qui donne insertion: - En haut, au ligament ilio-lombaire
+- En bas, aux ligaments sacro-iliaques interosseux et
+dorsaux
+Sur la face interne du corps de l'ilium, au-dessous de la
+ligne arquée, se trouve une surface lisse, la surface quadrilatère
+qui donne insertion en partie au m. obturateur interne.
+Le bord supérieur de l’aile iliaque est appelé crête iliaque.
+Elle est sous-cutanée et elle est délimitée en avant par l’épine
+iliaque antéro-supérieure ou « anterior superior iliac spine »
+(ASIS) et en arrière par l’épine iliaque postéro-supérieure ou «
+posterior superior iliac spine » (PSIS). Dans le plan sagittal, la crête
+iliaque
+présente une concavité globale en bas. Dans le plan horizontal, ou
+vu du dessus, elle est en forme de "S" inversé (sinuosité concave en
+dedans, en avant, et convexe en dedans, en arrière) et présente à
+environ 8cm en arrière de l’ASIS un renflement appelé tubercule
+iliaque. Cette crête donne insertion:
+- Sur son versant externe, d'avant en arrière, aux muscles
+tenseur du fascia lata, oblique externe, grand dorsal et grand
+fessier - Sur son versant interne, d'avant en arrière, aux muscles
+transverse, carré des lombes et érecteur du rachis
+- Sur son faite (partie la plus haute), au muscle oblique interne.
+En palpation les crêtes iliaques se situent à hauteur de l’espace entre les
+apophyses épineuses des 4e et 5evertèbres lombaires. De même, les PSIS
+se palpent au niveau de l’apophyse épineuse de la 2evertèbre sacrée.
+CHARLES KALMUS – IFEC 2023-2024 66
+Le bord postérieur de l'ilium présente de haut en bas: le
+PSIS, ensuite,
+séparé par une petite incisure, le PIIS (posterior inferior iliac spine),
+correspondant
+à l'épine iliaque postéro-inférieure, sur laquelle s'insèrent en
+partie:
+- Le ligament sacro-tubéreux
+- Le m. piriforme
+Plus bas, la grande échancrure ischiatique (GES), délimitée
+
+
+===== PAGE 76 =====
+supérieurement par le
+PIIS, inférieurement par l'épine ischiatique. Elle est traversée par le m. piriforme
+et le nerf sciatique.
+Le bord antérieur de l'ilium présente en haut l'ASIS, sur lequel s'insèrent:
+- Le m. sartorius, sur le versant externe
+- Le ligament inguinal, sur l'apex et le versant interne
+Lui fait suite en-dessous, séparé par une petite incisure, l'épine iliaque antéro
+inférieure (ou AIIS – anterior-inferior iliac spine). Sur son versant externe
+s'insèrent le chef droit du muscle droit fémoral et le ligament ilio-fémoral, plus
+bas.
+Sur la face externe de l’aile iliaque se
+dessinent trois
+lignes:
+- Une ligne verticale, partant en avant du
+PSIS du bord
+supérieur de la grande échancrure sciatique vers la
+crête iliaque,
+appelée ligne glutéale postérieure. Cette ligne
+sépare les
+insertions du m. grand fessier situés en arrière et
+en haut, en bas
+en arrière le lig. sacro-tubéreux et le m. piriforme,
+de celles du
+m. moyen fessier situées en avant.
+- Plus en avant, une ligne courbe concave
+vers le bas,
+s’étend du bord supérieur de la grande échancrure
+sciatique en
+direction de l’ASIS (en avant du tubercule iliaque).
+C'est la ligne
+glutéale antérieure. Elle sépare les insertions du
+m. moyen
+fessier, de celles du m. petit fessier.
+- La 3eligne est horizontale et sépare l’aile du corps de
+l’ilium. C'est la ligne glutéale inférieure. Elle s’étend du bord
+inférieur de la grande échancrure sciatique à l’AIIS.
+C – L’ischium
+L’ischium (ischion) forme la partie postéro-inférieure de
+l’os coxal. Il est divisé en un corps et une branche ou rameau. La
+partie supérieure du corps de l’ischium fusionne avec l’ilium et le
+pubis pour former la partie postéro-inférieure de l’acetabulum.
+La portion inférieure du corps de l’ischium est élargie et rugueuse, c’est la tubérosité ischiatique. C’est un
+repère anatomique important, en effet le nerf sciatique passe à égale distance entre la tubérosité ischiatique et la
+grande tubérosité du fémur ou grand trochanter. Elle reçoit de plus les insertions des muscles du compartiment
+postérieur de la cuisse, et enfin elle supporte le bassin en position assise.
+S'insèrent de haut en bas en face externe les muscles dits ischio-jambiers :
+- Les semi-membraneux
+- Le biceps fémoral (long chef),
+- Le semi-tendineux
+
+
+===== PAGE 77 =====
+- Le grand adducteur (en partie)
+En avant de la tubérosité ischiatique, face externe, s'insèrent les m. obturateur externe et carré fémoral.
+CHARLES KALMUS – IFEC 2023-2024 67
+Le bord postérieur du corps de l’ischium est
+délimité par le
+bord inférieur de la grande échancrure sciatique et
+en bas par
+l’épine sciatique. C’est une excroissance triangulaire
+qui sépare la
+grande échancrure sciatique de la petite échancrure
+sciatique
+(PES), dans laquelle passe le m. obturateur interne.
+S'y insèrent:
+- le ligament sacro-épineux, sur l'apex ;
+- le m. jumeau supérieur, en face externe ;
+- les mm. coccygien et élévateur de l'anus,
+en face
+interne.
+Lui fait suite la tubérosité ischiatique, où s'insèrent
+en partie
+postérieure le m. jumeau inférieur supérieurement
+et le ligament
+sacro-tubéreux en-dessous.
+Sur la face externe du corps de l'ischium, adjacent au
+rebord de l'acétabulum se trouve l'insertion du ligament ischio
+fémoral.
+La branche de l’ischium, aussi appelée branche horizontale
+ou rameau, fusionne avec la branche inférieure du pubis pour
+donner la branche ischio-pubienne. Cette banche délimite le bord
+inférieur du foramen obturé. Sur sa face externe s'insèrent:
+- En haut, le m. obturateur externe
+- En bas, et d'avant en arrière, les mm. court adducteur,
+gracile et grand adducteur
+Sur sa face interne on retrouve:
+- En haut, le m. obturateur interne
+- En bas, le m. transverse profond (du périnée) au milieu, et
+en arrière le processus falciforme du ligament sacro
+tubéreux.
+Sur son bord inférieur enfin, d'avant en arrière:
+- Le corps caverneux
+- Le m. ischio-caverneux
+- Le m. transverse superficiel (du périnée)
+
+
+===== PAGE 78 =====
+CHARLES KALMUS – IFEC 2023-2024 68
+D – Le pubis
+Le pubis forme la partie antéro-médiale de l’os coxal et
+contribue à la formation de la partie antérieure de l’acetabulum. Il
+comprend un corps et deux branches, l’une supérieure et l’autre
+inférieure.
+Le corps du pubis présente sur sa face interne une surface
+symphysaire qui s’articule avec la surface correspondante du pubis
+opposé pour former la symphyse pubienne. Cette est entourée de
+quatre ligaments sur son pourtour:
+- Le ligament pubien antérieur
+- Le ligament pubien postérieur
+- Le ligament pubien supérieur
+- Le ligament pubien inférieur
+Postérieurement à la surface articulaire et aux ligaments (sur la face interne)
+s'insèrent le m. élévateur de l'anus et l'obturateur interne.
+Sur la face externe, la crête pubienne correspond au bord supérieur du corps
+
+
+===== PAGE 79 =====
+du pubis. C'est une surface rugueuse et large, qui donne insertion aux: - mm.
+droit de l'abdomen et pyramidal,
+- tendon conjoint (provenant de la jonction entre les mm. oblique
+interne et transverse abdominal)
+- ligament réfléchi (provenant du m. oblique externe contro
+latéral)
+- le pilier médial du m. oblique externe
+Sur l’extrémité latérale de la crête pubienne se trouve une saillie appelé
+tubercule pubien sur lequel vient s’insérer le ligament inguinal. En
+dessous, le corps du pubis présente une surface lisse où s'insère le m.
+long adducteur.
+La branche supérieure du pubis délimite la paroi supérieure du
+foramen obturé. Sa face externe est divisée transversalement par la crête
+obturatrice, en deux parties, la surface pectinéale et le sillon obturateur.
+Sur la crête obturatrice s'insère le ligament pubo-fémoral
+La surface pectinéale, triangulaire an avant et en haut, est limitée en
+arrière par une bord tranchant – le pecten du pubis. S'y insèrent: -
+Le lig. pectiné, latéralement et postérieurement
+- Le ligament lacunaire, médialement et postérieurement -
+Le m. pectinée, antérieurement
+C'est sur le pecten du pubis que se trouve la ligne pectinée, dans la
+continuité de la ligne arquée.
+Le sillon obturateur, orienté vers le bas, est transformé en canal obturateur
+par la membrane obturatrice. Là, passe le nerf obturateur et l’artère
+obturatrice.
+Sur sa face interne s'insère le m. obturateur interne et la membrane
+obturatrice.
+CHARLES KALMUS – IFEC 2023-2024 69
+La branche inférieure du pubis limite avec la branche inférieure de l’ischium, la paroi inférieure du foramen
+obturé. Elle participe à la formation de la branche ischio-pubienne. Les insertions de cette branche ont été décrite
+plus haut. Cette branche ischio-pubienne, forme avec son homologue une arcade pubienne avec un angle, qui sera
+plus ouvert chez la femme (80°-90°) que chez l’homme (50°-60°).
+L'ossification de l'os coxal se fait à partir de trois points d'ossification primaire, un pour
+l'ilium, un pour l'ischium et un pour le pubis. Il existe des points d'ossification secondaire
+pour la crête iliaque, l'AIIS, l'épine ischiatique, la tubérosité ischiatique, le tubercule
+pubien et l'acétabulum. La cavité acétabulaire est ossifiée vers l'âge de 16 ans, les crêtes
+
+
+===== PAGE 80 =====
+iliaques se souderont à l'aile iliaque vers l'âge de 25 ans et les tubérosités ischiatiques ne
+se souderont définitivement à l'ischium que vers l'âge de 30 ans.
+L'ossification de la crête iliaque se fait en plusieurs
+étapes.
+Ceci a permit de mettre en place le signe de Risser. Il
+s'agit
+d'une évaluation du développement de la crête afin
+de
+déterminer la croissance de la colonne vertébrale
+attendue. Il est donné un score entre 0 et 5,
+témoignant
+de la maturité. Un score à 5 correspond à
+l'ossification
+complète de la crête iliaque et donc de la colonne
+vertébrale.
+E – Le foramen obturé
+Ce foramen est délimité par l'ischium et le pubis, et est plutôt ovalaire chez la femme et circulaire chez l'homme. Il
+présente sur son bord antéro-supérieur, près du sillon obturateur, le tubercule obturateur antérieur, et sur son bord
+postéro-supérieur, en regard de l'acétabulum, le tubercule obturateur postérieur.
+Le foramen obturé est fermé par une membrane appelée membrane obturatrice, à l’exception du canal obturateur.
+C’est une membrane fine mais très résistante.
+CHARLES KALMUS – IFEC 2023-2024 70
+F – L'acétabulum (cavité cotyloïdienne)
+Profonde excavation sphéroïde, il s'articule avec la tête fémorale. Situé
+à la jonction de l'ilium, l'ischium et du pubis, l'acétabulum regarde en avant,
+en bas et en dehors. Il comprend:
+- Un rebord saillant, le limbus acétabulaire sur lequel est fixé le
+labrum acétabulaire dont le but est d'augmenter la surface et la
+congruence articulaire. Il est interrompu en bas par l'incisure
+acétabulaire. Au-dessus du limbus se trouve le sillon supra
+acétabulaire dans lequel s'insère le chef réfléchi du m. droit
+fémoral. Sur le limbus et les bords du sillon supra-acétabulaire
+s'insère la capsule articulaire.
+- Une partie périphérique, la surface semi-lunaire. Elle est concave
+en bas et encroutée de cartilage. A l'extrémité de ses cornes
+
+
+===== PAGE 81 =====
+s'insère ligament transverse de l'acétabulum.
+- Une partie centrale, la fosse acétabulaire. Elle est rugueuse et
+donne insertion, en partie, au ligament de la tête fémorale.
+La coxarthrose correspond à l'ossification du rebord de l'acétabulum,
+engendrant de ce fait une perte de mobilité et d'éventuelles douleurs.
+G – Les bords de l'os coxal
+Le bord supérieur est formé de la crête iliaque.
+Le bord antérieur, concave en avant, est composé de haut en bas par:
+- ASIS (épine iliaque antéro-supérieure)
+- AIIS (épine iliaque antéro-inférieure)
+- L'échancrure du muscle ilio-psoas
+- L'éminence ilio-pubienne
+- Le pecten du pubis
+Le bord postérieur, lui, présente de haut en bas:
+- PSIS (épine iliaque postéro-supérieure)
+- PIIS (épine iliaque postéro-inférieure)
+- La grande échancrure ischiatique
+- L'épine ischiatique
+- La petite échancrure ischiatique
+- La tubérosité ischiatique
+Le bord inférieur, oblique en bas et en arrière, est surtout formé par une partie de la surface symphysaire et la
+branche ischio-pubienne.
+CHARLES KALMUS – IFEC 2023-2024 71
+H – Le sacrum
+Le sacrum sera plus particulièrement décrit dans le cours concernant
+la colonne vertébrale, nous en ferons ici un descriptif général.
+Le sacrum est une pièce osseuse triangulaire à base supérieure
+constituée par la réunion de 5 vertèbres sacrées soudées. La soudure
+définitive de ces différentes vertèbres est achevée vers l’âge de 20 ans.
+Cependant il persiste un trait qui caractérise l’emplacement de cette soudure.
+La face postérieure du sacrum est convexe dans tous les sens et
+présente trois crêtes longitudinales. Chacune de ces crêtes représente le
+vestige d’une des parties des vertèbres sacrées dissociées. De dedans en
+
+
+===== PAGE 82 =====
+dehors on a:
+- Une crête sacrale médiane, qui correspond aux apophyses
+épineuses.
+- Une crête sacrale intermédiaire, qui correspond aux massifs articulaires. -
+Une crête sacrale latérale, qui correspond aux apophyses transverses. La crête médiane
+s’ouvre en regard de la terminaison du canal rachidien. Cet orifice est appelé le hiatus
+sacré.
+Entre les crêtes intermédiaires et les crêtes latérales, s’ouvrent 4 paires symétriques
+d’orifices, trous sacrés, par lesquels sortent les divisions primaires postérieures ou PPD.
+La base du sacrum ou promontoire sacré s’articule avec la 5ème vertèbre lombaire.
+Les bords latéraux sont formés par les surfaces auriculaires qui s’articulent avec
+celles de chaque os iliaque. Autour de ces surfaces articulaires, l’aspect est rugueux et
+irrégulier, révélant ainsi l’existence d’un contingent ligamentaire très puissant qui
+renforce cette articulation.
+La face antérieure est concave dans tous les sens et présente comme la face
+postérieure, 4 paires d’orifices d’où émergent les divisions primaires
+antérieures ou APD des racines nerveuses sacrées. Cette surface
+ferme en arrière la vraie cavité pelvienne.
+I – Le coccyx
+La pointe du sacrum s’articule avec le coccyx. Le coccyx est un
+petit
+os triangulaire habituellement composé de 4 vertèbres rudimentaires.
+Le coccyx est un vestige du squelette de la queue.
+Seule la 1ère vertèbre coccygienne présente encore des
+vestiges de
+vertèbres rudimentaires. En effet, elle possède deux cornes latérales
+caractérisant les pédicules et les apophyses transverses.
+Le coccyx reçoit principalement des digitations tendineuses des
+muscles pelviens et quelques-unes des muscles fessiers, ainsi que des
+ligaments.
+CHARLES KALMUS – IFEC 2023-2024 72
+J – Les articulations de la ceinture pelvienne
+Les os de la ceinture pelvienne sont maintenus solidement par trois
+articulations: la symphyse pubienne et les deux articulations sacro-iliaques;
+et par deux ligaments pairs à distance, les ligaments sacro-tubéreux et sacro
+épineux.
+1. La symphyse pubienne.
+
+
+===== PAGE 83 =====
+Comme décrit plus haut, elle est composée des deux surfaces
+articulaires du pubis. Ces deux surfaces, encroutées de cartilage, communiquent entre elles
+par le disque interpubien, un fibrocartilage qui sert de cale à l'interligne articulaire.
+Permettent de la maintenir en place:
+- Le lig. pubien antérieur (lame fibreuse épaisse, renforcée par les fibres
+tendineuses des muscles voisins
+- Le lig. pubien postérieur, mince, en continuité avec le périoste
+- Le lig. pubien supérieur, bandelette fibreuse épaisse transversale d'un
+pubis à l'autre
+- Le lig. pubien inférieur, lame fibreuse résistance qui adhère à la partie
+supérieure de l'arcade pubienne
+2. L'articulation sacro-iliaque.
+Articulation de type ellipsoïde, ses surfaces ont été décrites plus haut. Ces dernières ont relativement une
+forme plus ou moins complexe, horizontalement comme verticalement. (Cf. schéma)
+Vient se fixer sur le pourtour de cette articulation la capsule articulaire. Celle-ci est renforcée par différents
+ligaments qui sont plus ou moins à distance de l'articulation.
+Les ligaments proximaux:
+- Le lig. sacro-iliaque ventral – peu résistant, il est formé de fibres transversales qui renforcent
+la capsule par l'avant.
+- Le lig. sacro-iliaque interosseux – court et résistant, il est situé contre la face dorsale de la
+capsule articulaire. Il s'attache sur les tubérosités iliaque et sacrale
+- Le lig. sacro-iliaque dorsal – en arrière du précédent, il naît du PSIS et la tubérosité iliaque et
+s'étend par quatre faisceaux sur les tubercules de la crête sacrale latérale.
+- Le lig. ilio-lombaire – il renforce la face supérieure de l'articulation sacro-iliaque. Il est tendu
+du processus transverse de la vertèbre L5 à la partie postérieure de la crête iliaque.
+CHARLES KALMUS – IFEC 2023-2024 73
+Agissant plus à distance, on retrouve:
+- Le lig. sacro-tubéreux – il naît :
+• Sur les PSIS et PIIS,
+• Le bord latéral du sacrum,
+• Le bord latéral des 1ère et 2evertèbre coccygiennes
+Les fibres convergent latéralement, en avant et en bas, puis elles
+
+
+===== PAGE 84 =====
+s'épanouissent de nouveau, en double éventail.
+Il se termine sur le bord médial de la tubérosité ischiatique. A sa
+terminaison se détache une expansion arciforme, le processus
+falciforme, qui se fixe sur la face interne de la branche de l'ischium.
+- Le lig. sacro-épineux – triangulaire et mince, il est situé en
+dedans du précédent. Il se fixe entre le bord latéral des
+vertèbres sacrales S4, S5, le coccyx et l'apex de l'épine
+ischiatique.
+
+
+===== PAGE 85 =====
+CHARLES KALMUS – IFEC 2023-2024 74
+K – Le fémur
+Généralités
+Le fémur est l’os le plus long, le plus lourd et le plus résistant du corps. Il assure en
+position debout, la transmission du poids du corps de l’os coxal au tibia. Sa longueur représente
+environ ¼ de la taille des individus.
+C'est le seul os de la cuisse. Il s’articule avec le bassin au niveau de l’articulation coxo
+fémorale qui est une énarthrose, et avec le tibia et la patella constituant respectivement une
+condylarthrose et une trochlée-arthrose. Le fémur se compose d’un corps ou diaphyse et de
+deux extrémités ou épiphyses, l’une supérieure ou proximale l’autre inférieure ou distale.
+L’extrémité supérieure est constituée d’une tête, d’un col, d’un grand trochanter
+et d’un petit trochanter unis par la crête intertrochantérique.
+La tête ou « caput femoris » est lisse et représente les 2/3 d’une sphère. Elle
+regarde en haut en dedans et légèrement en avant. Elle s’articule avec l’acetabulum de
+l’os coxal. Elle présente en dessous et en arrière de son centre une dépression dénudée de
+cartilage, appelée « fovea capitis femoris » dans laquelle s’insère le ligament rond ou
+ligament de la tête fémorale, dans lequel passe l'a. du ligament de la tête fémorale.
+Le col du fémur est situé entre la tête et les trochanters. La tête et le col du fémur
+décrivent avec l’axe longitudinal du corps du fémur un angle dit d’inclinaison d’environ
+130°. Ils décrivent aussi avec le grand axe de l’extrémité inférieure du fémur, un angle dit
+de déclinaison d’environ 15°.
+Le col est cylindrique et aplati d’avant en arrière. Il est donc composé de bords
+supérieur et inférieur, qui limitent une face antérieure et une face postérieure. Elle sont
+toutes deux assez rugueuses car elles reçoivent des insertions ligamenteuses. La face
+antérieure est limitée latéralement par la ligne intertrochantérique, sur laquelle s'insère le
+lig. ilio-fémoral. La face postérieure, elle, est limitée latéralement par la crête
+intertrochantérique, qui reçoit sur son versant latéral le m. carré fémoral. Près de la ligne
+et de la crête trochantérique s'insère la capsule articulaire.
+Le col anatomique du fémur est aussi appelé col chirurgical car c’est le site des
+fractures les plus fréquentes en particulier chez les personnes âgées, qui sont exposés au
+problème de décalcification.
+
+
+===== PAGE 86 =====
+CHARLES KALMUS – IFEC
+2023-2024 75
+Le grand trochanter est un massif osseux volumineux situé entre le
+col et la diaphyse du fémur. Il est grossièrement rectangulaire. On lui décrit
+deux faces, et quatre bords.
+La face externe ou latérale, qui est de forme convexe et sous
+cutanée, reçoit les digitations tendineuses du m. moyen fessier. Au-dessus
+et en-dessous de cette insertion, se trouvent les bourses trochantériques
+des m. moyen et grand fessiers.
+La face médiale, concave, plus petite, présente une excavation
+appelée fosse trochantérique, où vient s’insérer le m. obturateur externe.
+En avant et au-dessus s’insèrent de haut en bas:
+- Le m. jumeau supérieur
+- Le m. obturateur interne
+- Le m. jumeau inférieur.
+Le bord supérieur, horizontal, reçoit le m. piriforme.
+Le bord antérieur, large, reçoit le m. petit fessier.
+Le bord postérieur est saillant et limite en arrière la fosse trochantérique et se
+continue avec la crête intertrochantérique.
+Le bord inférieur qui est rugueux reçoit le m. vaste latéral (l'un des chef du m.
+quadriceps fémoral).
+Le petit trochanter est, lui, une éminence conique, postéro-médiale et
+inférieure. Il présente une base, d’où partent:
+- La crête intertrochantérique qui va en haut et en arrière au grand
+trochanter,
+- La ligne intertrochantérique, qui va en avant et en haut au grand
+trochanter. Supérieurement s'y insère le lig. ilio-fémoral, et
+inférieurement le lig. pubo-fémoral.
+- La ligne pectinée qui va en bas, légèrement latéralement vers la ligne
+âpre et où s’insère le m. pectiné.
+Le petit trochanter présente aussi un apex où vient s’attacher le m.
+ilio-psoas.
+La ligne et la crête intertrochantérique, se situe à la jonction entre le
+corps
+et l'épiphyse proximal du fémur, respectivement en avant et en
+arrière.
+Dans la partie moyenne de la crête, il existe un tubercule, appelé
+tubercule
+carré, qui reçoit l’insertion du m. carré fémoral.
+
+
+===== PAGE 87 =====
+CHARLES KALMUS – IFEC 2023-2024 76
+Le corps du fémur est incurvé vers l’arrière, donc convexe
+vers l’avant. Globalement prismatique triangulaire en coupe, on
+peut décrire, au niveau du fémur, trois faces (antérieure, postéro
+latérale et postéro-médiale) et trois bords (latéral, médial et
+postérieur). Dans sa plus grande partie la diaphyse est lisse et
+arrondie, sauf en arrière, où elle est parcourue par une large crête
+rugueuse appelée ligne âpre. Cette crête verticale est très saillante
+au niveau du 1/3 moyen de la diaphyse.
+La face antérieure donne dans sa majeure partie insertion
+au m. vaste intermédiaire. (Ce dernier se continue en partie sur
+les faces postéro-médiale et postéro-latérale). Juste en dessous, se
+trouve l'insertion pour le m. articulaire du genou. Au-dessus du m.
+vaste intermédiaire, en rapport avec le grand trochanter, se trouve
+une partie de l'insertion du m. vaste latéral, alors qu'en rapport
+avec la ligne intertrochantérique se trouve une partie de
+l'insertion du m. vaste latéral.
+Les bords latéral et médial sont relativement arrondies et
+peu marquées, surtout marqués par l'insertion du m. vaste
+intermédiaire.
+
+
+===== PAGE 88 =====
+CHARLES KALMUS – IFEC 2023-2024 77
+Le bord postérieur, très saillant et rugueux, est surtout formé par la ligne âpre. On peut relativement
+lui décrire trois parties (supérieure, moyenne et inférieure).
+▪ La partie moyenne, la ligne âpre, à qui on
+reconnaît,
+à ce niveau, une lèvre (crête) médiale où s’insère
+le m.
+vaste médial et une lèvre (crête) latérale où
+s’insère le
+court chef du m. biceps fémoral. Sur son versant
+latéral, se continue le m. vaste latéral. L’espace
+entre
+ces deux lèvres est appelé interstice étroit. S'y
+insère
+médialement le m. long adducteur et
+latéralement le
+m. grand adducteur.
+▪ La partie supérieure, composée de trois reliefs.
+La lèvre médiale se prolonge par une étroite
+ligne rugueuse, la ligne spirale. Celle-ci passe
+
+
+===== PAGE 89 =====
+sous le
+petit trochanter et se termine sous la ligne inter
+trochantérique située sur la face antérieure du fémur.
+Elle reçoit une partie de l'insertion du m. vaste médial.
+La lèvre latérale se prolonge elle dans sa partie
+supérieure par la tubérosité glutéale, qui rejoint le
+grand trochanter et où vient s’insérer le m. grand
+fessier. Médialement, entre cette tubérosité et la ligne
+pectinée s'insèrent respectivement une partie du m.
+grand adducteur, et le m. court adducteur.
+Entre la tubérosité glutéale et la ligne spirale,
+se situe la ligne pectinée, mentionnée déjà plus haut,
+qui se termine sur le bord inférieur du petit trochanter
+et où vient s’insérer le m. pectiné.
+▪ Dans sa partie inférieure, la lèvre médiale donne la
+ligne supra-condylaire médiale qui se termine au
+niveau de l’épicondyle médial par le tubercule de
+l'adducteur. S'y insère le reste du m. grand adducteur.
+La lèvre latérale, elle, se prolonge par la ligne supra-condylaire latérale, qui se termine au niveau de
+l’épicondyle latéral. Près de l'extrémité de la ligne s'insère le m. plantaire.
+Sur la face postérieure du fémur, entre les deux lignes supra-condylaires se dessine la surface
+poplitée. CHARLES KALMUS –
+IFEC 2023-2024 78
+L’extrémité inférieure du fémur est composée de deux proéminences
+appelés condyles fémoraux (médial et latéral). Le condyle médial se projette
+plus bas et en arrière que le latéral.
+En arrière, ils sont séparés par la fosse intercondylaire. Celle-ci est
+profonde et limitée en haut par la ligne intercondylaire. Cette fosse permet
+l'insertion sur sa partie postéro-latérale du lig. croisé antérieur, et sur sa
+partie antéro-médiale, celle du lig. croisé postérieur. Toujours
+postérieurement, au-dessus de la surface articulaire de chaque condyle, se
+trouve les tubercules supracondylaires médial et latéral. Ils donnent
+respectivement insertion au chef médial et latéral du m. gastrocnémien.
+
+
+===== PAGE 90 =====
+En avant, les condyles fémoraux forment une dépression appelée surface
+patellaire, dans laquelle viendra se loger la rotule ou "patella".
+La face médiale (condyle médiale), est surplombée par une saillie –
+l'épicondyle médial. S'y insère le lig. collatéral médial (tibial). Au-dessus, on
+retrouve l'insertion du chef médial du m. gastrocnémien.
+La face latérale (condyle latéral), est surplombé par une saillie osseuse –
+l'épicondyle latéral, où s'insère le lig. collatéral latéral (fibulaire). Au-dessus, on
+retrouve l'insertion du chef latéral du m. gastrocnémien. En dessous, se situe
+une fossette, longeant le bord inférieur, c'est le sillon poplitée, où s'insère le m.
+poplitée.
+CHARLES KALMUS – IFEC 2023-2024 79
