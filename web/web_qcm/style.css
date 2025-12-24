@@ -3,6 +3,8 @@ main{max-width:900px;margin:0 auto;background:#fff;padding:20px;border-radius:8p
 .controls{display:flex;gap:8px;align-items:center;margin-bottom:12px}
 select{padding:6px 8px}
 button{padding:6px 10px;border-radius:6px;border:1px solid #ccc;background:#eee;cursor:pointer}
+.btn-danger{background:#dc2626;color:white;border-color:#b91c1c}
+.btn-danger:hover{background:#b91c1c}
 .hidden{display:none}
 #questionArea{font-weight:600;margin:12px 0}
 .choice{margin:6px 0}

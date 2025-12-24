@@ -55,22 +55,69 @@ class ParsedDeckQuestion:
     number: str
     prompt: str
     choices: List[Dict[str, str]]
+    embedded_tags: List[str] = None
+    
+    def __post_init__(self):
+        if self.embedded_tags is None:
+            self.embedded_tags = []
 
 
 _DECK_BLOCK_RE = re.compile(r"(?m)^(\d+)\)\s*([^\n]+)\n((?:- [A-D]\.[^\n]+\n?)+)")
 _DECK_OPT_RE = re.compile(r"-\s*([A-D])[\.)]?\s*(.+)")
+_DECK_TAGS_RE = re.compile(r"\[Tags?:\s*([^\]]+)\]", re.IGNORECASE)
 
 
 def parse_deck_markdown(md: str) -> List[ParsedDeckQuestion]:
     out: List[ParsedDeckQuestion] = []
-    for m in _DECK_BLOCK_RE.finditer(md):
-        number = m.group(1)
-        prompt = m.group(2).strip()
-        opts_block = m.group(3)
-        choices: List[Dict[str, str]] = []
-        for mo in _DECK_OPT_RE.finditer(opts_block):
-            choices.append({"key": mo.group(1), "text": mo.group(2).strip()})
-        out.append(ParsedDeckQuestion(number=number, prompt=prompt, choices=choices))
+    lines = md.split('\n')
+    current_question = None
+    current_choices: List[Dict[str, str]] = []
+    
+    for line in lines:
+        # Detect new question
+        q_match = re.match(r'^(\d+)\)\s*(?:\[V\d+\])?\s*(.+)$', line)
+        if q_match:
+            # Save previous question
+            if current_question and len(current_choices) >= 2:
+                out.append(ParsedDeckQuestion(
+                    number=current_question["number"],
+                    prompt=current_question["prompt"],
+                    choices=current_choices,
+                    embedded_tags=current_question.get("embedded_tags", [])
+                ))
+            # Parse prompt and tags
+            full_prompt = q_match.group(2).strip()
+            tags_match = _DECK_TAGS_RE.search(full_prompt)
+            embedded_tags: List[str] = []
+            if tags_match:
+                embedded_tags = [t.strip() for t in tags_match.group(1).split(',')]
+                full_prompt = _DECK_TAGS_RE.sub('', full_prompt).strip()
+            
+            current_question = {
+                "number": q_match.group(1),
+                "prompt": full_prompt,
+                "embedded_tags": embedded_tags
+            }
+            current_choices = []
+            continue
+        
+        # Detect choice
+        choice_match = re.match(r'^- ([A-D])\.?\s*(.+)$', line)
+        if choice_match and current_question:
+            current_choices.append({
+                "key": choice_match.group(1),
+                "text": choice_match.group(2).strip()
+            })
+    
+    # Save last question
+    if current_question and len(current_choices) >= 2:
+        out.append(ParsedDeckQuestion(
+            number=current_question["number"],
+            prompt=current_question["prompt"],
+            choices=current_choices,
+            embedded_tags=current_question.get("embedded_tags", [])
+        ))
+    
     return out
 
 
@@ -209,7 +256,11 @@ def build_from_existing_decks(repo_root: Path) -> List[Dict[str, Any]]:
 
     out: List[Dict[str, Any]] = []
 
+    # Skip archive folder
     for md_path in sorted(decks_dir.glob("Deck_*.md")):
+        if "archive" in str(md_path):
+            continue
+            
         deck_name = md_path.stem.replace("Deck_", "")
         md = md_path.read_text(encoding="utf-8")
         parsed = parse_deck_markdown(md)
@@ -223,6 +274,12 @@ def build_from_existing_decks(repo_root: Path) -> List[Dict[str, Any]]:
         for q in parsed:
             qid = f"deck_{deck_name.lower()}_{int(q.number):04d}"
             correct = answers_by_prompt.get(normalize_for_match(q.prompt))
+            
+            # Use embedded tags if present, otherwise use deck name
+            tags = getattr(q, 'embedded_tags', None) or [deck_name]
+            if not tags:
+                tags = [deck_name]
+            
             # Default: unknown; keep a placeholder so the bank is still valid.
             # If unknown, we omit answer to avoid giving wrong keys.
             base: Dict[str, Any] = {
@@ -230,7 +287,7 @@ def build_from_existing_decks(repo_root: Path) -> List[Dict[str, Any]]:
                 "type": "single_choice",
                 "prompt": q.prompt,
                 "choices": q.choices,
-                "tags": [deck_name],
+                "tags": tags,
                 "source": {"kind": "deck_md", "ref": str(md_path.relative_to(repo_root))},
             }
             if correct:

@@ -13,6 +13,7 @@
   const scoreDiv = document.getElementById('score');
   const revealBtn = document.getElementById('revealBtn');
   const reviewDiv = document.getElementById('review');
+  const exitBtn = document.getElementById('exitBtn');
 
   const decks = window.decksRaw || {};
   const tsvFiles = window.tsvFiles || {};
@@ -310,5 +311,19 @@
     result.classList.add('hidden');
     renderQuestion(0);
   });
+
+  if (exitBtn) {
+    exitBtn.addEventListener('click', () => {
+      if (confirm('Voulez-vous vraiment quitter l\'application ?')) {
+        fetch('/exit').then(() => {
+          window.close();
+          document.body.innerHTML = '<div style="display:flex;justify-content:center;align-items:center;height:100vh;flex-direction:column;font-family:sans-serif;"><h1>Application fermée</h1><p>Vous pouvez fermer cet onglet.</p></div>';
+        }).catch(err => {
+          console.error('Erreur lors de la fermeture:', err);
+          alert('Erreur lors de la fermeture de l\'application.');
+        });
+      }
+    });
+  }
 
 })();

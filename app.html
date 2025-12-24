@@ -28,51 +28,105 @@
     }
 
     .container {
-      max-width: 900px;
+      max-width: 1100px;
       margin: 0 auto;
-      padding: 2rem 1rem;
+      padding: 1rem 1rem;
     }
 
     header {
       text-align: center;
-      margin-bottom: 2rem;
+      margin-bottom: 1rem;
     }
 
     header h1 {
-      font-size: 1.75rem;
+      font-size: 1.5rem;
       color: var(--primary);
-      margin-bottom: 0.5rem;
+      margin-bottom: 0.25rem;
     }
 
     header p {
       color: var(--text-muted);
+      font-size: 0.875rem;
     }
 
     /* Écran de sélection des thèmes */
     #theme-selection {
       background: var(--card-bg);
-      border-radius: 12px;
-      padding: 1.5rem;
+      border-radius: 8px;
+      padding: 1rem;
       box-shadow: 0 1px 3px rgba(0,0,0,0.1);
     }
 
     .themes-grid {
       display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-      gap: 1rem;
-      margin: 1.5rem 0;
+      grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+      gap: 0.75rem;
+      margin: 1rem 0;
+    }
+
+    /* Catégories de thèmes */
+    .theme-category {
+      background: var(--bg);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      overflow: hidden;
+    }
+
+    .category-header {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      padding: 0.5rem 0.75rem;
+      background: linear-gradient(135deg, #f8fafc 0%, #f1f5f9 100%);
+      border-bottom: 1px solid var(--border);
+    }
+
+    .category-header.empty {
+      opacity: 0.6;
+    }
+
+    .category-icon {
+      font-size: 1.25rem;
+    }
+
+    .category-name {
+      font-weight: 700;
+      font-size: 1rem;
+      color: var(--text);
+    }
+
+    .category-count {
+      font-size: 0.75rem;
+      color: var(--text-muted);
+      margin-left: auto;
+    }
+
+    .coming-soon {
+      font-size: 0.75rem;
+      color: var(--text-muted);
+      font-style: italic;
+      background: #fef3c7;
+      padding: 0.25rem 0.5rem;
+      border-radius: 4px;
+    }
+
+    .category-themes {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+      gap: 0.75rem;
+      padding: 0.75rem;
     }
 
     .theme-card {
-      background: var(--bg);
+      background: white;
       border: 2px solid var(--border);
       border-radius: 8px;
-      padding: 1rem;
+      padding: 0.75rem;
       cursor: pointer;
       transition: all 0.2s;
       display: flex;
       flex-direction: column;
-      gap: 0.5rem;
+      gap: 0.35rem;
       position: relative;
     }
 
@@ -103,13 +157,23 @@
       font-size: 0.875rem;
     }
 
+    .category-header.selected-header {
+      background: #eff6ff !important;
+      border: 2px solid var(--primary);
+      color: var(--primary-dark) !important;
+    }
+
+    .category-header.selected-header .category-count {
+      color: var(--primary);
+    }
+
     .theme-card .name {
       font-weight: 600;
-      font-size: 1rem;
+      font-size: 0.95rem;
     }
 
     .theme-card .count {
-      font-size: 0.875rem;
+      font-size: 0.8rem;
       color: var(--text-muted);
     }
 
@@ -123,8 +187,8 @@
       justify-content: space-between;
       flex-wrap: wrap;
       gap: 1rem;
-      margin-top: 1.5rem;
-      padding-top: 1.5rem;
+      margin-top: 1rem;
+      padding-top: 1rem;
       border-top: 1px solid var(--border);
     }
 
@@ -177,6 +241,15 @@
 
     .btn-secondary:hover {
       background: #cbd5e1;
+    }
+
+    .btn-danger {
+      background: var(--danger);
+      color: white;
+    }
+
+    .btn-danger:hover {
+      background: #b91c1c;
     }
 
     .summary {
@@ -448,7 +521,10 @@
 </head>
 <body>
   <div class="container">
-    <header>
+    <header style="position: relative;">
+      <div style="position: absolute; top: 0; right: 0;">
+        <button id="exit-app" class="btn btn-danger" style="padding: 0.5rem 1rem; font-size: 0.875rem;">Quitter</button>
+      </div>
       <h1>🦴 QCM Chiropraxie</h1>
       <p>Révision par thèmes</p>
     </header>
@@ -480,7 +556,7 @@
           <div class="quiz-theme" style="font-size: 0.875rem; color: var(--text-muted); margin-bottom: 0.25rem;">Thème : <strong id="quiz-theme-name" style="color: var(--primary);"></strong></div>
           <span id="quiz-progress">Question 1/20</span>
         </div>
-        <button class="btn btn-secondary" id="quit-quiz">Quitter</button>
+        <button class="btn btn-secondary" id="quit-quiz">Retour</button>
       </div>
       <div class="progress-bar">
         <div class="fill" id="progress-fill" style="width: 0%"></div>
@@ -577,28 +653,84 @@
       return choices.length >= 2;
     }
 
-    // Afficher les thèmes
+    // Fonction pour formater les noms de thèmes (MI/MS -> noms complets)
+    function formatThemeName(theme) {
+      return theme
+        .replace(/_/g, ' ')
+        .replace(/\bMS\b/g, 'Membre Supérieur')
+        .replace(/\bMI\b/g, 'Membre Inférieur')
+        .replace(/\bTC\b/g, 'Tissu Conjonctif')
+        .replace(/Embryo Semestriel/g, 'Embryologie');
+    }
+
+    // Catégories de thèmes pour le groupement visuel
+    const THEME_CATEGORIES = {
+      'Angiologie': { icon: '🩸', themes: ['Angiologie_MS', 'Angiologie_MI'] },
+      'Histologie': { icon: '🔬', themes: ['Histologie_Tissu_Conjonctif', 'Histologie_Cartilage', 'Histologie_Tissu_Nerveux', 'Histologie_Tissu_Musculaire', 'Histologie_Epithelium', 'Histologie_Jonctions'] },
+      'Myologie': { icon: '💪', themes: ['Myologie_MS', 'Myologie_MI'] },
+      'Neurologie': { icon: '🧠', themes: ['Neurologie_MS', 'Neurologie_MI'] },
+      'Ostéologie': { icon: '🦴', themes: ['Osteologie_MI'] },
+      'Biologie Cellulaire': { icon: '🧬', themes: ['Biologie_Cellulaire'] },
+      'Embryologie': { icon: '👶', themes: ['Embryologie', 'Embryo_Semestriel'] },
+      'Sécurité IFEC': { icon: '🏥', themes: ['Securite_IFEC'] },
+    };
+
+    // Afficher les thèmes groupés par catégorie
     function renderThemes() {
       themesGrid.innerHTML = '';
-      const sortedThemes = Object.entries(themeStats)
-        .filter(([_, count]) => count > 0)
-        .sort((a, b) => b[1] - a[1]);
-
-      if (sortedThemes.length === 0) {
-        themesGrid.innerHTML = '<p style="color: var(--text-muted);">Aucun thème avec des questions QCM disponibles.</p>';
-        return;
+      
+      // AJOUT : Bouton Quiz Global
+      const globalCard = document.createElement('div');
+      globalCard.className = 'theme-card global-quiz';
+      globalCard.id = 'select-all-themes';
+      const totalValidQuestions = bankData.questions.filter(hasValidChoices).length;
+      globalCard.innerHTML = `
+        <div class="name">🌍 Quiz Global (Tous les thèmes)</div>
+        <div class="count">${totalValidQuestions} questions au total</div>
+      `;
+      globalCard.addEventListener('click', () => selectTheme('ALL'));
+      themesGrid.appendChild(globalCard);
+      
+      // Organiser les thèmes par catégorie
+      const categorizedThemes = {};
+      for (const [theme, count] of Object.entries(themeStats)) {
+        if (count === 0) continue;
+        for (const [catName, catData] of Object.entries(THEME_CATEGORIES)) {
+          if (catData.themes.includes(theme)) {
+            if (!categorizedThemes[catName]) categorizedThemes[catName] = [];
+            categorizedThemes[catName].push({ theme, count });
+            break;
+          }
+        }
       }
 
-      for (const [theme, count] of sortedThemes) {
+      // Rendre chaque catégorie comme une carte
+      for (const [catName, catData] of Object.entries(THEME_CATEGORIES)) {
+        const subThemes = categorizedThemes[catName] || [];
+        const totalCount = subThemes.reduce((sum, t) => sum + t.count, 0);
+        
+        if (totalCount === 0) continue;
+
         const card = document.createElement('div');
         card.className = 'theme-card';
-        card.dataset.theme = theme;
+        card.dataset.category = catName;
+        
+        // Liste des sous-thèmes pour information
+        const subThemesList = subThemes
+          .map(st => formatThemeName(st.theme).replace(catName + ' ', ''))
+          .filter(name => name !== catName) // Ne pas répéter le nom de la catégorie
+          .join(', ');
+
         card.innerHTML = `
-          <input type="radio" name="theme" id="theme-${theme}" value="${theme}">
-          <div class="name">${theme.replace(/_/g, ' ')}</div>
-          <div class="count">${count} question${count > 1 ? 's' : ''}</div>
+          <div class="name">${catData.icon} ${catName}</div>
+          <div class="count">${totalCount} questions</div>
+          ${subThemesList ? `
+          <div style="font-size: 0.75rem; color: var(--text-muted); margin-top: 0.5rem; font-style: italic;">
+            Inclut : ${subThemesList}
+          </div>` : ''}
         `;
-        card.addEventListener('click', () => selectTheme(theme));
+        
+        card.addEventListener('click', () => selectTheme('CAT:' + catName));
         themesGrid.appendChild(card);
       }
     }
@@ -608,11 +740,12 @@
       // Désélectionner toutes les cartes
       document.querySelectorAll('.theme-card').forEach(c => c.classList.remove('selected'));
       
-      // Sélectionner la carte cliquée
-      const card = document.querySelector(`.theme-card[data-theme="${theme}"]`);
-      if (card) {
-        card.classList.add('selected');
-        card.querySelector('input').checked = true;
+      if (theme === 'ALL') {
+        document.getElementById('select-all-themes').classList.add('selected');
+      } else if (theme.startsWith('CAT:')) {
+        const catName = theme.substring(4);
+        const card = document.querySelector(`.theme-card[data-category="${catName}"]`);
+        if (card) card.classList.add('selected');
       }
       
       selectedTheme = theme;
@@ -625,8 +758,26 @@
         selectionSummary.textContent = 'Aucun thème sélectionné';
         startQuizBtn.disabled = true;
       } else {
-        const totalQ = themeStats[selectedTheme] || 0;
-        selectionSummary.textContent = `${selectedTheme.replace(/_/g, ' ')} — ${totalQ} questions disponibles`;
+        let totalQ = 0;
+        let displayName = '';
+        
+        if (selectedTheme === 'ALL') {
+          totalQ = bankData.questions.filter(hasValidChoices).length;
+          displayName = 'Quiz Global';
+        } else if (selectedTheme.startsWith('CAT:')) {
+          const catName = selectedTheme.substring(4);
+          const catThemes = THEME_CATEGORIES[catName].themes;
+          totalQ = 0;
+          for (const t of catThemes) {
+            totalQ += (themeStats[t] || 0);
+          }
+          displayName = 'Catégorie : ' + catName;
+        } else {
+          totalQ = themeStats[selectedTheme] || 0;
+          displayName = formatThemeName(selectedTheme);
+        }
+        
+        selectionSummary.textContent = `${displayName} — ${totalQ} questions disponibles`;
         startQuizBtn.disabled = false;
         questionCountInput.max = totalQ;
         if (parseInt(questionCountInput.value) > totalQ) {
@@ -639,12 +790,24 @@
     function generateQuiz() {
       const count = parseInt(questionCountInput.value) || 20;
       
-      // Filtrer les questions par thème sélectionné (avec choix valides)
-      const filtered = bankData.questions.filter(q => 
-        hasValidChoices(q) && (q.tags || []).includes(selectedTheme)
-      );
+      let filtered = [];
+      if (selectedTheme === 'ALL') {
+        filtered = bankData.questions.filter(hasValidChoices);
+      } else if (selectedTheme.startsWith('CAT:')) {
+        const catName = selectedTheme.substring(4);
+        const catThemes = THEME_CATEGORIES[catName].themes;
+        filtered = bankData.questions.filter(q => 
+          hasValidChoices(q) && (q.tags || []).some(tag => catThemes.includes(tag))
+        );
+      } else {
+        filtered = bankData.questions.filter(q => 
+          hasValidChoices(q) && (q.tags || []).includes(selectedTheme)
+        );
+      }
 
       // Mélanger et limiter
+      // Le mélange aléatoire sur l'ensemble filtré garantit une répartition proportionnelle
+      // car chaque question a la même probabilité d'être choisie.
       const shuffled = [...filtered].sort(() => Math.random() - 0.5);
       quizQuestions = shuffled.slice(0, Math.min(count, shuffled.length));
       
@@ -662,7 +825,11 @@
         return;
       }
       
-      document.getElementById('quiz-theme-name').textContent = selectedTheme.replace(/_/g, ' ');
+      let displayName = selectedTheme;
+      if (selectedTheme === 'ALL') displayName = 'Quiz Global';
+      else if (selectedTheme.startsWith('CAT:')) displayName = selectedTheme.substring(4);
+      
+      document.getElementById('quiz-theme-name').textContent = displayName.replace(/_/g, ' ');
       themeSelection.style.display = 'none';
       resultsScreen.style.display = 'none';
       quizScreen.style.display = 'block';
@@ -912,6 +1079,19 @@
       resultsScreen.style.display = 'none';
       themeSelection.style.display = 'block';
       quizFinished = false;
+    });
+
+    document.getElementById('exit-app').addEventListener('click', () => {
+      if (confirm('Voulez-vous vraiment quitter l\'application ?')) {
+        fetch('/exit').then(() => {
+          window.close();
+          // Au cas où window.close() ne fonctionne pas (souvent bloqué par les navigateurs)
+          document.body.innerHTML = '<div style="display:flex;justify-content:center;align-items:center;height:100vh;flex-direction:column;font-family:sans-serif;"><h1>Application fermée</h1><p>Vous pouvez fermer cet onglet.</p></div>';
+        }).catch(err => {
+          console.error('Erreur lors de la fermeture:', err);
+          alert('Erreur lors de la fermeture de l\'application.');
+        });
+      }
     });
 
     // Initialisation

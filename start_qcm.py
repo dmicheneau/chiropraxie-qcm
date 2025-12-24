@@ -168,7 +168,30 @@ def main():
         logger.info(f"Port sélectionné: {port}")
         
         # Créer le serveur HTTP
-        handler = http.server.SimpleHTTPRequestHandler
+        class ShutdownHandler(http.server.SimpleHTTPRequestHandler):
+            def do_GET(self):
+                if self.path == "/exit":
+                    logger.info("Requête de fermeture reçue")
+                    self.send_response(200)
+                    self.send_header("Content-type", "text/html")
+                    self.send_header("Access-Control-Allow-Origin", "*")
+                    self.end_headers()
+                    self.wfile.write(b"Application en cours de fermeture...")
+                    
+                    # Arrêter le serveur dans un thread séparé
+                    def shutdown_server():
+                        import time
+                        import os
+                        time.sleep(1)
+                        logger.info("Arrêt du serveur...")
+                        # On utilise os._exit pour forcer la fermeture du processus et du shell associé
+                        os._exit(0)
+                    
+                    threading.Thread(target=shutdown_server).start()
+                    return
+                return super().do_GET()
+
+        handler = ShutdownHandler
         handler.extensions_map.update({
             ".js": "application/javascript",
             ".json": "application/json",
